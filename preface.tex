@@ -1,0 +1,177 @@
+\baselineskip 1.0 \baselineskip \thispagestyle{empty}
+%\vspace*{0.5in}
+
+\begin{center}
+{\large \bf System Performance Analysis Under Correlated Shadow Fading} %\\ \vspace{0.0625in} 
+ \vspace{0.3in}
+
+ \rule{2.5in}{0.01in}
+ 
+ \vspace{0.3in}
+ 
+{\large \bf DISSERTATION}
+
+\vspace{0.4in}
+
+{\large \bf Submitted in Partial Fulfillment of}
+\vspace{0.1in}
+
+{\large \bf the Requirements for}
+\vspace{0.1in}
+
+{\large \bf the Degree of} \vspace{0.4in}
+
+{\large \bf DOCTOR OF PHILOSOPHY (Electrical Engineering)}
+
+\vspace{0.4in}
+{\large \bf at the}
+\vspace{0.15in}
+
+{\large \bf NEW YORK UNIVERSITY\\
+TANDON SCHOOL OF ENGINEERING} 
+\vspace{0.2in}
+
+{\large \bf by}
+\vspace{0.4in}
+
+{\large \bf Tingting Lu} 
+\vspace{0.4in}
+
+{\large \bf May 2017}
+\end{center}
+
+\newpage
+\baselineskip 1.0\baselineskip
+\thispagestyle{empty}
+\begin{center}
+{\bf \small System Performance Analysis Under Correlated Shadow Fading} %\\ \vspace{0.0625in} 
+ \vspace{0.1in}
+
+\rule{2in}{0.01in}
+
+\vspace{0.15in}
+
+{\bf DISSERTATION}
+
+\vspace{0.2in}
+
+{\small \bf Submitted in Partial Fulfillment of}
+\vspace{0.03in}
+
+{\small \bf the Requirements for}
+\vspace{0.03in}
+
+{\small \bf the Degree of} \vspace{0.3in}
+
+{\bf DOCTOR OF PHILOSOPHY (Electrical Engineering)}
+
+\vspace{0.2in}
+{\small \bf at the}
+\vspace{0.1in}
+
+{\bf NEW YORK UNIVERSITY\\
+TANDON SCHOOL OF ENGINEERING} 
+\vspace{0.1in}
+
+{\small \bf by}
+\vspace{0.2in}
+
+{\bf Tingting Lu} 
+\vspace{0.1in}
+
+{\bf May 2017}
+\end{center}
+
+ \vspace{0.3in} 
+ \noindent
+ \makebox[3.5in]{ } {Approved:} \vspace{0.30in} \\
+ \baselineskip 0.4\baselineskip
+ \makebox[3.5in]{ } \hrulefill  \vspace{0.05in} \\
+ \makebox[3.6in]{ } Department Chair Signature \vspace{0.3in} \\
+ \makebox[3.5in]{ } \hrulefill \vspace{0.02in} \\
+ \makebox[4.3in]{ } Date \vspace{0.1in} \\\\
+ %Copy No. \rule{0.3in}{0.01in}
+% Copy No. ~~~~~~~~~\underline{$\ \# \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $} \\\\
+University ID:   \underline{~~~~~~N$19324363\ \ \ \ \ \ \ \ $} \\
+Net ID:~~~~~~~~~~\underline{~~~~~~tl$984\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ $} 
+
+ \newpage 
+ 
+ \baselineskip 0.6\baselineskip
+ \pagenumbering{roman}
+ \setcounter{page}{2}
+ \vspace{0.5in}
+ \noindent Approved by the Guidance Committee:%\vspace{0.3in} \\
+ \vspace{0.5in} \\
+\underline{Major}:\makebox[0.1in]{ } Electrical Engineering  %\vspace{0.5in} \\
+\vspace{0.6in} \\
+ \makebox[2.8in]{ } \rule{2.5in}{.005in} \vspace{0.05in} \\ 
+ \makebox[2.8in]{ } {\bf Shivendra S. Panwar} \vspace{0.05in} \\
+ \makebox[2.8in]{ } Professor \vspace{0.05in} \\
+ \makebox[2.8in]{ } Electrical and Computer Engineering %\vspace{0.3in} \\ 
+ \vspace{0.3in}  \\ 
+ \makebox[2.8in]{ } \rule{2in}{.005in}  \vspace{0.05in} \\
+ \makebox[3.6in]{ } Date \vspace{0.6in}\\
+ \makebox[2.8in]{ } \rule{2.5in}{.005in} \vspace{0.05in} \\
+ \makebox[2.8in]{ } {\bf Elza Erkip} \vspace{0.05in} \\
+ \makebox[2.8in]{ } Professor  \vspace{0.05in} \\
+ \makebox[2.8in]{ } Electrical and Computer Engineering %\vspace{0.3in} \\
+ \vspace{0.3in}  \\ 
+ \makebox[2.8in]{ } \rule{2in}{.005in} \vspace{0.05in} \\
+ \makebox[3.6in]{ } Date \vspace{0.6in}\\
+ \makebox[2.8in]{ } \rule{2.5in}{.005in} \vspace{0.05in} \\
+ \makebox[2.8in]{ } {\bf Sundeep Rangan} \vspace{0.05in} \\
+ \makebox[2.8in]{ } Associate Professor \vspace{0.05in} \\
+ \makebox[2.8in]{ } Electrical and Computer Engineering %\vspace{0.3in} \\
+ \vspace{0.3in}  \\ 
+ \makebox[2.8in]{ } \rule{2in}{.005in} \vspace{0.05in} \\
+ \makebox[3.6in]{ } Date \vspace{0.6in}\\
+ \makebox[2.8in]{ } \rule{2.5in}{.005in} \vspace{0.05in} \\
+ \makebox[2.8in]{ } {\bf Henry Bertoni} \vspace{0.05in} \\
+ \makebox[2.8in]{ } Professor \vspace{0.05in} \\
+ \makebox[2.8in]{ } Electrical and Computer Engineering %\vspace{0.3in} \\
+ \vspace{0.3in}  \\ 
+ \makebox[2.8in]{ } \rule{2in}{.005in} \vspace{0.05in} \\
+ \makebox[3.6in]{ } Date \\
+
+\newpage \baselineskip 1.2\baselineskip \vspace*{2.2in}
+ \noindent
+Microfilm or copies of this dissertation may be obtained from:
+\\
+
+ \vspace*{0.6in}
+ \noindent
+ \makebox[1.5in]{ } UMI Dissertation Publishing \vspace{0.1in} \\
+ \makebox[1.5in]{ } ProQuest CSA \vspace{0.1in} \\
+ \makebox[1.5in]{ } 789 E. Eisenhower Parkway \vspace{0.1in} \\
+ \makebox[1.5in]{ } P.O. Box 1346 \vspace{0.1in} \\
+ \makebox[1.5in]{ } Ann Arbor, MI 48106-1346
+
+\newpage
+\begin{center}
+ {\large\bf VITA}\vspace{0.3in} \\
+ 
+ 
+\end{center}
+
+\doublespacing
+
+\vspace{-1mm}
+\textbf{Sanjay Goyal} was born ******. 
+
+\newpage
+ 
+ 
+ \vspace*{2in}
+
+ 
+{\large \sl
+\hspace{1in} To ******.   
+}
+
+
+\newpage
+\begin{center}
+{\large\bf ACKNOWLEDGEMENT}\vspace{0.3in}
+\end{center}
+First and foremost I would like to thank *******

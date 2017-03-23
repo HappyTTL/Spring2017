@@ -1,0 +1,35 @@
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces (a) Shadowing autocorrelation for a mobile user, (b) Shadowing cross-correlation for a mobile user\relax }}{5}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Generic geometry of shadowing autocorrelation and cross-correlation\relax }}{6}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Cooperative Communication Example\relax }}{15}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Correlated Shadowing Fields for Increasing Resolutions (The disk area is the generated correlated shadowing field and the color of the areas refers to the normalized standard deviation which is $S_{i}/\sigma _{s}(\mathaccentV {vec}17E{r_{i}})$)\relax }}{18}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Correlated Outage Fields (Dark areas are outage areas while white areas are non-outage areas)\relax }}{20}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces System Model and Three Different Relay Placements\relax }}{21}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Theoretical and Simulated Outage Probability for Mode 1\relax }}{28}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Best Channel Condition between MS and BS or Relays of Mode 1 (Dashed arrow demonstrates the channel condition that satisfies the SNR requirement.\relax }}{29}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Best Channel Condition between MS and BS or Relays of Mode 2 (Dashed arrow demonstrates the channel condition that satisfies the SNR requirement.\relax }}{29}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Best Channel Condition between MS and BS or Relays of Mode 3 (Dashed arrow demonstrates the channel condition that satisfies the SNR requirement.\relax }}{30}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Cumulative Distribution Function of Outage Duration of Mode 1 (with Rayleigh fading)\relax }}{30}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Cumulative Distribution Function of Outage Duration of Mode 2 (with Rayleigh fading)\relax }}{31}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Cumulative Distribution Function of Outage Duration of Mode 3 (with Rayleigh fading)\relax }}{31}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Outage Frequency of Three Modes with Different Relay Densities\relax }}{33}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces An example of building blockage.\relax }}{38}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces (a) A typical exponential correlated shadow fading field in a $50m\times 50m$ area. The color bar denotes the value of the shadow fading in dB. (b) A single cell model with a MS moving on a fixed trajectory. (c) A locally generated correlated shadowing field for a fixed trajectory from point a to point b.\relax }}{41}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Probabilities of outage duration greater than $L$.\relax }}{50}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces GENI Topology for Performance Evaluation\relax }}{57}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces CWND Dynamics Given Exponentially On-Off Channel Behavior\relax }}{59}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Throughput Dynamics Given Exponentially On-Off Channel Behavior\relax }}{59}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces CWND Dynamics Given Uniformly On-Off Channel Behavior\relax }}{60}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Throughput Dynamics Given Uniformly On-Off Channel Behavior\relax }}{60}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Network Topology\relax }}{61}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces NS2 TCP Trace Format\relax }}{62}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Queue Length Dynamics (Cubic)\relax }}{62}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces ROC curve of Logistic Regression Classifier\relax }}{65}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Decision Tree (max\_depth = 3, min\_samples\_leaf = 100000)\relax }}{66}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
