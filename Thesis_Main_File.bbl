@@ -174,6 +174,55 @@ A.~Papoulis and S.~U. Pillai, \emph{Probability, Random Variables, and
   Stochastic Processes}.\hskip 1em plus 0.5em minus 0.4em\relax McGraw-Hill
   Higher Education, 2002.
 
+\bibitem{abu1991outage}
+A.~A. Abu-Dayya and N.~C. Beaulieu, ``Outage probabilities of cellular mobile
+  radio systems with multiple nakagami interferers,'' \emph{Vehicular
+  Technology, IEEE Transactions on}, vol.~40, no.~4, pp. 757--768, 1991.
+
+\bibitem{petrovic2013outage}
+I.~Petrovic, M.~Stefanovic, P.~Spalevic, S.~R. Panic, and D.~Stefanovic,
+  ``Outage analysis of selection diversity over rayleigh fading channels with
+  multiple co-channel interferers,'' \emph{Telecommunication Systems}, vol.~52,
+  no.~1, pp. 39--50, 2013.
+
+\bibitem{emamian2014outage}
+V.~Emamian, ``Outage analysis of a multi-user spatial diversity system in a
+  shadow-fade propagating channel,'' \emph{British Journal of Applied Science
+  \& Technology}, vol.~4, no.~1, p.~40, 2014.
+
+\bibitem{vural2015effect}
+M.~Vural, G.~K. Kurt, and C.~Schneider, ``The effect of shadow fading
+  distributions on outage probability and coverage area,'' in \emph{Vehicular
+  Technology Conference (VTC Spring), 2015 IEEE 81st}.\hskip 1em plus 0.5em
+  minus 0.4em\relax IEEE, 2015, pp. 1--6.
+
+\bibitem{lu2015long}
+T.~Lu, P.~Liu, and S.~S. Panwar, ``How long before i regain my signal?'' in
+  \emph{Information Sciences and Systems (CISS), 2015 49th Annual Conference
+  on}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2015, pp. 1--5.
+
+\bibitem{lu2015shining}
+T.~Lu, P.~Liu, and S.~Panwar, ``Shining a light into the darkness: How
+  cooperative relay communication mitigates correlated shadow fading,'' in
+  \emph{Vehicular Technology Conference (VTC Spring), 2015 IEEE 81st}.\hskip
+  1em plus 0.5em minus 0.4em\relax IEEE, 2015, pp. 1--7.
+
+\bibitem{andrews2011tractable}
+J.~G. Andrews, F.~Baccelli, and R.~K. Ganti, ``A tractable approach to coverage
+  and rate in cellular networks,'' \emph{Communications, IEEE Transactions on},
+  vol.~59, no.~11, pp. 3122--3134, 2011.
+
+\bibitem{chen2012small}
+C.~S. Chen, V.~M. Nguyen, and L.~Thomas, ``On small cell network deployment: A
+  comparative study of random and grid topologies,'' in \emph{Vehicular
+  Technology Conference (VTC Fall), 2012 IEEE}.\hskip 1em plus 0.5em minus
+  0.4em\relax IEEE, 2012, pp. 1--5.
+
+\bibitem{kumar2015approximate}
+S.~Kumar, ``Approximate outage probability and capacity for-shadowed fading,''
+  \emph{Wireless Communications Letters, IEEE}, vol.~4, no.~3, pp. 301--304,
+  2015.
+
 \bibitem{akdeniz2014millimeter}
 M.~R. Akdeniz, Y.~Liu, M.~K. Samimi, S.~Sun, S.~Rangan, T.~S. Rappaport, and
   E.~Erkip, ``Millimeter wave channel modeling and cellular capacity

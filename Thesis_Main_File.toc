@@ -17,29 +17,32 @@
 \contentsline {subsection}{\numberline {2.5.2}Simulation Configuration}{27}
 \contentsline {subsection}{\numberline {2.5.3}Simulation Results and Analysis}{27}
 \contentsline {section}{\numberline {2.6}Conclusions and Future Work}{35}
-\contentsline {chapter}{\numberline {3}System Performance Analysis under Exponential Correlated Shadow Fading}{36}
+\contentsline {chapter}{\numberline {3}Single-Cell System Performance Analysis under Correlated Shadow Fading}{36}
 \contentsline {section}{\numberline {3.1}Background}{37}
 \contentsline {section}{\numberline {3.2}Channel Model with Correlated Shadow Fading}{40}
 \contentsline {section}{\numberline {3.3}Markov Chain Model}{43}
 \contentsline {section}{\numberline {3.4}Analysis of Outage Behavior}{46}
 \contentsline {section}{\numberline {3.5}Simulation Results}{49}
 \contentsline {section}{\numberline {3.6}Conclusions}{51}
-\contentsline {chapter}{\numberline {4}Title of Chapter 2}{53}
-\contentsline {chapter}{\numberline {5}Transport Layer Protocols for 5G}{54}
-\contentsline {section}{\numberline {5.1}Introduction}{55}
-\contentsline {section}{\numberline {5.2}Related Work}{56}
-\contentsline {subsection}{\numberline {5.2.1}mmWave Channel}{56}
-\contentsline {subsection}{\numberline {5.2.2}Explicit Congestion Notification (ECN)}{57}
-\contentsline {subsection}{\numberline {5.2.3}Remy}{58}
-\contentsline {section}{\numberline {5.3}Legacy TCP Performance on Mimic 5G Channel}{59}
-\contentsline {section}{\numberline {5.4}Congestion Detection Algorithm}{60}
-\contentsline {subsection}{\numberline {5.4.1}Network Topology}{63}
-\contentsline {subsection}{\numberline {5.4.2}Data Collection}{64}
-\contentsline {subsection}{\numberline {5.4.3}Congestion Prediction}{66}
-\contentsline {section}{\numberline {5.5}Chapter Summary}{70}
-\contentsline {chapter}{\numberline {6}Conclusion}{71}
-\contentsline {chapter}{Appendices}{72}
-\contentsline {chapter}{\numberline {A}}{73}
-\contentsline {section}{\numberline {A.1}Title of Appendix A}{73}
-\contentsline {chapter}{\numberline {B}}{74}
-\contentsline {section}{\numberline {B.1}Title of Appendix B}{74}
+\contentsline {chapter}{\numberline {4}Multi-Cell System Performance Analysis under Correlated Shadow Fading}{53}
+\contentsline {section}{\numberline {4.1}Background}{54}
+\contentsline {section}{\numberline {4.2}Correlated Shadow Fading}{58}
+\contentsline {section}{\numberline {4.3}System Model}{62}
+\contentsline {chapter}{\numberline {5}Transport Layer Protocols for 5G}{64}
+\contentsline {section}{\numberline {5.1}Introduction}{65}
+\contentsline {section}{\numberline {5.2}Related Work}{66}
+\contentsline {subsection}{\numberline {5.2.1}mmWave Channel}{66}
+\contentsline {subsection}{\numberline {5.2.2}Explicit Congestion Notification (ECN)}{67}
+\contentsline {subsection}{\numberline {5.2.3}Remy}{68}
+\contentsline {section}{\numberline {5.3}Legacy TCP Performance on Mimic 5G Channel}{69}
+\contentsline {section}{\numberline {5.4}Congestion Detection Algorithm}{70}
+\contentsline {subsection}{\numberline {5.4.1}Network Topology}{73}
+\contentsline {subsection}{\numberline {5.4.2}Data Collection}{74}
+\contentsline {subsection}{\numberline {5.4.3}Congestion Prediction}{76}
+\contentsline {section}{\numberline {5.5}Chapter Summary}{80}
+\contentsline {chapter}{\numberline {6}Conclusion}{81}
+\contentsline {chapter}{Appendices}{82}
+\contentsline {chapter}{\numberline {A}}{83}
+\contentsline {section}{\numberline {A.1}Title of Appendix A}{83}
+\contentsline {chapter}{\numberline {B}}{84}
+\contentsline {section}{\numberline {B.1}Title of Appendix B}{84}

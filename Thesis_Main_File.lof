@@ -19,17 +19,20 @@
 \contentsline {figure}{\numberline {3.2}{\ignorespaces (a) A typical exponential correlated shadow fading field in a $50m\times 50m$ area. The color bar denotes the value of the shadow fading in dB. (b) A single cell model with a MS moving on a fixed trajectory. (c) A locally generated correlated shadowing field for a fixed trajectory from point a to point b.\relax }}{41}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Probabilities of outage duration greater than $L$.\relax }}{51}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Exponentially correlated shadowing field with $d_{0} = 20m$ (the color of the area refers to the normalized standard deviation which is $S_{i}/\sigma _{s}(i)$)\relax }}{60}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Correlated Outage Fields with $\gamma $ (Dark areas are outage areas while white areas are non-outage areas)\relax }}{62}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Random Layout and Grid Layout with $\lambda = 9$.\relax }}{62}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces GENI Topology for Performance Evaluation\relax }}{59}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces CWND Dynamics Given Exponentially On-Off Channel Behavior\relax }}{61}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Throughput Dynamics Given Exponentially On-Off Channel Behavior\relax }}{61}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces CWND Dynamics Given Uniformly On-Off Channel Behavior\relax }}{62}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Throughput Dynamics Given Uniformly On-Off Channel Behavior\relax }}{62}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Network Topology\relax }}{63}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces NS2 TCP Trace Format\relax }}{64}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Queue Length Dynamics (Cubic)\relax }}{64}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces ROC curve of Logistic Regression Classifier\relax }}{67}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Decision Tree (max\_depth = 3, min\_samples\_leaf = 100000)\relax }}{68}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces GENI Topology for Performance Evaluation\relax }}{69}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces CWND Dynamics Given Exponentially On-Off Channel Behavior\relax }}{71}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Throughput Dynamics Given Exponentially On-Off Channel Behavior\relax }}{71}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces CWND Dynamics Given Uniformly On-Off Channel Behavior\relax }}{72}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Throughput Dynamics Given Uniformly On-Off Channel Behavior\relax }}{72}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Network Topology\relax }}{73}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces NS2 TCP Trace Format\relax }}{74}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Queue Length Dynamics (Cubic)\relax }}{74}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces ROC curve of Logistic Regression Classifier\relax }}{77}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Decision Tree (max\_depth = 3, min\_samples\_leaf = 100000)\relax }}{78}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
