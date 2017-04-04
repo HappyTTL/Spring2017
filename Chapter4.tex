@@ -87,5 +87,118 @@ In this paper, we considered two system models with two different BS deployment 
 % \caption{Grid Base Station Locations}
 % \label{GridLayout}
 % \end{figure}
-Left figure of Fig \ref{RandomLayout} is an example of the traditional grid model, where cells are in regular square shape with same size. For the Random model showed in Fig \ref{RandomLayout} right subfigure, cells are not guaranteed to be the same shape and same size. Nearest distances between different cells are in a large variation.
+Left figure of Fig \ref{RandomLayout} is an example of the traditional grid model, where cells are in regular square shape with same size. For the Random model showed in Fig \ref{RandomLayout} right subfigure, cells are not guaranteed to be the same shape and same size. Nearest distances between different cells are in a large variation. 
+\section{Outage Probability Analysis}
+\par Let $\varphi = \{1, 2, \dots, N\}$ denotes the set of all Base Stations, then the received signal from Base Station $j$ to the destination user $D$ is given by:
+\begin{equation}
+y_{i\to D} = G_{i\to D}x_{i}+n_{D}.
+\end{equation}
+where $x_{i}$ is the signal transmitted by the source Base Station and $y_{i\to D}$ is the signal received by the destination. $n_{D}\sim \mathcal{CN}(0,N_{0})$ is additive white Gaussian noise. $G_{i\to D}$ is the channel gain from source Base Station to destination including path loss and shadow fading. The end-to-end received signal-to-interference-plus-noise ratio $\text{SINR}$ is given as follows:
+\begin{equation}
+\text{SINR} \triangleq \frac{P_{i}*G_{i\to D}^{2}}{N_{0}+\sum_{j\in \varphi/i}P_{j}*G_{j\to D}^2},
+\end{equation}
+where $P_{i}$ is the transmitted power of Base Station $i$. The destination successfully receives the signals if no outage event happens, i.e., $\log_{2}(1+\text{SINR})\ge R$, where $R$ is the required data rate. From the definition of SINR, no outage event happens as long as $\text{SINR} > \gamma$, where $\gamma = 2^{R}-1$.
+\par Given a correlated shadowing field, the outage events at different locations are also correlated. Without considering other small-scale fading, the channel gain at different locations has a spatial correlation. Given a proper threshold $\gamma$, an outage area is defined as channel gain less than $\gamma$. 
+\par For a particular MU, outage happens when its received SINR is less than a threshold to decode the received signal. In our scenario, the probability that the receiver cannot decode signals received from its serving Base Station is defined as:
+\begin{equation}
+P(out_{i}) = P[\text{SINR}_{i\to D} < \gamma],
+\end{equation}
+We investigate two connection strategies: MU connect to the nearest BS and MU connect to the BS provides strongest signal. If we assume that the user is served by the nearest Base Station, then the outage probability will be $P_{out} = P_{out_{i}}$ where $i$ is the index of the nearest Base Station. Otherwise, the indices of all Base Stations which are able to provide successfully connection to the Mobile User form a set $\mathcal{R}_{n}$. Under the assumption that an MS always connecting to the Base Station which provides the best received signal, the outage event happens if no Base Station can provide big enough SINR to the receiver, which means $\mathcal{R}_{0}=\phi$. Based on this assumption we have:
+\begin{equation}
+P_{out} = \max_{i = 1,\cdots,N} P[\text{SINR}_{i\to D}<\gamma].
+\end{equation}
+The probability density function (pdf) of shadow fading $S$ given $L$ correlated fading branches is
+\begin{equation}
+\begin{split}
+f_{\mathbf{S}}(\mathbf{s}) = &\frac{\lambda^{L}}{\sqrt{2\pi}|\mathbf{K}_{L\times L}|^{1/2}\prod_{i=1}^{L}s_{i}}\\
+&\cdot\exp(-\frac{1}{2}(10\log_{10}\mathbf{s}-\boldsymbol{\mu})^{T}\mathbf{K}_{L\times L}^{-1}(10\log_{10}\mathbf{s}-\boldsymbol{\mu})),
+\end{split}
+\end{equation}
+where $\lambda = 10/\ln10$ and $\boldsymbol{\mu}$ is the average shadow fading which is normally $0$. $\mathbf{K}_{L\times L}$ is the correlation matrix which is defined in \eqref{correlationmatrix}. Let $\theta_{i} = \frac{10\log_{10}s_{i}-\mu_{i}}{\sqrt{2}\sigma_{i}}$, and doing a change of variables gives us the pdf of $\mathbf{\Theta}$ as follows:
+\begin{equation}
+f_{\mathbf{\Theta}}(\mathbf{\theta}) = \frac{1}{\pi^(L/2)|\mathbf{\Sigma}|^{1/2}}\exp(-\mathbf{\Theta}^{T}\mathbf{\Sigma}^{-1}\mathbf{\Theta}),
+\end{equation}
+where $\mathbf{\Sigma}$ is the correlation coefficient matrix which is
+\begin{equation}
+\left[\begin{array}{cccc}
+1 & h_{1,2} & \cdots & h_{1,L}\\
+\vdots & \ddots & \ddots & \vdots\\
+h_{L,1} & h_{L,2} & \cdots & 1\\
+\end{array}\right].
+\end{equation}
+Since $\text{SINR}_{i\to D}=PL_{i\to D}+S_{i}-N_{0}-\sum_{j\in\varphi/i}(PL_{j\to D} + S_{j})$ in dB, $\text{SINR}_{i\to D}<\gamma$ means
+\begin{equation}
+S_{i} - \sum_{j\in\varphi/i}S_{j}<\gamma -PL_{i\to D} + \sum_{j\in\varphi/i}PL_{j\to D} + N_{0},
+\end{equation}
+Then with the assumption that users are served by the nearest Base Station or the best channel Base Station, the outage probability can be written as:
+\begin{equation}
+\label{outprob}
+P_{out} = \underbrace{\int_{-\infty}^{+\infty}\cdots\int_{-\infty}^{+\infty}}_{i =1,\cdots,N} g(PL_{i}S_{i} - \gamma\sum_{j\in\varphi/i}PL_{j}S_{j})f(\mathbf{s})d\mathbf{s}.
+\end{equation}
+where $\mathbf{s}$ is the correlated shadow fading experienced by all Base Stations, $g(PL_{i}S_{i} - \gamma\sum_{j\in\varphi/i}PL_{j}S_{j})$ is a step function defined in (\ref{stepfunction}).
+\begin{figure}[!t]
+% ensure that we have normalsize text
+\normalsize
+% Store the current equation number.
+% \setcounter{MYtempeqncnt}{\value{equation}}
+% % Set the equation number to one less than the one
+% % desired for the first equation here.
+% % The value here will have to changed if equations
+% % are added or removed prior to the place these
+% % equations are referenced in the main text.
+
+\begin{equation}
+\label{stepfunction}
+g(PL_{i}S_{i} - \gamma\sum_{j\in\varphi/i}PL_{j}S_{j}) = \{\begin{array}{cc}
+               1, &  \text{  when }PL_{i}S_{i} - \gamma\sum_{j\in\varphi/i}PL_{j}S_{j} <\frac{\gamma N_{0}}{P}\\
+               0, & \text{  when }PL_{i}S_{i} - \gamma\sum_{j\in\varphi/i}PL_{j}S_{j} >\frac{\gamma N_{0}}{P}
+             \end{array}.
+\end{equation}
+% Restore the current equation number.
+% \setcounter{equation}{\value{MYtempeqncnt}}
+% IEEE uses as a separator
+\hrulefill
+% The spacer can be tweaked to stop underfull vboxes.
+\vspace*{4pt}
+\end{figure}
+
+\section{Simulation Results}
+\par In this section, we will present simulation setup and results. First, we run simulations to compare the outage probability of the two different network topology: Grid Layout and Random Layout. Secondly, SINR distribution and outage probability of Random Layout given different BS densities are investigated. Two scenarios are considered: MU connecting to the nearest BS and MU connecting to the BS providing strongest signal. At the end, the outage duration distribution are simulated and discussed given different BS densities. The values of parameters that are used in the simulation are shown in Table \ref{SystemConfig2}. 
+\begin{table}
+\centering
+\caption{\label{SystemConfig2}Simulation Configuration Parameters}
+
+\begin{tabular}{|c|c|}
+
+\hline
+Study Area & $1000m\times 1000m$\\
+\hline
+BS Densities & $3, 10,$\\
+\hline
+Pathloss Exponent & $4$\\
+\hline
+BS Transmission Power & $P: 40dbm$\\
+\hline
+SNR Requirement & $-5dB$\\
+\hline
+De-Correlation Distance & $20m, 200m$\\
+\hline
+\end{tabular}
+
+\end{table}
+
+\par Figure \ref{cdf1} shows the Cumulative Distribution Function (CDF) of SINR when MU connecting to the nearest BS. The de-correlation distance of the correlated shadow fading is $20m$. The figure suggests that Grid Layout outperforms the Random Layout, which is consistent with findings in \cite{andrews2011tractable}. Figure \ref{outage1} shows the outage probability with SINR threshold $-5dB$. The outage probability of Grid Layout (blue) is lower than the Random Layout (yellow). In next section, we will focus on the Random Layout which is realistic than Grid Layout.
+\begin{figure}
+\centering
+\includegraphics[width=14cm]{GridVSRandom.eps}
+\caption{CDF of SINR given Grid Layout and Random Layout (De-Correlation Distance: $20m$)}
+\label{cdf1}
+\end{figure}
+\begin{figure}
+\centering
+\includegraphics[width=14cm]{OutageProbGridVSRandom.eps}
+\caption{Outage Probability given Grid Layout and Random Layout (De-Correlation Distance: $20m$)}
+\label{outage1}
+\end{figure}
+\par For Random Layout, SINR distribution and outage probability of different BS densities are investigated for both nearest BS connection and best channel BS connection. 
 
