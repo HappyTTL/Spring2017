@@ -2,10 +2,6 @@ This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Thesis_Main_File.aux
 A level-1 auxiliary file: preface.aux
-White space in argument---line 13 of file Thesis_Main_File.aux
- : \citation{The
- :               following sentence seems from your paper,you should change it since this is the intro of dissertation}
-I'm skipping whatever remains of this command
 The style file: IEEEtran.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -18,45 +14,44 @@ Database file #1: References.bib
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 
 Done.
-You've used 65 entries,
+You've used 67 entries,
             4087 wiz_defined-function locations,
-            1158 strings with 19530 characters,
-and the built_in function-call counts, 51000 in all, are:
-= -- 4116
-> -- 1201
-< -- 464
-+ -- 659
-- -- 199
-* -- 2414
-:= -- 7505
-add.period$ -- 151
-call.type$ -- 65
-change.case$ -- 59
-chr.to.int$ -- 1062
-cite$ -- 65
-duplicate$ -- 3613
-empty$ -- 4166
-format.name$ -- 250
-if$ -- 11996
+            1168 strings with 19778 characters,
+and the built_in function-call counts, 52793 in all, are:
+= -- 4271
+> -- 1233
+< -- 484
++ -- 677
+- -- 203
+* -- 2502
+:= -- 7771
+add.period$ -- 156
+call.type$ -- 67
+change.case$ -- 61
+chr.to.int$ -- 1104
+cite$ -- 67
+duplicate$ -- 3738
+empty$ -- 4306
+format.name$ -- 256
+if$ -- 12419
 int.to.chr$ -- 0
-int.to.str$ -- 65
-missing$ -- 617
-newline$ -- 218
-num.names$ -- 64
-pop$ -- 1399
+int.to.str$ -- 67
+missing$ -- 637
+newline$ -- 224
+num.names$ -- 66
+pop$ -- 1435
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 3967
+skip$ -- 4110
 stack$ -- 0
-substring$ -- 2540
-swap$ -- 2997
-text.length$ -- 110
+substring$ -- 2640
+swap$ -- 3109
+text.length$ -- 116
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 65
+type$ -- 67
 warning$ -- 0
-while$ -- 253
-width$ -- 67
-write$ -- 645
-(There was 1 error message)
+while$ -- 263
+width$ -- 69
+write$ -- 667

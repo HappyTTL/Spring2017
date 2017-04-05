@@ -79,6 +79,45 @@ S.~Rajagopal, S.~Abu-Surra, Z.~Pi, and F.~Khan, ``Antenna array design for
   Telecommunications Conference (GLOBECOM 2011), 2011 IEEE}.\hskip 1em plus
   0.5em minus 0.4em\relax IEEE, 2011, pp. 1--6.
 
+\bibitem{szyszkowicz2010feasibility}
+S.~S. Szyszkowicz, H.~Yanikomeroglu, and J.~S. Thompson, ``On the feasibility
+  of wireless shadowing correlation models,'' \emph{Vehicular Technology, IEEE
+  Transactions on}, vol.~59, no.~9, pp. 4222--4236, 2010.
+
+\bibitem{gudmundson1991correlation}
+M.~Gudmundson, ``Correlation model for shadow fading in mobile radio systems,''
+  \emph{Electronics Letters}, vol.~27, no.~23, pp. 2145--2146, 1991.
+
+\bibitem{akdeniz2014millimeter}
+M.~R. Akdeniz, Y.~Liu, M.~K. Samimi, S.~Sun, S.~Rangan, T.~S. Rappaport, and
+  E.~Erkip, ``Millimeter wave channel modeling and cellular capacity
+  evaluation,'' \emph{Selected Areas in Communications, IEEE Journal on},
+  vol.~32, no.~6, pp. 1164--1179, 2014.
+
+\bibitem{bai2015coverage}
+T.~Bai and R.~W. Heath, ``Coverage and rate analysis for millimeter-wave
+  cellular networks,'' \emph{Wireless Communications, IEEE Transactions on},
+  vol.~14, no.~2, pp. 1100--1114, 2015.
+
+\bibitem{lu2012modeling}
+J.~Lu, D.~Steinbach, P.~Cabrol, and P.~Pietraski, ``Modeling the impact of
+  human blockers in millimeter wave radio links,'' \emph{ZTE Commun. Mag},
+  vol.~10, no.~4, pp. 23--28, 2012.
+
+\bibitem{zhao201328}
+H.~Zhao, R.~Mayzus, S.~Sun, M.~Samimi, J.~K. Schulz, Y.~Azar, K.~Wang, G.~N.
+  Wong, F.~Gutierrez, and T.~S. Rappaport, ``28 ghz millimeter wave cellular
+  communication measurements for reflection and penetration loss in and around
+  buildings in new york city,'' in \emph{Communications (ICC), 2013 IEEE
+  International Conference on}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE,
+  2013, pp. 5163--5167.
+
+\bibitem{alejos2008measurement}
+A.~V. Alejos, M.~G. S{\'a}nchez, and I.~Cui{\~n}as, ``Measurement and analysis
+  of propagation mechanisms at 40 ghz: Viability of site shielding forced by
+  obstacles,'' \emph{Vehicular Technology, IEEE Transactions on}, vol.~57,
+  no.~6, pp. 3369--3380, 2008.
+
 \bibitem{goldsmith2005wireless}
 A.~Goldsmith, \emph{Wireless Communications}.\hskip 1em plus 0.5em minus
   0.4em\relax Cambridge University Press, 2005.
@@ -99,11 +138,6 @@ J.~C. Liberti and T.~S. Rappaport, ``Statistics of shadowing in indoor radio
   and Intelligence., IEEE}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 1992,
   pp. 1066--1070.
 
-\bibitem{szyszkowicz2010feasibility}
-S.~S. Szyszkowicz, H.~Yanikomeroglu, and J.~S. Thompson, ``On the feasibility
-  of wireless shadowing correlation models,'' \emph{Vehicular Technology, IEEE
-  Transactions on}, vol.~59, no.~9, pp. 4222--4236, 2010.
-
 \bibitem{kitchener2006correlated}
 D.~Kitchener, M.~Naden, W.~Tong, P.~Zhu, G.~Senarnath, H.~Zhang, D.~Steer, and
   D.~Yu, ``Correlated lognormal shadowing model,'' \emph{San Diego, CA, IEEE},
@@ -116,6 +150,25 @@ S.~S. Szyszkowicz, ``Interference from large wireless networks under correlated
 \bibitem{panwar2004tcp}
 S.~S. Panwar, \emph{TCP/IP Essentials: A Lab-Based Approach}.\hskip 1em plus
   0.5em minus 0.4em\relax Cambridge University Press, 2004.
+
+\bibitem{grieco2004performance}
+L.~A. Grieco and S.~Mascolo, ``Performance evaluation and comparison of
+  westwood+, new reno, and vegas tcp congestion control,'' \emph{ACM SIGCOMM
+  Computer Communication Review}, vol.~34, no.~2, pp. 25--38, 2004.
+
+\bibitem{ha2008cubic}
+S.~Ha, I.~Rhee, and L.~Xu, ``Cubic: a new tcp-friendly high-speed tcp
+  variant,'' \emph{ACM SIGOPS Operating Systems Review}, vol.~42, no.~5, pp.
+  64--74, 2008.
+
+\bibitem{lin1997dynamics}
+D.~Lin and R.~Morris, ``Dynamics of random early detection,'' in \emph{ACM
+  SIGCOMM Computer Communication Review}, vol.~27, no.~4.\hskip 1em plus 0.5em
+  minus 0.4em\relax ACM, 1997, pp. 127--137.
+
+\bibitem{ramakrishnan2001rfc}
+K.~Ramakrishnan, S.~Floyd, and D.~Black, ``Rfc 3168,'' \emph{The addition of
+  Explicit Congestion Notification (ECN) to IP. The Internet Society}, 2001.
 
 \bibitem{rappaport1996wireless}
 T.~S. Rappaport, \emph{Wireless Communications: Principles and Practice}.\hskip
@@ -197,10 +250,6 @@ S.~Saunders and A.~Arag{\'o}n-Zavala, \emph{Antennas and propagation for
   wireless communication systems}.\hskip 1em plus 0.5em minus 0.4em\relax John
   Wiley \& Sons, 2007.
 
-\bibitem{gudmundson1991correlation}
-M.~Gudmundson, ``Correlation model for shadow fading in mobile radio systems,''
-  \emph{Electronics Letters}, vol.~27, no.~23, pp. 2145--2146, 1991.
-
 \bibitem{zhang2008novel}
 Y.~Zhang, J.~Zhang, D.~Dong, X.~Nie, G.~Liu, and P.~Zhang, ``A novel spatial
   autocorrelation model of shadow fading in urban macro environments,'' in
@@ -281,46 +330,11 @@ S.~Kumar, ``Approximate outage probability and capacity for-shadowed fading,''
   \emph{Wireless Communications Letters, IEEE}, vol.~4, no.~3, pp. 301--304,
   2015.
 
-\bibitem{akdeniz2014millimeter}
-M.~R. Akdeniz, Y.~Liu, M.~K. Samimi, S.~Sun, S.~Rangan, T.~S. Rappaport, and
-  E.~Erkip, ``Millimeter wave channel modeling and cellular capacity
-  evaluation,'' \emph{Selected Areas in Communications, IEEE Journal on},
-  vol.~32, no.~6, pp. 1164--1179, 2014.
-
-\bibitem{bai2015coverage}
-T.~Bai and R.~W. Heath, ``Coverage and rate analysis for millimeter-wave
-  cellular networks,'' \emph{Wireless Communications, IEEE Transactions on},
-  vol.~14, no.~2, pp. 1100--1114, 2015.
-
-\bibitem{lu2012modeling}
-J.~Lu, D.~Steinbach, P.~Cabrol, and P.~Pietraski, ``Modeling the impact of
-  human blockers in millimeter wave radio links,'' \emph{ZTE Commun. Mag},
-  vol.~10, no.~4, pp. 23--28, 2012.
-
-\bibitem{zhao201328}
-H.~Zhao, R.~Mayzus, S.~Sun, M.~Samimi, J.~K. Schulz, Y.~Azar, K.~Wang, G.~N.
-  Wong, F.~Gutierrez, and T.~S. Rappaport, ``28 ghz millimeter wave cellular
-  communication measurements for reflection and penetration loss in and around
-  buildings in new york city,'' in \emph{Communications (ICC), 2013 IEEE
-  International Conference on}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE,
-  2013, pp. 5163--5167.
-
-\bibitem{alejos2008measurement}
-A.~V. Alejos, M.~G. S{\'a}nchez, and I.~Cui{\~n}as, ``Measurement and analysis
-  of propagation mechanisms at 40 ghz: Viability of site shielding forced by
-  obstacles,'' \emph{Vehicular Technology, IEEE Transactions on}, vol.~57,
-  no.~6, pp. 3369--3380, 2008.
-
 \bibitem{xu2004binary}
 L.~Xu, K.~Harfoush, and I.~Rhee, ``Binary increase congestion control (bic) for
   fast long-distance networks,'' in \emph{INFOCOM 2004. Twenty-third
   AnnualJoint Conference of the IEEE Computer and Communications Societies},
   vol.~4.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2004, pp. 2514--2524.
-
-\bibitem{ha2008cubic}
-S.~Ha, I.~Rhee, and L.~Xu, ``Cubic: a new tcp-friendly high-speed tcp
-  variant,'' \emph{ACM SIGOPS Operating Systems Review}, vol.~42, no.~5, pp.
-  64--74, 2008.
 
 \bibitem{tan2006compound}
 K.~Tan, J.~Song, Q.~Zhang, and M.~Sridharan, ``A compound tcp approach for
@@ -350,10 +364,6 @@ W.~Roh, J.-Y. Seol, J.~Park, B.~Lee, J.~Lee, Y.~Kim, J.~Cho, K.~Cheun, and
   F.~Aryanfar, ``Millimeter-wave beamforming as an enabling technology for 5g
   cellular communications: theoretical feasibility and prototype results,''
   \emph{Communications Magazine, IEEE}, vol.~52, no.~2, pp. 106--113, 2014.
-
-\bibitem{ramakrishnan2001rfc}
-K.~Ramakrishnan, S.~Floyd, and D.~Black, ``Rfc 3168,'' \emph{The addition of
-  Explicit Congestion Notification (ECN) to IP. The Internet Society}, 2001.
 
 \bibitem{winstein2013tcp}
 K.~Winstein and H.~Balakrishnan, ``Tcp ex machina: Computer-generated
