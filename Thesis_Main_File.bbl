@@ -21,6 +21,64 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{index2013global}
+C.~V.~N. Index, ``Global mobile data traffic forecast update, 2012-2017,''
+  \emph{Cisco white paper}, 2013.
+
+\bibitem{cerwall2011ericsson}
+P.~Cerwall and S.~Bergqvist, ``Ericsson traffic and market data report [r],''
+  \emph{Ericsson, Stockholm, Sweden, Nov}, 2011.
+
+\bibitem{pujol2011mobile}
+F.~Pujol, ``?mobile traffic forecasts 2010-2020 \& offloading solutions,''
+  \emph{IDATE Consulting and Research, May}, vol.~15, 2011.
+
+\bibitem{khan2011mmwave}
+F.~Khan and Z.~Pi, ``mmwave mobile broadband (mmb): Unleashing the 3--300ghz
+  spectrum,'' in \emph{Sarnoff Symposium, 2011 34th IEEE}.\hskip 1em plus 0.5em
+  minus 0.4em\relax IEEE, 2011, pp. 1--6.
+
+\bibitem{pi2011introduction}
+Z.~Pi and F.~Khan, ``An introduction to millimeter-wave mobile broadband
+  systems,'' \emph{IEEE Communications Magazine}, vol.~49, no.~6, 2011.
+
+\bibitem{rappaport2011state}
+T.~S. Rappaport, J.~N. Murdock, and F.~Gutierrez, ``State of the art in 60-ghz
+  integrated circuits and systems for wireless communications,''
+  \emph{Proceedings of the IEEE}, vol.~99, no.~8, pp. 1390--1436, 2011.
+
+\bibitem{pietraski2012millimeter}
+P.~Pietraski, D.~Britz, A.~Roy, R.~Pragada, and G.~Charlton, ``Millimeter wave
+  and terahertz communications: Feasibility and challenges,'' \emph{ZTE
+  Communications}, vol.~10, no.~4, pp. 3--12, 2012.
+
+\bibitem{rangan2014millimeter}
+S.~Rangan, T.~S. Rappaport, and E.~Erkip, ``Millimeter-wave cellular wireless
+  networks: Potentials and challenges,'' \emph{Proceedings of the IEEE}, vol.
+  102, no.~3, pp. 366--385, 2014.
+
+\bibitem{doan2004design}
+C.~H. Doan, S.~Emami, D.~A. Sobel, A.~M. Niknejad, and R.~W. Brodersen,
+  ``Design considerations for 60 ghz cmos radios,'' \emph{IEEE Communications
+  Magazine}, vol.~42, no.~12, pp. 132--140, 2004.
+
+\bibitem{zhang2009antenna}
+Y.~P. Zhang and D.~Liu, ``Antenna-on-chip and antenna-in-package solutions to
+  highly integrated millimeter-wave devices for wireless communications,''
+  \emph{IEEE Transactions on Antennas and Propagation}, vol.~57, no.~10, pp.
+  2830--2841, 2009.
+
+\bibitem{gutierrez2009chip}
+F.~Gutierrez, S.~Agarwal, K.~Parrish, and T.~S. Rappaport, ``On-chip integrated
+  antenna structures in cmos for 60 ghz wpan systems,'' \emph{IEEE Journal on
+  Selected Areas in Communications}, vol.~27, no.~8, 2009.
+
+\bibitem{rajagopal2011antenna}
+S.~Rajagopal, S.~Abu-Surra, Z.~Pi, and F.~Khan, ``Antenna array design for
+  multi-gbps mmwave mobile broadband communication,'' in \emph{Global
+  Telecommunications Conference (GLOBECOM 2011), 2011 IEEE}.\hskip 1em plus
+  0.5em minus 0.4em\relax IEEE, 2011, pp. 1--6.
+
 \bibitem{goldsmith2005wireless}
 A.~Goldsmith, \emph{Wireless Communications}.\hskip 1em plus 0.5em minus
   0.4em\relax Cambridge University Press, 2005.

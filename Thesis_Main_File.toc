@@ -1,50 +1,50 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Challenge, Motivation and Our Approach}{1}
-\contentsline {subsection}{\numberline {1.1.1}Next Generation Cellular Network}{1}
-\contentsline {subsection}{\numberline {1.1.2}Correlated Shadow Fading Models}{4}
-\contentsline {subsection}{\numberline {1.1.3}Transmission Control Protocol (TCP)}{8}
-\contentsline {section}{\numberline {1.2}Dissertation Outline}{11}
-\contentsline {chapter}{\numberline {2}Cooperative Communication to Mitigate Correlated Shadow Fading}{13}
-\contentsline {section}{\numberline {2.1}Background}{14}
-\contentsline {section}{\numberline {2.2}Correlated Shadow Fading}{18}
-\contentsline {subsection}{\numberline {2.2.1}Correlated Outage Field}{19}
-\contentsline {section}{\numberline {2.3}System Model}{21}
-\contentsline {subsection}{\numberline {2.3.1}Cooperative Communication Scheme}{22}
-\contentsline {section}{\numberline {2.4}Outage Probability Analysis}{24}
-\contentsline {subsection}{\numberline {2.4.1}Outage Probability of the Cooperative Communication System}{24}
-\contentsline {section}{\numberline {2.5}Simulation and Performance Evaluation}{27}
-\contentsline {subsection}{\numberline {2.5.1}Relay Placement}{27}
-\contentsline {subsection}{\numberline {2.5.2}Simulation Configuration}{27}
-\contentsline {subsection}{\numberline {2.5.3}Simulation Results and Analysis}{27}
-\contentsline {section}{\numberline {2.6}Conclusions and Future Work}{35}
-\contentsline {chapter}{\numberline {3}Single-Cell System Performance Analysis under Correlated Shadow Fading}{36}
-\contentsline {section}{\numberline {3.1}Background}{37}
-\contentsline {section}{\numberline {3.2}Channel Model with Correlated Shadow Fading}{40}
-\contentsline {section}{\numberline {3.3}Markov Chain Model}{43}
-\contentsline {section}{\numberline {3.4}Analysis of Outage Behavior}{46}
-\contentsline {section}{\numberline {3.5}Simulation Results}{49}
-\contentsline {section}{\numberline {3.6}Conclusions}{51}
-\contentsline {chapter}{\numberline {4}Multi-Cell System Performance Analysis under Correlated Shadow Fading}{53}
-\contentsline {section}{\numberline {4.1}Background}{54}
-\contentsline {section}{\numberline {4.2}Correlated Shadow Fading}{58}
-\contentsline {section}{\numberline {4.3}System Model}{62}
-\contentsline {section}{\numberline {4.4}Outage Probability Analysis}{63}
-\contentsline {section}{\numberline {4.5}Simulation Results}{65}
-\contentsline {chapter}{\numberline {5}Transport Layer Protocols for 5G}{68}
-\contentsline {section}{\numberline {5.1}Introduction}{69}
-\contentsline {section}{\numberline {5.2}Related Work}{70}
-\contentsline {subsection}{\numberline {5.2.1}mmWave Channel}{70}
-\contentsline {subsection}{\numberline {5.2.2}Explicit Congestion Notification (ECN)}{71}
-\contentsline {subsection}{\numberline {5.2.3}Remy}{72}
-\contentsline {section}{\numberline {5.3}Legacy TCP Performance on Mimic 5G Channel}{73}
-\contentsline {section}{\numberline {5.4}Congestion Detection Algorithm}{74}
-\contentsline {subsection}{\numberline {5.4.1}Network Topology}{77}
-\contentsline {subsection}{\numberline {5.4.2}Data Collection}{78}
-\contentsline {subsection}{\numberline {5.4.3}Congestion Prediction}{80}
-\contentsline {section}{\numberline {5.5}Chapter Summary}{84}
-\contentsline {chapter}{\numberline {6}Conclusion}{85}
-\contentsline {chapter}{Appendices}{86}
-\contentsline {chapter}{\numberline {A}}{87}
-\contentsline {section}{\numberline {A.1}Title of Appendix A}{87}
-\contentsline {chapter}{\numberline {B}}{88}
-\contentsline {section}{\numberline {B.1}Title of Appendix B}{88}
+\contentsline {subsection}{\numberline {1.1.1}Next Generation Cellular Network}{2}
+\contentsline {subsection}{\numberline {1.1.2}Correlated Shadow Fading Models}{6}
+\contentsline {subsection}{\numberline {1.1.3}Transmission Control Protocol (TCP)}{10}
+\contentsline {section}{\numberline {1.2}Dissertation Outline}{12}
+\contentsline {chapter}{\numberline {2}Cooperative Communication to Mitigate Correlated Shadow Fading}{14}
+\contentsline {section}{\numberline {2.1}Background}{15}
+\contentsline {section}{\numberline {2.2}Correlated Shadow Fading}{19}
+\contentsline {subsection}{\numberline {2.2.1}Correlated Outage Field}{20}
+\contentsline {section}{\numberline {2.3}System Model}{22}
+\contentsline {subsection}{\numberline {2.3.1}Cooperative Communication Scheme}{23}
+\contentsline {section}{\numberline {2.4}Outage Probability Analysis}{25}
+\contentsline {subsection}{\numberline {2.4.1}Outage Probability of the Cooperative Communication System}{25}
+\contentsline {section}{\numberline {2.5}Simulation and Performance Evaluation}{28}
+\contentsline {subsection}{\numberline {2.5.1}Relay Placement}{28}
+\contentsline {subsection}{\numberline {2.5.2}Simulation Configuration}{28}
+\contentsline {subsection}{\numberline {2.5.3}Simulation Results and Analysis}{28}
+\contentsline {section}{\numberline {2.6}Conclusions and Future Work}{36}
+\contentsline {chapter}{\numberline {3}Single-Cell System Performance Analysis under Correlated Shadow Fading}{37}
+\contentsline {section}{\numberline {3.1}Background}{38}
+\contentsline {section}{\numberline {3.2}Channel Model with Correlated Shadow Fading}{41}
+\contentsline {section}{\numberline {3.3}Markov Chain Model}{44}
+\contentsline {section}{\numberline {3.4}Analysis of Outage Behavior}{47}
+\contentsline {section}{\numberline {3.5}Simulation Results}{50}
+\contentsline {section}{\numberline {3.6}Conclusions}{52}
+\contentsline {chapter}{\numberline {4}Multi-Cell System Performance Analysis under Correlated Shadow Fading}{54}
+\contentsline {section}{\numberline {4.1}Background}{55}
+\contentsline {section}{\numberline {4.2}Correlated Shadow Fading}{59}
+\contentsline {section}{\numberline {4.3}System Model}{63}
+\contentsline {section}{\numberline {4.4}Outage Probability Analysis}{64}
+\contentsline {section}{\numberline {4.5}Simulation Results}{66}
+\contentsline {chapter}{\numberline {5}Transport Layer Protocols for 5G}{69}
+\contentsline {section}{\numberline {5.1}Introduction}{70}
+\contentsline {section}{\numberline {5.2}Related Work}{71}
+\contentsline {subsection}{\numberline {5.2.1}mmWave Channel}{71}
+\contentsline {subsection}{\numberline {5.2.2}Explicit Congestion Notification (ECN)}{72}
+\contentsline {subsection}{\numberline {5.2.3}Remy}{73}
+\contentsline {section}{\numberline {5.3}Legacy TCP Performance on Mimic 5G Channel}{74}
+\contentsline {section}{\numberline {5.4}Congestion Detection Algorithm}{78}
+\contentsline {subsection}{\numberline {5.4.1}Network Topology}{78}
+\contentsline {subsection}{\numberline {5.4.2}Data Collection}{79}
+\contentsline {subsection}{\numberline {5.4.3}Congestion Prediction}{81}
+\contentsline {section}{\numberline {5.5}Chapter Summary}{85}
+\contentsline {chapter}{\numberline {6}Conclusion}{86}
+\contentsline {chapter}{Appendices}{87}
+\contentsline {chapter}{\numberline {A}}{88}
+\contentsline {section}{\numberline {A.1}Title of Appendix A}{88}
+\contentsline {chapter}{\numberline {B}}{89}
+\contentsline {section}{\numberline {B.1}Title of Appendix B}{89}
