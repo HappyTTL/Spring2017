@@ -1,4 +1,4 @@
-\chapter{Cooperative Communication to Mitigate Correlated Shadow Fading}\label{ch:2}
+\chapter{Mitigate Correlated Shadow Fading by Cooperative Relay Communication}\label{ch:2}
 \par In a cellular network, connections between the Base Station (BS) and Mobile Stations (MS) may fail when the channel is in a deep fade. Shadow fading is large-scale fading which can cause significant received power loss for a wide area. This will lead to lost connections and/or packet loss which is harmful to mobile users, especially to those who are using real-time applications such as video conferencing. Cooperative communication is an efficient way to reduce outage and provide better Quality of Service (QoS) support for delay sensitive applications. A third station, which is often referred as a relay, can be used to forward signals between  the BS and the MS. This chapter focuses on a study of the performance of relay deployments under correlated shadow fading. We consider the downlink direction in a single cell deployment, for which the shadowing effect is modeled as an angle and distance  based correlated shadowing. The received signal-to-noise ratio (SNR) is then calculated by assuming jointly Gaussian shadow fading at the MS. Simulation results show channel variations over time with fixed user speed under different relay deployments. These results demonstrate that a modest number of relays can improve the performance of real-time applications significantly.
 \section{Background}
 In a cellular communication system, the connection between the base station and a mobile station may be dropped when the mobile  enters a deeply shadowed area. Shadow fading due to buildings, mountains or even trees significantly reduces the power of the received signal. In most cases, shadow fading is assumed to be temporally and spatially independent \cite{rappaport1996wireless}. In \cite{fabbri2009impact} and \cite{patwari2008effects}, the effects of correlated shadowing in connectivity is demonstrated, which indicates that reliable connectivity will be much more difficult to maintain than indicated by independent fading shadow models. In a cellular system, for a downlink, the transmitter is a Base Station (BS) and the receiver is a Mobile Station (MS). For real-time applications (e.g. video conferencing), which require high bandwidth and are delay sensitive, the session may get dropped. In general, within a speed limit, the faster the MS moves, the more frequently the channel condition changes and the higher the connection loss frequency. The focus of this chapter is to study channel variations due to correlated shadow fading, and provide a solution to reduce the frequency and duration of dropped connections by employing relays when the MS is moving.
@@ -35,7 +35,7 @@ As stated in the introduction, empirical measurements show that there exist diff
 \centering
 \includegraphics[width=6cm,angle=270]{shadowingfield_V3.eps}
 \caption{Correlated Shadowing Fields for Increasing Resolutions (The disk area is the generated correlated shadowing field and the color of the areas refers to the normalized standard deviation which is $S_{i}/\sigma_{s}(\vec{r_{i}})$)}
-\label{shadowingfield}
+\label{2:shadowingfield}
 \end{figure}
 %In most cases, shadow fading is considered as independent log-normal. But from empirical measurements we can see that there exits different correlations between shadow fading factor.
 There is no single mathematical model which captures all different categories of correlation\cite{szyszkowicz2010feasibility}. In this chapter, we use the correlated shadow fading model which incorporates the angular and distance correlations of shadow fading \cite{szyszkowicz2011interference}. In \cite{szyszkowicz2011interference}, the author states that correlation in shadowing is indispensable for the analysis of interference of large networks and gives a time-efficient fast shadowing fields generation algorithm. The algorithm generates a correlated shadowing field $\vec{S}$, which gives shadow fading factor $\vec{s_{i}}$ for each path $\vec{r_{i}}$ with a correlation matrix
@@ -54,15 +54,15 @@ R=|10\log_{10}r_{i}/r_{j}|=\frac{10}{\ln 10}|\ln r_{i}-\ln r_{j}|,
 \begin{equation}
 h(\vec{r_{i}},\vec{r_{j}})=max\{1-\theta/\theta_{0},0\}\cdot max\{1-R/R_{0},0\}.
 \end{equation}
-Following the fast shadowing field generation algorithm, we generate shadowing fields with different values of tuneable parameters. The shadowing fields are shown in Figure \ref{shadowingfield} with increasing resolutions. Four circular correlated shadowing fields are generated.
+Following the fast shadowing field generation algorithm, we generate shadowing fields with different values of tunable parameters. The shadowing fields are shown in Figure \ref{2:shadowingfield} with increasing resolutions. Four circular correlated shadowing fields are generated.
 The shadowing fields are similar to those generated in \cite{szyszkowicz2011interference}.
 \subsection{Correlated Outage Field}
-\label{outagefield}
+\label{2:outagefield}
 \begin{figure}
 \centering
 \includegraphics[width=12cm]{outagefield.eps}
 \caption{Correlated Outage Fields (Dark areas are outage areas while white areas are non-outage areas)}
-\label{outagefie}
+\label{2:outagefie}
 \end{figure}
 Given a correlated shadowing field, the outage events at different locations are also correlated. Here we analyze correlated outage events under correlated shadow fading and later give an example. In the spatial correlation of outage events, without considering Rayleigh fading, path loss is considered as constant at a fixed time point. Based on the correlated shadowing field we can generate a correlated outage field. Let $G$ denotes total channel gain, $PL$ denotes path loss, %$R$ denote the norm of small-scale Rayleigh fading factor,
 and $S$ denotes shadow fading factor, we then have:
@@ -92,7 +92,7 @@ Based on \eqref{eq2}, \eqref{eq3} and \eqref{eq4}, it is straightforward to rewr
 \begin{equation}
 \rho_{1,2} = \frac{E[S_{1}S_{2}]}{\sqrt{Var(S_{1})Var(S_{2})}} = \rho_{S_{1},S_{2}}.
 \end{equation}
-The channel gain has a spatial correlation coefficient as shown above. Based on the result above, a correlated channel gain field can be generated. Given a proper threshold $\gamma$, the correlated outage field can be generated as in Figure \ref{outagefie}. On the left, a correlated outage field without relaying is shown while the correlated outage field with relaying (3 relays uniformly placed on a circle near the edge) is given on the right. The black color indicates outage areas. In the next section we will present the methodology that helped us generate the results with relays.
+The channel gain has a spatial correlation coefficient as shown above. Based on the result above, a correlated channel gain field can be generated. Given a proper threshold $\gamma$, the correlated outage field can be generated as in Figure \ref{2:outagefie}. On the left, a correlated outage field without relaying is shown while the correlated outage field with relaying (3 relays uniformly placed on a circle near the edge) is given on the right. The black color indicates outage areas. In the next section we will present the methodology that helped us generate the results with relays.
 
 \begin{figure}
 \centering
@@ -299,19 +299,19 @@ SNR Requirement & $8dB$\\
 \centering
 \includegraphics[width=12cm]{Mode1_bestchannelgain_V2.eps}
 \caption{Best Channel Condition between MS and BS or Relays of Mode 1 (Dashed arrow demonstrates the channel condition that satisfies the SNR requirement.}
-\label{Mode1}
+\label{2:Mode1}
 \end{figure}
 \begin{figure}
 \centering
 \includegraphics[width=12cm]{Mode2_bestchannelgain_V2.eps}
 \caption{Best Channel Condition between MS and BS or Relays of Mode 2 (Dashed arrow demonstrates the channel condition that satisfies the SNR requirement.}
-\label{Mode2}
+\label{2:Mode2}
 \end{figure}
 \begin{figure}
 \centering
 \includegraphics[width=12cm]{Mode3_bestchannelgain_V2.eps}
 \caption{Best Channel Condition between MS and BS or Relays of Mode 3 (Dashed arrow demonstrates the channel condition that satisfies the SNR requirement.}
-\label{Mode3}
+\label{2:Mode3}
 \end{figure}
 %\caption{Best Channel Condition between MS and BS or Relays (Dashed arrow demonstrates the channel condition that satisfies the SNR requirement.}
 %\label{bestchannelgain}
@@ -320,19 +320,19 @@ SNR Requirement & $8dB$\\
 \centering
 \includegraphics[width=12cm]{OutageDuration_Rayleigh_Mode1_V2.eps}
 \caption{Cumulative Distribution Function of Outage Duration of Mode 1 (with Rayleigh fading)}
-\label{Mode1Out}
+\label{2:Mode1Out}
 \end{figure}
 \begin{figure}
 \centering
 \includegraphics[width=12cm]{OutageDuration_Rayleigh_Mode2_V2.eps}
 \caption{Cumulative Distribution Function of Outage Duration of Mode 2 (with Rayleigh fading)}
-\label{Mode2Out}
+\label{2:Mode2Out}
 \end{figure}
 \begin{figure}
 \centering
 \includegraphics[width=12cm]{OutageDuration_Rayleigh_Mode3_V2.eps}
 \caption{Cumulative Distribution Function of Outage Duration of Mode 3 (with Rayleigh fading)}
-\label{Mode3Out}
+\label{2:Mode3Out}
 \end{figure}
 %\begin{figure*}
 %\centering
@@ -353,7 +353,7 @@ SNR Requirement & $8dB$\\
 
 \par In this section, numerical analysis and simulation results are presented. The best channel condition that the user can get from either BS or relay is simulated to demonstrate the improvement of the received signal strength at the MS. The outage probabilities and durations are shown to indicate the potential user experience improvement when using a real-time application.
 \par First, numerical analysis and simulation results of outage probabilities in Mode 1 is shown in Figure \ref{theovssimu}. The numerical analysis has high computational complexity and is difficult to apply to outage duration analysis. Therefore a simulation is necessary to study the system. Considering the computational complexity, to show that our simulation is validated by analysis, partial comparison between numerical analysis and simulation results is shown in Figure \ref{theovssimu}, which indicates that our simulation code is correct and can be used to study the system.
-\par Second, we simulate the distribution of the best channel gain for the channel between the MS and BS or relays. Figure \ref{Mode1}, \ref{Mode2}  and \ref{Mode3} plot the distribution of the user channel gain of the three different relay deployment modes and 6 different relay densities. As shown in the figure, the intersection of the dashed arrow and the cumulative distribution function (cdf) plots indicates that as relay density increases, the percentage of outages reduces. The dashed arrow points to $122.5dB$ which is the lowest channel gain to guarantee the SNR to be above $8dB$, in which case 16-QAM with $1/2$ code rate will still work. Considering the power constraints, the complexity and cost of placing relays and received SNR requirements, finding a proper relay density is very important. Beyond a certain relay density, increasing the relay density will not give significant additional performance improvement. In all modes, it is shown that relays can mitigate the shadow fading efficiently. For example, in the Mode 1 case, $10$ relays can improve the performance by reducing the probability of outage by $40\%$ compared to the no relay case. To compare the results across the three different modes, we take the 10 relay case as an example. For this case, Mode 1 has an outage probability $3\%$ less than Mode 2 and $10\%$ less than Mode 3. In addition, we compare the three different modes from the outage frequency point of view. Outage frequency is defined as
+\par Second, we simulate the distribution of the best channel gain for the channel between the MS and BS or relays. Figure \ref{2:Mode1}, \ref{2:Mode2}  and \ref{2:Mode3} plot the distribution of the user channel gain of the three different relay deployment modes and 6 different relay densities. As shown in the figure, the intersection of the dashed arrow and the cumulative distribution function (cdf) plots indicates that as relay density increases, the percentage of outages reduces. The dashed arrow points to $122.5dB$ which is the lowest channel gain to guarantee the SNR to be above $8dB$, in which case 16-QAM with $1/2$ code rate will still work. Considering the power constraints, the complexity and cost of placing relays and received SNR requirements, finding a proper relay density is very important. Beyond a certain relay density, increasing the relay density will not give significant additional performance improvement. In all modes, it is shown that relays can mitigate the shadow fading efficiently. For example, in the Mode 1 case, $10$ relays can improve the performance by reducing the probability of outage by $40\%$ compared to the no relay case. To compare the results across the three different modes, we take the 10 relay case as an example. For this case, Mode 1 has an outage probability $3\%$ less than Mode 2 and $10\%$ less than Mode 3. In addition, we compare the three different modes from the outage frequency point of view. Outage frequency is defined as
 \begin{equation}
 f_{outage}=\frac{\text{Total Number of Outage Points}}{\text{Total Number of Simulation Points}}.
 \end{equation}
@@ -361,15 +361,14 @@ f_{outage}=\frac{\text{Total Number of Outage Points}}{\text{Total Number of Sim
 \centering
 \includegraphics[width=12cm]{outagefrequency_V2.eps}
 \caption{Outage Frequency of Three Modes with Different Relay Densities}
-\label{outagefrequency}
+\label{2:outagefrequency}
 \end{figure}
-Figure \ref{outagefrequency} shows the result of outage frequency of the three different modes and different relay densities. From this result, we can see that Mode 1 performs better than Mode 2 and Mode 3. This is due to the randomness of the relay deployment, which works against outage prevention for this model. In some cases Mode 3 performs better than Mode 2. This occurs when most of the relays in Mode 2 are placed in deep shadow areas and are therefore ineffective.. The ideal relay deployment scheme would place relays at the edge of a deep fading area so that relays can successfully receive signals from the BS. On the average, random placement (Mode 3) is the worst choice among the three cases in our simulation.
-\par For real-time applications, outage duration and outage frequency are both very important factors from the user experience point of view. Long outage duration and high outage frequency will lead to poor delay performance or even loss of packets. Figure \ref{outagefrequency} indicates that higher relay density will result in lower outage frequency. Next we investigate the outage duration experienced by the MS with different relay deployments. Outage duration performance is given in Figure \ref{Mode1Out}, \ref{Mode2Out} and \ref{Mode3Out}, which shows the cumulative distribution functions for outage durations for all three different modes. Here, we just show the distribution of outage duration from $100ms$ to $2s$ ($100ms$ is the smallest simulation time period). Under the SNR requirement given as $8dB$, it is shown that as the relay density increases, the probability of long outage duration decreases quickly. In Mode 1, with 4 relays, the probability of outage duration longer than $400ms$ is less than $10\%$. In Mode 2 and Mode 3, to achieve this, 6 and 8 relays are needed, respectively. For real-time video conferencing, the largest tolerable delay is around $200ms$. Our results indicate that in Mode 1 we do not need more than 6 relays to guarantee the probability of outage duration larger than $200ms$ to be less than $15\%$. In Mode 2 and Mode 3 more than 12 relays are needed to achieve this objective. Since we put the SNR requirement as $8dB$, which guarantees a small bit error rate (BER) of 16-QAM, the relay density needs to be high. If we reduce the SNR requirement and change the modulation, it is possible that the probability of outage duration longer than $200ms$ will become smaller or even close to 0. If there is no relay in the cell and an MS enters into a deep fading area, then due to correlated shadow fading, this outage duration will last for a long time. The longest outage duration in our simulation is $10s$ with no relay. From Figure \ref{Mode1Out}, \ref{Mode2Out} and \ref{Mode3Out} we can observe that the probability of an outage duration greater than $2s$ is approximately $5\%$ without relaying. Comparing the no relay case with the 6 relays case in Mode 1, it is shown that relays efficiently reduce the lengthy outages which are caused by deep shadow fading, with the probability of outage duration greater than $2s$ reduced to less than $1\%$. All these results indicate that relays can mitigate the deleterious effects of correlated shadow fading efficiently.
+Figure \ref{2:outagefrequency} shows the result of outage frequency of the three different modes and different relay densities. From this result, we can see that Mode 1 performs better than Mode 2 and Mode 3. This is due to the randomness of the relay deployment, which works against outage prevention for this model. In some cases Mode 3 performs better than Mode 2. This occurs when most of the relays in Mode 2 are placed in deep shadow areas and are therefore ineffective.. The ideal relay deployment scheme would place relays at the edge of a deep fading area so that relays can successfully receive signals from the BS. On the average, random placement (Mode 3) is the worst choice among the three cases in our simulation.
+\par For real-time applications, outage duration and outage frequency are both very important factors from the user experience point of view. Long outage duration and high outage frequency will lead to poor delay performance or even loss of packets. Figure \ref{2:outagefrequency} indicates that higher relay density will result in lower outage frequency. Next we investigate the outage duration experienced by the MS with different relay deployments. Outage duration performance is given in Figure \ref{2:Mode1Out}, \ref{2:Mode2Out} and \ref{2:Mode3Out}, which shows the cumulative distribution functions for outage durations for all three different modes. Here, we just show the distribution of outage duration from $100ms$ to $2s$ ($100ms$ is the smallest simulation time period). Under the SNR requirement given as $8dB$, it is shown that as the relay density increases, the probability of long outage duration decreases quickly. In Mode 1, with 4 relays, the probability of outage duration longer than $400ms$ is less than $10\%$. In Mode 2 and Mode 3, to achieve this, 6 and 8 relays are needed, respectively. For real-time video conferencing, the largest tolerable delay is around $200ms$. Our results indicate that in Mode 1 we do not need more than 6 relays to guarantee the probability of outage duration larger than $200ms$ to be less than $15\%$. In Mode 2 and Mode 3 more than 12 relays are needed to achieve this objective. Since we put the SNR requirement as $8dB$, which guarantees a small bit error rate (BER) of 16-QAM, the relay density needs to be high. If we reduce the SNR requirement and change the modulation, it is possible that the probability of outage duration longer than $200ms$ will become smaller or even close to 0. If there is no relay in the cell and an MS enters into a deep fading area, then due to correlated shadow fading, this outage duration will last for a long time. The longest outage duration in our simulation is $10s$ with no relay. From Figure \ref{2:Mode1Out}, \ref{2:Mode2Out} and \ref{2:Mode3Out} we can observe that the probability of an outage duration greater than $2s$ is approximately $5\%$ without relaying. Comparing the no relay case with the 6 relays case in Mode 1, it is shown that relays efficiently reduce the lengthy outages which are caused by deep shadow fading, with the probability of outage duration greater than $2s$ reduced to less than $1\%$. All these results indicate that relays can mitigate the deleterious effects of correlated shadow fading efficiently.
 
-\section{Conclusions and Future Work}
+\section{Chapter Summary}
 \label{sec:Conclusions}
-In this chapter, we investigate the correlated shadow fading problem in a single cell cellular network and shows that it could lead to correlated outage and long outage durations. A correlated outage field is presented in this chapter. To mitigate shadow fading, relays can be deployed. The performance of three different relay deployments with different relay densities are studied. Theoretical analysis and simulations of outage performance are given to compare between different relay placement scenarios. Through these simulation, we showed that uniformly spaced relays perform better than the randomly spaced, due to the randomness of relay deployment. In next several chapters, we will consider different shadow fading correlation model, which is more realistic to analyze multi-cell system. We will extend our analytic work to build a model that can predict the impact of shadow fading in a mobile environment to different parameter settings.
-
+In this chapter, we investigate the correlated shadow fading problem in a single cell cellular network and shows that it could lead to correlated outage and long outage durations. A correlated outage field is presented in this chapter. To mitigate shadow fading, relays can be deployed. The performance of three different relay deployments with different relay densities are studied. Theoretical analysis and simulations of outage performance are given to compare between different relay placement scenarios. Through these simulation, we showed that uniformly spaced relays perform better than the randomly spaced, due to the randomness of relay deployment. In following chapters, we will consider different shadow fading correlation model and extend the research to a multi-cell system. 
 
 
 

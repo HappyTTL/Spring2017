@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  7 APR 2017 16:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  7 APR 2017 17:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1085,18 +1085,6 @@ LaTeX Warning: Label `eq:1' multiply defined.
 
 LaTeX Warning: Label `correlationmatrix' multiply defined.
 
-
-LaTeX Warning: Label `outagefie' multiply defined.
-
-
-LaTeX Warning: Label `Mode1' multiply defined.
-
-
-LaTeX Warning: Label `Mode2' multiply defined.
-
-
-LaTeX Warning: Label `Mode3' multiply defined.
-
 )
 \openout1 = `Thesis_Main_File.aux'.
 
@@ -1356,12 +1344,6 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 [11
 
 ]
-Overfull \hbox (10.2947pt too wide) in paragraph at lines 20--20
- [] []\T1/cmr/bx/n/12 Single-Cell Sys-tem Per-for-mance Anal-y-sis un-der Cor-r
-e-lated Shadow 
- []
-
-
 Overfull \hbox (7.9411pt too wide) in paragraph at lines 27--27
  [] []\T1/cmr/bx/n/12 Multi-Cell Sys-tem Per-for-mance Anal-y-sis un-der Cor-re
 -lated Shadow 
@@ -1597,6 +1579,13 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [17]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[18]
 Package epstopdf Info: Source file: <shadowingfield_V3.eps>
 (epstopdf)                    date: 2017-03-27 13:18:02
 (epstopdf)                    size: 1477396 bytes
@@ -1608,7 +1597,7 @@ erted-to.pdf shadowingfield_V3.eps>
 (epstopdf)             \includegraphics on input line 36.
 Package epstopdf Info: Output file is already uptodate.
 
-<shadowingfield_V3-eps-converted-to.pdf, id=174, 396.48125pt x 568.1225pt>
+<shadowingfield_V3-eps-converted-to.pdf, id=178, 396.48125pt x 568.1225pt>
 File: shadowingfield_V3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use shadowingfield_V3-eps-converted-to.pdf>
@@ -1616,13 +1605,6 @@ Package pdftex.def Info: shadowingfield_V3-eps-converted-to.pdf used on input l
 ine 36.
 (pdftex.def)             Requested size: 170.71652pt x 244.62599pt.
 
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[18]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
@@ -2120,10 +2102,6 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 [53]
 Chapter 4.
 
-LaTeX Warning: Reference `ch:ExpSingleCell' on page 54 undefined on input line 
-2.
-
-
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
@@ -2132,13 +2110,6 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 [54
 
 ]
-
-LaTeX Warning: Reference `ch:CoopComm' on page 55 undefined on input line 5.
-
-
-LaTeX Warning: Reference `ch:ExpSingleCell' on page 55 undefined on input line 
-5.
-
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
@@ -2154,10 +2125,6 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 [56]
 
-LaTeX Warning: Reference `ch:CorrShadowField' on page 57 undefined on input lin
-e 16.
-
-
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
@@ -2165,27 +2132,12 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 [57]
 
-LaTeX Warning: Reference `ch:CoopComm' on page 58 undefined on input line 19.
-
-
-LaTeX Warning: Reference `ch:CoopComm' on page 58 undefined on input line 20.
-
-
-LaTeX Warning: Reference `ch:ExpSingleCell' on page 58 undefined on input line 
-20.
-
-
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[58]
-
-LaTeX Warning: Reference `ch:ExpSingleCell' on page 59 undefined on input line 
-37.
-
-<ShadowFieldDeCorr20.jpg, id=412, 817.0525pt x 587.19376pt>
+[58] <ShadowFieldDeCorr20.jpg, id=412, 817.0525pt x 587.19376pt>
 File: ShadowFieldDeCorr20.jpg Graphic file (type jpg)
 
 <use ShadowFieldDeCorr20.jpg>
@@ -3072,13 +3024,13 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 16821 strings out of 493014
- 323014 string characters out of 6133351
- 346689 words of memory out of 5000000
- 20032 multiletter control sequences out of 15000+600000
+ 16824 strings out of 493014
+ 323046 string characters out of 6133351
+ 346733 words of memory out of 5000000
+ 20035 multiletter control sequences out of 15000+600000
  26812 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,23n,45p,10384b,4233s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,23n,45p,10384b,4230s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm
 -super-t1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
@@ -3109,7 +3061,7 @@ e/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/
 16/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2016
 /texmf-dist/fonts/type1/public/cm-super/sfsl1440.pfb></usr/local/texlive/2016/t
 exmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on Thesis_Main_File.pdf (126 pages, 3326454 bytes).
+Output written on Thesis_Main_File.pdf (126 pages, 3327111 bytes).
 PDF statistics:
  951 PDF objects out of 1000 (max. 8388607)
  632 compressed objects within 7 object streams
