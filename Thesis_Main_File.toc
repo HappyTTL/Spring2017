@@ -30,21 +30,19 @@
 \contentsline {section}{\numberline {4.3}System Model}{63}
 \contentsline {section}{\numberline {4.4}Outage Probability Analysis}{64}
 \contentsline {section}{\numberline {4.5}Simulation Results}{66}
-\contentsline {chapter}{\numberline {5}Transport Layer Protocols for 5G}{69}
-\contentsline {section}{\numberline {5.1}Introduction}{70}
-\contentsline {section}{\numberline {5.2}Related Work}{71}
-\contentsline {subsection}{\numberline {5.2.1}mmWave Channel}{71}
-\contentsline {subsection}{\numberline {5.2.2}Explicit Congestion Notification (ECN)}{72}
-\contentsline {subsection}{\numberline {5.2.3}Remy}{73}
-\contentsline {section}{\numberline {5.3}Legacy TCP Performance on Mimic 5G Channel}{74}
-\contentsline {section}{\numberline {5.4}Congestion Detection Algorithm}{78}
-\contentsline {subsection}{\numberline {5.4.1}Network Topology}{78}
-\contentsline {subsection}{\numberline {5.4.2}Data Collection}{79}
-\contentsline {subsection}{\numberline {5.4.3}Congestion Prediction}{81}
-\contentsline {section}{\numberline {5.5}Chapter Summary}{85}
-\contentsline {chapter}{\numberline {6}Conclusion}{86}
-\contentsline {chapter}{Appendices}{87}
-\contentsline {chapter}{\numberline {A}}{88}
-\contentsline {section}{\numberline {A.1}Title of Appendix A}{88}
-\contentsline {chapter}{\numberline {B}}{89}
-\contentsline {section}{\numberline {B.1}Title of Appendix B}{89}
+\contentsline {section}{\numberline {4.6}Conclusions}{77}
+\contentsline {chapter}{\numberline {5}Transport Layer Protocols for 5G}{79}
+\contentsline {section}{\numberline {5.1}Introduction}{80}
+\contentsline {section}{\numberline {5.2}Related Work}{81}
+\contentsline {subsection}{\numberline {5.2.1}mmWave Channel}{81}
+\contentsline {subsection}{\numberline {5.2.2}Explicit Congestion Notification (ECN)}{82}
+\contentsline {subsection}{\numberline {5.2.3}Remy}{83}
+\contentsline {section}{\numberline {5.3}Legacy TCP Performance on Mimic 5G Channel}{84}
+\contentsline {section}{\numberline {5.4}Congestion Detection Algorithm}{88}
+\contentsline {subsection}{\numberline {5.4.1}Network Topology}{88}
+\contentsline {subsection}{\numberline {5.4.2}Data Collection}{89}
+\contentsline {subsection}{\numberline {5.4.3}Congestion Prediction}{91}
+\contentsline {section}{\numberline {5.5}Chapter Summary}{95}
+\contentsline {chapter}{\numberline {6}Conclusion}{96}
+\contentsline {section}{\numberline {6.1}Main Contributions}{97}
+\contentsline {section}{\numberline {6.2}Future Work}{99}
