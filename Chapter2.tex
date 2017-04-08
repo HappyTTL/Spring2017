@@ -41,7 +41,7 @@ As stated in the introduction, empirical measurements show that there exist diff
 There is no single mathematical model which captures all different categories of correlation\cite{szyszkowicz2010feasibility}. In this chapter, we use the correlated shadow fading model which incorporates the angular and distance correlations of shadow fading \cite{szyszkowicz2011interference}. In \cite{szyszkowicz2011interference}, the author states that correlation in shadowing is indispensable for the analysis of interference of large networks and gives a time-efficient fast shadowing fields generation algorithm. The algorithm generates a correlated shadowing field $\vec{S}$, which gives shadow fading factor $\vec{s_{i}}$ for each path $\vec{r_{i}}$ with a correlation matrix
 \begin{equation}
 \mathbf{K}_{N\times N} = [ \sigma_{s}(\vec{r_{i}})\sigma_{s}(\vec{r_{j}})h(\vec{r_{i}}\vec{r_{j}})],
-\label{correlationmatrix}
+\label{2:correlationmatrix}
 \end{equation}
 where $N$ paths interfere with path $\vec{r_{i}}$ and $\mathbf{E}\{S_{i}^{2}|\vec{r_{i}}\}=\sigma_{s}^{2}(\vec{r_{i}})$. This model assumes that in the correlation matrix, $h$ is separable with respect to the angle of arrival
 \begin{equation}
@@ -155,9 +155,9 @@ f_{\mathbf{S}}(\mathbf{s}) = &\frac{\lambda^{L}}{\sqrt{2\pi}|\mathbf{K}_{L\times
 &\cdot\exp(-\frac{1}{2}(10\log_{10}\mathbf{s}-\boldsymbol{\mu})^{T}\mathbf{K}_{L\times L}^{-1}(10\log_{10}\mathbf{s}-\boldsymbol{\mu})),
 \end{split}
 \end{equation}
-where $\lambda = 10/\ln10$ and $\boldsymbol{\mu}$ is the average shadow fading which is normally $0$. $\mathbf{K}_{L\times L}$ is the correlation matrix which is defined in \eqref{correlationmatrix}. Let $\theta_{i} = \frac{10\log_{10}s_{i}-\mu_{i}}{\sqrt{2}\sigma_{i}}$, and doing a change of variables gives us the pdf of $\mathbf{\Theta}$ as follows:
+where $\lambda = 10/\ln10$ and $\boldsymbol{\mu}$ is the average shadow fading which is normally $0$. $\mathbf{K}_{L\times L}$ is the correlation matrix which is defined in \eqref{2:correlationmatrix}. Let $\theta_{i} = \frac{10\log_{10}s_{i}-\mu_{i}}{\sqrt{2}\sigma_{i}}$, and doing a change of variables gives us the pdf of $\mathbf{\Theta}$ as follows:
 \begin{equation}
-f_{\mathbf{\Theta}}(\mathbf{\theta}) = \frac{1}{\pi^(L/2)|\mathbf{\Sigma}|^{1/2}}\exp(-\mathbf{\Theta}^{T}\mathbf{\Sigma}^{-1}\mathbf{\Theta}),
+f_{\mathbf{\Theta}}(\boldsymbol{\theta}) = \frac{1}{\pi^(L/2)|\mathbf{\Sigma}|^{1/2}}\exp(-\mathbf{\Theta}^{T}\mathbf{\Sigma}^{-1}\mathbf{\Theta}),
 \end{equation}
 where $\mathbf{\Sigma}$ is the correlation coefficient matrix which is
 \begin{equation}
@@ -167,7 +167,7 @@ where $\mathbf{\Sigma}$ is the correlation coefficient matrix which is
 h_{L,1} & h_{L,2} & \cdots & 1\\
 \end{array}\right].
 \end{equation}
-Since SNR$=PL+S-N_{0}$ in dB, SNR$>\gamma$ means $S>\gamma-PL+N_{0}$.
+Since SNR $=PL+S-N_{0}$ in dB, SNR$>\gamma$ means $S>\gamma-PL+N_{0}$.
 %Without loss of generality, we assume Rayleigh fading has average power $1$. To guarantee $99.9\%$ average successfully transmission, $R_{th}=-7dB$. So shadow fading threshold is $\gamma>\beta-PL+7dB+N_{0}$.
 Given $\mathcal{S}_{0}=\phi$, and letting $\gamma_{ai}$ denote the shadow fading threshold for the $i$th relay in the $a$th hop and where $a=0,1,2$, where the $0$th hop is the direct transmission from BS to MS, we then have
 \begin{equation}
@@ -251,10 +251,10 @@ In this chapter, the Okumura-Hata model \cite{saunders2007antennas} is used to e
 %\end{align}
 %where $R$ is the distance from source to destination[$km$], $h_{m}$ is the destination antenna height above local terrain %height[$m$], $h_{b}$ is the source antenna height above local terrain height[$m$].
 %It is assumed that the system undergoes Rayleigh fading, which is small-scale fading in addition to shadow fading.
-The values of parameters that are used in the simulation are shown in Table \ref{SystemConfig}. In Mode 1 and Mode 2, the radius of the circle where relays are placed (near the edge) is $700m$.
+The values of parameters that are used in the simulation are shown in Table \ref{2:SystemConfig}. In Mode 1 and Mode 2, the radius of the circle where relays are placed (near the edge) is $700m$.
 \begin{table}
 \centering
-\caption{\label{SystemConfig}Simulation Configuration Parameters}
+\caption{\label{2:SystemConfig}Simulation Configuration Parameters}
 
 \begin{tabular}{|c|c|}
 

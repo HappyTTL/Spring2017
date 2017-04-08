@@ -46,3 +46,8 @@
 \contentsline {chapter}{\numberline {6}Conclusion}{94}
 \contentsline {section}{\numberline {6.1}Main Contributions}{95}
 \contentsline {section}{\numberline {6.2}Future Work}{97}
+\contentsline {chapter}{Appendices}{98}
+\contentsline {chapter}{\numberline {A}}{99}
+\contentsline {section}{\numberline {A.1}Title of Appendix A}{99}
+\contentsline {chapter}{\numberline {B}}{100}
+\contentsline {section}{\numberline {B.1}Title of Appendix B}{100}
