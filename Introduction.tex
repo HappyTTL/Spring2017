@@ -27,7 +27,7 @@ This Markov chain model can not be extended to multi-cell system because of the 
 \end{figure}
 \par Autocorrelation and cross-correlation models can be described as in Figure \ref{fig:2}. There are $N$ points $Y_{1}, \cdots, Y_{N}$.  $S_{i}$ is the logarithm of the power attenuation due to shadowing on each path $\vec{r_{i}}$. $\mathbb{E}\{S_{i}\} = 0$ since shadow fading has correlated log-normal distribution. The log-variance of shadow fading can be characterized as 
 \begin{equation}
-\sigma_{i}^{2} = \mathbb{VAR}\{S_{i}\} = \sigma_{S}^2(\vec{r_{i}})
+\sigma_{i}^{2} = \mathbb{VAR}\{S_{i}\} = \sigma_{S}^2(\vec{r_{i}}).
 \label{eq:1}
 \end{equation}
 \begin{figure} 
@@ -64,8 +64,8 @@ For $\mathbf{K}$ to be a valid covariance matrix, it is necessary that $\mathbf{
 \par By grouping the measurements along one variable in several ways, $h$ can be expressed as a function of a single variable in the following three forms:
 \begin{itemize}
 \item absolute distance (between $Y_{1}$ and $Y_{2}$): $d = \Vert \vec{r_{1}}- \vec{r_{2}}\Vert$ .
-\item angle of arrival separation: $\theta = \vert\angle\vec{r_{1}}-\angle\vec{r_{2}}\vert\in [0^\circ, 180^\circ]$ 
-\item arrival distance ratio (in decibels): $R=\vert10\log_{10}r_{1}/r_{2}\vert=(10/\ln 10)\vert \ln r_{1}-\ln r_{2}\vert$
+\item angle of arrival separation: $\theta = \vert\angle\vec{r_{1}}-\angle\vec{r_{2}}\vert\in [0^\circ, 180^\circ]$. 
+\item arrival distance ratio (in decibels): $R=\vert10\log_{10}r_{1}/r_{2}\vert=(10/\ln 10)\vert \ln r_{1}-\ln r_{2}\vert$.
 \end{itemize}
 A correlation model needs to satisfy as many as the following criteria to become a precise model:
 \begin{itemize}

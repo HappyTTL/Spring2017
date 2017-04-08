@@ -5,7 +5,7 @@ In a cellular communication system, the connection between the base station and 
 \begin{figure}
 \centering
 \includegraphics[width=8cm]{buildingversion2.eps}
-\caption{Cooperative Communication Example}
+\caption{Cooperative Communication Example.}
 \label{building}
 \end{figure}
 \par Cooperative communication has been proven to be an efficient way to mitigate fast fading and increase the robustness of data connections \cite{chang2009performance,lee2009performance}. However, cooperative communication can also efficiently maintain the connection whenever the channel condition experiences a sudden deterioration due to shadow fading by switching to different relays. Figure \ref{building} is an example of cooperative communication where relays and BS are placed on the top of buildings. In this case, when the MS moves to the area behind a tall building, with a high probability the signal transmitted from the BS will be obstructed by the building, and consequently the MS will encounter deep shadow fading. The channel  between BS and MS will degrade and data rate will drop suddenly. In the worst case scenario, the connection with the BS may be totally lost. To combat this effect and enhance the signal received by the MS in this case, relays can be deployed on the top of tall buildings to relay the signals from the BS to MS to maintain good channel conditions between the BS and MS.
@@ -67,11 +67,11 @@ The shadowing fields are similar to those generated in \cite{szyszkowicz2011inte
 Given a correlated shadowing field, the outage events at different locations are also correlated. Here we analyze correlated outage events under correlated shadow fading and later give an example. In the spatial correlation of outage events, without considering Rayleigh fading, path loss is considered as constant at a fixed time point. Based on the correlated shadowing field we can generate a correlated outage field. Let $G$ denotes total channel gain, $PL$ denotes path loss, %$R$ denote the norm of small-scale Rayleigh fading factor,
 and $S$ denotes shadow fading factor, we then have:
 \begin{equation}
-G = PL* S
+G = PL* S.
 \end{equation}
 For two different positions, the correlation coefficient of the two total channel gains is of the following form:
 \begin{equation}
-\rho_{1,2} = \frac{E[G_{1}G_{2}]}{\sqrt{(Var(G_{1})Var(G_{2}))}}.
+\rho_{1,2} = \frac{E[G_{1}G_{2}]}{\sqrt{(Var(G_{1})Var(G_{2}))}},
 \label{eq1}
 \end{equation}
 where $G_{1}=PL_{1}*S_{1}$ and $G_{2}=PL_{2}*S_{2}$.
@@ -85,7 +85,7 @@ Var(G_{1}) = PL_{1}^{2}Var(S_{1}),
 \label{eq3}
 \end{equation}
 \begin{equation}
-Var(G_{2}) = PL_{2}^{2}Var(S_{2}),
+Var(G_{2}) = PL_{2}^{2}Var(S_{2}).
 \label{eq4}
 \end{equation}
 Based on \eqref{eq2}, \eqref{eq3} and \eqref{eq4}, it is straightforward to rewrite \eqref{eq1} as:
@@ -114,7 +114,7 @@ Since most of the key aspects of the problem can be studied in a single cell, we
 
 \par The received signal in a link $(S\to D)$ between the source and destination is given by:
 \begin{equation}
-y_{D} = G_{SD}x_{S}+n_{D}.
+y_{D} = G_{SD}x_{S}+n_{D},
 \end{equation}
 where $x_{S}$ is the signal transmitted by the source and $y_{D}$ is the signal received by the destination. $n_{D}\sim \mathcal{CN}(0,N_{0})$ is additive white Gaussian noise. $G_{SD}$ is the channel gain from source to destination including path loss and shadow fading. $\text{SNR} \triangleq P*G_{SD}^{2}/N_{0}$, is the end-to-end received signal-to-noise ratio (SNR) and $P$ is the transmitted power. The destination successfully receives the signals if no outage event happens, i.e., $\log_{2}(1+\text{SNR})\ge R$, where $R$ is the required data rate. From the definition of SNR, no outage event happens as long as SNR $> \gamma$, where $\gamma = 2^{R}-1$.
 In the first hop, relays that can successfully decode the signals transmitted from the BS is a subset $\mathcal{R}_{n}$ of $N$ relays defined by:
@@ -133,7 +133,7 @@ Due to the variations of the channel gain caused by shadow fading and path loss 
 \label{outageprobability}
  If an MS cannot directly receive the signal from the BS and none of the relays can decode the BS signal, or if the MS has a bad channel with all relays which successfully decode the BS signal, then an outage event will take place. The probability that an MS cannot receive signals directly from the BS successfully is given below:
 \begin{equation}
-P_{out_{0}} = P[\text{SNR}_{S-D}<\gamma],
+P_{out_{0}} = P[\text{SNR}_{S-D}<\gamma].
 \end{equation}
 Under the assumption that an MS cannot successfully receive signals from the BS, the outage event happens in the first hop if no relay can receive the signal from the BS successfully, which means $\mathcal{R}_{0}=\phi$. Based on this assumption we have:
 \begin{equation}
@@ -291,26 +291,26 @@ SNR Requirement & $8dB$\\
 \begin{figure}
 \centering
 \includegraphics[width=12cm]{theo_vs_simu_V2.eps}
-\caption{Theoretical and Simulated Outage Probability for Mode 1}
+\caption{Theoretical and Simulated Outage Probability for Mode 1.}
 \label{theovssimu}
 \end{figure}
 
 \begin{figure}
 \centering
 \includegraphics[width=12cm]{Mode1_bestchannelgain_V2.eps}
-\caption{Best Channel Condition between MS and BS or Relays of Mode 1 (Dashed arrow demonstrates the channel condition that satisfies the SNR requirement.}
+\caption{Best Channel Condition between MS and BS or Relays of Mode 1 (Dashed arrow demonstrates the channel condition that satisfies the SNR requirement)}
 \label{2:Mode1}
 \end{figure}
 \begin{figure}
 \centering
 \includegraphics[width=12cm]{Mode2_bestchannelgain_V2.eps}
-\caption{Best Channel Condition between MS and BS or Relays of Mode 2 (Dashed arrow demonstrates the channel condition that satisfies the SNR requirement.}
+\caption{Best Channel Condition between MS and BS or Relays of Mode 2 (Dashed arrow demonstrates the channel condition that satisfies the SNR requirement)}
 \label{2:Mode2}
 \end{figure}
 \begin{figure}
 \centering
 \includegraphics[width=12cm]{Mode3_bestchannelgain_V2.eps}
-\caption{Best Channel Condition between MS and BS or Relays of Mode 3 (Dashed arrow demonstrates the channel condition that satisfies the SNR requirement.}
+\caption{Best Channel Condition between MS and BS or Relays of Mode 3 (Dashed arrow demonstrates the channel condition that satisfies the SNR requirement)}
 \label{2:Mode3}
 \end{figure}
 %\caption{Best Channel Condition between MS and BS or Relays (Dashed arrow demonstrates the channel condition that satisfies the SNR requirement.}

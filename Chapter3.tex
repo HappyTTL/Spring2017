@@ -5,7 +5,7 @@ In the past few decades, fading in wireless communication systems has been studi
 \begin{figure}
 \centering
 \includegraphics[width=9cm]{building.eps}
-\caption{An example of building blockage.}
+\caption{An example of building blockage}
 \label{building2}
 \end{figure}
 \par The spatial correlation of shadow fading has been investigated by numerous researchers. Based on empirical measurements, different autocorrelation models have been proposed for different scenarios and radio frequencies \cite{gudmundson1991correlation, sorensen1998correlation, weitzen2002measurement}. Szyszkowicz et al. \cite{szyszkowicz2010feasibility} studied shadow fading correlation models and investigated the feasibility of all these models. Among all these models, the analytical model proposed by Gudmundson \cite{gudmundson1991correlation} based on empirical measurements of $900MHz$ frequency is the one which is widely used in channel estimation. This model shows that shadow fading can be modeled as a first-order autoregressive process AR(1), which indicates a spatial exponential decaying autocorrelation function. Given this model, we propose a Markov chain model that can be constructed to capture the variation of shadow fading. The Markov chain models can in turn be used to accurately model the impact of shadow fading on higher layer protocols and applications. Since the shadow fading statistically follows a log-normal distribution, we can divide the entire range of shadow fading, which is $[-\infty,+\infty]$ into a finite number of intervals. Each interval is considered as a state of the Markov chain model. When the shadow fading falls in a particular interval, it is assigned to be in this particular state. The number of intervals (states) defines the granularity of the Markov chain model. The higher the number of states, the higher the precision in modeling the shadow fading. Correlated log-normal shadow fading has different variances with regard to different scenarios. For example, urban and suburban areas have different standard deviations based on empirical measurements. Different standard deviations of the log-normal shadow fading will result in different state transition matrices of the Markov chain model.
@@ -27,22 +27,22 @@ In the past few decades, fading in wireless communication systems has been studi
 \end{figure*}
 To simplify the problem, we consider a single 4G LTE cell without any intercell interference in Figure \ref{systemmodel}(b). Due to the high bandwidth of OFDM systems,  LTE networks are more resilient to frequency selective fading \cite{rappaport1996wireless}, therefore in this chapter small-scale fading is ignored and shadow fading becomes the most important fading factor. There is a Base Station(BS) at the center of the cell. A Mobile Station (MS) is moving on a certain trajectory within the cell. The received signal on a link $(S\to D)$ between source and destination is given by:
 \begin{equation}
-y_{D} = G_{SD}x_{S}+n_{D}.
+y_{D} = G_{SD}x_{S}+n_{D},
 \end{equation}
 where $x_{S}$ is the signal transmitted by the source and $y_{D}$ is the signal received by the destination. $n_{D}\sim \mathcal{CN}(0,N_{0})$ is additive white Gaussian noise. $G_{SD}$ is the channel gain from source to destination including path loss and shadow fading.  $\text{SNR} \triangleq P*G_{SD}^{2}/N_{0}$, is the end-to-end received signal-to-noise ratio (SNR). The destination successfully receives the signals if no outage event happens, i.e., $\log_{2}(1+\text{SNR})\ge R$, where $R$ is the required data rate. From the definition of SNR, no outage event happens as long as $G_{SD}^2 > \beta$, where $\beta = \frac{(2^{R}-1)*N_{0}}{P}$. Therefore the channel gain from transmitter to receiver determines if an outage will occur.
 \par Here we rewrite the channel gain in the following form: $G_{dB}=PL(d)+S$, where $G_{dB}$ is $G_{SD}$ in $dB$, $PL$ denotes the propagation pathloss in $dB$, $d$ is the distance from BS to MS and $S$ denotes shadow fading factor. In most cases, shadow fading is modeled as an independent log-normal distribution \cite{goldsmith2005wireless} with a standard deviation derived from empirical measurements. In this model, the probability distribution of pathloss $G_{dB}$ is given by:
 \begin{equation}
-p(G_{dB})=\frac{1}{\sqrt{2\pi}\sigma_{G_{dB}}}exp[-\frac{(G_{dB}-\mu_{G_{dB})^2}}{2\sigma_{G_{dB}}^2}].
+p(G_{dB})=\frac{1}{\sqrt{2\pi}\sigma_{G_{dB}}}exp[-\frac{(G_{dB}-\mu_{G_{dB})^2}}{2\sigma_{G_{dB}}^2}],
 \end{equation}
 where $\mu_{G_{dB}}$ is the average pathloss which is equal to $PL(d)$ and $\sigma_{G_{dB}}$ denotes the standard deviation of pathloss. Since shadow fading is the only fading factor that is considered here, $\sigma_{G_{dB}}$ is determined by the standard deviation of shadow fading.
 This model fails to capture the spatial correlations in shadow fading. For examples, in Figure \ref{systemmodel}(c), shadow fading factors of two close positions A and B, which are $S_{A}$ and $S_{B}$, are not independent but correlated to each other. Empirical measurements showed that shadowing has significant correlations in several realistic scenarios and the correlated shadow fading can affect system performance \cite{graziano1978propagation}. Among all models derived from empirical measurements for correlated shadow fading, exponentially decaying correlation \cite{gudmundson1991correlation} is widely used. In this chapter, we choose this model to do further analysis. Figure \ref{systemmodel}(a) is an example of exponentially correlated shadowing field which is generated from the Graziano model \cite{graziano1978propagation}. This figure shows a $50\times50 m^{2}$ shadow fading area and illustrates that deep shadowing area is clustered and correlated (the blue area).
 \par In Figure ~\ref{systemmodel}(c), the entire space is discretized. The MS moves on the lattice as shown. $A$ and $B$ are two neighbouring points. Assume the shadow fading (in dB) is $N(0,\sigma^{2})$ where $\sigma$ is the standard deviation, the spatial correlation between $S_{A}$ and $S_{B}$ will be given by
 \begin{equation}
-\rho_{A,B}=\frac{E[S_{A}S_{B}]}{\sigma^{2}}=e^{{-\frac{d_{A,B}}{d_{0}}}}
+\rho_{A,B}=\frac{E[S_{A}S_{B}]}{\sigma^{2}}=e^{{-\frac{d_{A,B}}{d_{0}}}},
 \end{equation}
 where $d_{A,B}$ is the distance between $A$ and $B$, $d_{0}$ denotes the de-correlation distance \cite{bertoni1999radio}, which means if the distance between two points are substantially greater than $d_{0}$, the two shadow fading will be independent to each other. $d_{0}$ is determined by the environment, therefore urban and suburban areas have different de-correlation distances. An exponential correlation implies the shadow fading samples can be written as an AR(1) process as follows \cite{wei1994time}:
 \begin{equation}
-S_{B} = \rho S_{A} + (1-\rho)n_{A}
+S_{B} = \rho S_{A} + (1-\rho)n_{A},
 \label{e3}
 \end{equation}
 where $n_{A}$ denotes the channel noise at $A$. From this we conclude that the next channel state can be determined from the current channel state and the distance MS moves.
@@ -60,12 +60,12 @@ S_{b} &=\rho S_{t_{n}}+(1-\rho)n_{t_{n}}\\
 &=\rho(\rho S_{t_{n-1}}+(1-\rho)n_{t_{n-1}})+(1-\rho)n_{t_{n}}\\
 &=\ldots\ldots\\
 &=\rho^{n}S_{t_{1}}+\sum_{i=1}^{n}\rho^{n-i}(1-\rho)n_{t_{i}}\\
-&=\rho^{n+1}S_{a}+\rho(1-\rho)n_{a}+\sum_{i=1}^{n}\rho^{n-i}(1-\rho)n_{t_{i}}
+&=\rho^{n+1}S_{a}+\rho(1-\rho)n_{a}+\sum_{i=1}^{n}\rho^{n-i}(1-\rho)n_{t_{i}}.
 \end{split}
 \end{equation}
 Let $X=\alpha S_{a}+\beta S_{b}$, from equation ~\ref{e5}, the following can be derived:
 \begin{equation}
-X=\alpha S_{a}+\beta(\rho^{n+1}S_{a}+\rho(1-\rho)n_{a}+\sum_{i=1}^{n}\rho^{n-i}(1-\rho)n_{t_{i}})
+X=\alpha S_{a}+\beta(\rho^{n+1}S_{a}+\rho(1-\rho)n_{a}+\sum_{i=1}^{n}\rho^{n-i}(1-\rho)n_{t_{i}}).
 \end{equation}
 Since $S_{a}$, $n_{t_{i}}$ and $n_{a}$ are all independent and Gaussian random variables, we conclude that $X$ is also Gaussian, which implies that $S_{a}$ and $S_{b}$ are jointly Gaussian.
 \end{proof}
@@ -79,12 +79,12 @@ Since $S_{a}$, $n_{t_{i}}$ and $n_{a}$ are all independent and Gaussian random v
 \begin{equation}
 \begin{split}
 & f_{S_{A}|S_{B} =s_{B}}(s_{A}) =\frac{f_{S_{A},S_{B}}(s_{A},s_{B})}{f_{S_{B}}(s_{B})}\\
-&=\frac{1}{\sigma_{A}\sqrt{2\pi(1-\rho_{0}^{2})}}\exp\{-\frac{(s_{A}-(\mu_{A}+\sigma_{A}\rho_{0}(s_{B}-\mu_{B})/\sigma_{B}))}{2\sigma_{A}^{2}(1-\rho_{0}^{2})}\}
+&=\frac{1}{\sigma_{A}\sqrt{2\pi(1-\rho_{0}^{2})}}\exp\{-\frac{(s_{A}-(\mu_{A}+\sigma_{A}\rho_{0}(s_{B}-\mu_{B})/\sigma_{B}))}{2\sigma_{A}^{2}(1-\rho_{0}^{2})}\},
 \end{split}
 \end{equation}
 where $\mu_{A}$ and $\mu_{B}$ are expectations of log-normal shadow fading $S_{A}$ and $S_{B}$, which is typically set to $0$, while $\sigma_{A}$ and $\sigma_{B}$ are standard deviations, which are assumed to be equal to $\sigma_{0}$. Based on these assumptions, we can rewrite the equation as follows:
 \begin{equation}
-f_{S_{A}|S_{B} =s_{B}}(s_{A}) =\frac{1}{\sigma_{0}\sqrt{2\pi(1-\rho_{0}^{2})}}\exp\{-\frac{s_{A}-\rho_{0}s_{B}}{2\sigma_{0}^{2}(1-\rho_{0}^{2})}\}
+f_{S_{A}|S_{B} =s_{B}}(s_{A}) =\frac{1}{\sigma_{0}\sqrt{2\pi(1-\rho_{0}^{2})}}\exp\{-\frac{s_{A}-\rho_{0}s_{B}}{2\sigma_{0}^{2}(1-\rho_{0}^{2})}\}.
 \end{equation}
 Assume there are $N$ states of the Markov chain model $ST_{1}, ST_{2},\cdots, ST_{N}$ where $ST_{i}$ corresponds to the interval $(S_{i-1}, S_{i}]$. Then we have the state transition probability as follows:
 \begin{equation}
@@ -92,7 +92,7 @@ Assume there are $N$ states of the Markov chain model $ST_{1}, ST_{2},\cdots, ST
 \begin{split}
 P_{i,j} &= P(S_{A}\in ST_{j}|S_{B}\in ST_{i})\\
 &=\frac{P(S_{A}\in ST_{j}, S_{B}\in ST_{i})}{P(S_{B}\in ST_{i})}\\
-&=\frac{\int_{S_{i-1}}^{S_{i}}(\int_{S_{j-1}}^{S_{j}}f_{(S_{A}|S_{B}=s_{B}}(s_{A})ds_{A})f(s_{B})ds_{B}}{\int_{S_{i-1}}^{S_{i}}f(s_{B})ds_{B}}
+&=\frac{\int_{S_{i-1}}^{S_{i}}(\int_{S_{j-1}}^{S_{j}}f_{(S_{A}|S_{B}=s_{B}}(s_{A})ds_{A})f(s_{B})ds_{B}}{\int_{S_{i-1}}^{S_{i}}f(s_{B})ds_{B}}.
 \end{split}
 \end{equation}
 From equation (\ref{statetransition}), the state transition matrix of the Markov chain can be derived. The steady-state transition matrix can be determined by $P$.
@@ -102,7 +102,7 @@ In this section we analyze the outage behavior of the communication system using
 \begin{equation}
 \begin{split}
 &P(G_{A}<\gamma, G_{B}<\gamma) \\
-&= P(S_{A}<\gamma-PL_{A}(d_{A}), S_{B}<\gamma-PL_{B}(d_{B}))
+&= P(S_{A}<\gamma-PL_{A}(d_{A}), S_{B}<\gamma-PL_{B}(d_{B})).
 \end{split}
 \end{equation}
 %\begin{figure}
@@ -121,7 +121,7 @@ where $P(ST_{m})$ is the probability that $S_{A}$ is in the range of $ST_{m}$ wh
 \begin{split}
 &P(G_{1}<\gamma,\dots,G_{L}<\gamma)=\\
 &\sum_{m_{1}=0}^{M_{1}}\dots\sum_{m_{L}=0}^{M_{L}} P(ST_{m_{1}})\bullet P(ST_{m_{1}},ST_{m_{2}})\\
-&\bullet\dots\bullet P(ST_{m_{L-1}},ST_{m_{L}})
+&\bullet\dots\bullet P(ST_{m_{L-1}},ST_{m_{L}}),
 \end{split}
 \end{equation}
 where $M_{i}$, $i\in\{1,\dots,L\}$ are corresponding lower bound states of each position on the trajectory.
@@ -189,11 +189,11 @@ P8\\
 \end{split}
 \label{smallmatrix}
 \end{equation}
-\par In this section, we employ Monte-Carlo simulation to validate our Markov chain model. To start the simulation, a large number of correlated shadowing fields are generated. As shown in Figure \ref{systemmodel}(b) and (c), instead of generating shadowing fields for the entire cell, we pick up a MS trajectory and generated shadowing fields that covers that trajectory. In this chapter, we choose the urban environment as the case to study. In this case, the shadow fading and Markov chain parameters are set as in Table \ref{SystemConfig}. The standard deviation of shadow fading is chosen to be $8dB$ following \cite{szyszkowicz2010feasibility}. The number of states of the Markov chain is set to be $3*\sigma_{0}/n*2+2$, where $n=1,3,8$ is the size of each range (state) in $dB$ except the two above $3\sigma_{0}$. $n$ in this case represents different granularities in the area of $[-3\sigma_{0},3\sigma_{0}]$. The state transition matrices are calculated with regard to each $n$. For example, when $n=8$, the states of the Markov chain model are:
+\par In this section, we employ Monte-Carlo simulation to validate our Markov chain model. To start the simulation, a large number of correlated shadowing fields are generated. As shown in Figure \ref{systemmodel}(b) and (c), instead of generating shadowing fields for the entire cell, we pick up a MS trajectory and generated shadowing fields that covers that trajectory. In this chapter, we choose the urban environment as the case to study. In this case, the shadow fading and Markov chain parameters are set as in Table \ref{SystemConfig}. The standard deviation of shadow fading is chosen to be $8dB$ following \cite{szyszkowicz2010feasibility}. The number of states of the Markov chain is set to be $3*\sigma_{0}/n*2+2$, where $n=1,3,8$ is the size of each range (state) in $dB$ except the two above $3\sigma_{0}$. $n$ in this case represents different granularities in the area of $[-3\sigma_{0},3\sigma_{0}]$. The state transition matrices are calculated with regard to each $n$. For example, when $n=8$, the states of the Markov chain model are
 \begin{equation}
 \begin{split}
 [&(-\infty,-24],(-24,-16],(-16,-8],(-8,0],\\
-&[0,8],[8,16),[16,24),[24,+\infty)]
+&[0,8],[8,16),[16,24),[24,+\infty)],
 \end{split}
 \end{equation} and the state transition matrix is given in (\ref{matrix} and \ref{smallmatrix}).
 \section{Simulation Results}
@@ -238,7 +238,7 @@ SNR Requirement & $10dB$\\
 \begin{figure}
 \centering
 \includegraphics[width=12cm]{result_Plot_new.eps}
-\caption{Probabilities of outage duration greater than $L$.}
+\caption{Probabilities of outage duration greater than $L$}
 \label{prob}
 \end{figure}
 
