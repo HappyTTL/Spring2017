@@ -20,6 +20,19 @@
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Probabilities of outage duration greater than $L$\relax }}{52}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces GENI Topology for Performance Evaluation\relax }}{60}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces CWND dynamics given exponentially On-Off channel behavior\relax }}{62}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Throughput dynamics given exponentially On-Off channel behavior\relax }}{62}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces CWND dynamics given uniformly On-Off channel behavior\relax }}{63}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Throughput dynamics given uniformly On-Off channel behavior\relax }}{63}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Network topology\relax }}{64}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces NS2 TCP trace format\relax }}{65}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Queue length dynamics (Cubic)\relax }}{66}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces ROC curve of Logistic Regression classifier\relax }}{68}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces ROC curve of Decision Tree classifier\relax }}{69}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Decision Tree (max\_depth = 3, min\_samples\_leaf = 100000)\relax }}{69}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces CDF of rtt\_ratio\relax }}{70}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces ROC curves with different propogation delay\relax }}{71}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
