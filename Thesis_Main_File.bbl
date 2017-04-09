@@ -281,4 +281,98 @@ A.~Papoulis and S.~U. Pillai, \emph{Probability, Random Variables, and
   Stochastic Processes}.\hskip 1em plus 0.5em minus 0.4em\relax McGraw-Hill
   Higher Education, 2002.
 
+\bibitem{abu1991outage}
+A.~A. Abu-Dayya and N.~C. Beaulieu, ``Outage probabilities of cellular mobile
+  radio systems with multiple nakagami interferers,'' \emph{Vehicular
+  Technology, IEEE Transactions on}, vol.~40, no.~4, pp. 757--768, 1991.
+
+\bibitem{petrovic2013outage}
+I.~Petrovic, M.~Stefanovic, P.~Spalevic, S.~R. Panic, and D.~Stefanovic,
+  ``Outage analysis of selection diversity over rayleigh fading channels with
+  multiple co-channel interferers,'' \emph{Telecommunication Systems}, vol.~52,
+  no.~1, pp. 39--50, 2013.
+
+\bibitem{emamian2014outage}
+V.~Emamian, ``Outage analysis of a multi-user spatial diversity system in a
+  shadow-fade propagating channel,'' \emph{British Journal of Applied Science
+  \& Technology}, vol.~4, no.~1, p.~40, 2014.
+
+\bibitem{vural2015effect}
+M.~Vural, G.~K. Kurt, and C.~Schneider, ``The effect of shadow fading
+  distributions on outage probability and coverage area,'' in \emph{Vehicular
+  Technology Conference (VTC Spring), 2015 IEEE 81st}.\hskip 1em plus 0.5em
+  minus 0.4em\relax IEEE, 2015, pp. 1--6.
+
+\bibitem{lu2015long}
+T.~Lu, P.~Liu, and S.~S. Panwar, ``How long before i regain my signal?'' in
+  \emph{Information Sciences and Systems (CISS), 2015 49th Annual Conference
+  on}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2015, pp. 1--5.
+
+\bibitem{lu2015shining}
+T.~Lu, P.~Liu, and S.~Panwar, ``Shining a light into the darkness: How
+  cooperative relay communication mitigates correlated shadow fading,'' in
+  \emph{Vehicular Technology Conference (VTC Spring), 2015 IEEE 81st}.\hskip
+  1em plus 0.5em minus 0.4em\relax IEEE, 2015, pp. 1--7.
+
+\bibitem{andrews2011tractable}
+J.~G. Andrews, F.~Baccelli, and R.~K. Ganti, ``A tractable approach to coverage
+  and rate in cellular networks,'' \emph{Communications, IEEE Transactions on},
+  vol.~59, no.~11, pp. 3122--3134, 2011.
+
+\bibitem{chen2012small}
+C.~S. Chen, V.~M. Nguyen, and L.~Thomas, ``On small cell network deployment: A
+  comparative study of random and grid topologies,'' in \emph{Vehicular
+  Technology Conference (VTC Fall), 2012 IEEE}.\hskip 1em plus 0.5em minus
+  0.4em\relax IEEE, 2012, pp. 1--5.
+
+\bibitem{kumar2015approximate}
+S.~Kumar, ``Approximate outage probability and capacity for-shadowed fading,''
+  \emph{Wireless Communications Letters, IEEE}, vol.~4, no.~3, pp. 301--304,
+  2015.
+
+\bibitem{xu2004binary}
+L.~Xu, K.~Harfoush, and I.~Rhee, ``Binary increase congestion control (bic) for
+  fast long-distance networks,'' in \emph{INFOCOM 2004. Twenty-third
+  AnnualJoint Conference of the IEEE Computer and Communications Societies},
+  vol.~4.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2004, pp. 2514--2524.
+
+\bibitem{tan2006compound}
+K.~Tan, J.~Song, Q.~Zhang, and M.~Sridharan, ``A compound tcp approach for
+  high-speed and long distance networks,'' in \emph{Proceedings-IEEE INFOCOM},
+  2006.
+
+\bibitem{niu2015survey}
+Y.~Niu, Y.~Li, D.~Jin, L.~Su, and A.~V. Vasilakos, ``A survey of millimeter
+  wave communications (mmwave) for 5g: opportunities and challenges,''
+  \emph{Wireless Networks}, pp. 1--20, 2015.
+
+\bibitem{rappaport2013millimeter}
+T.~S. Rappaport, S.~Sun, R.~Mayzus, H.~Zhao, Y.~Azar, K.~Wang, G.~N. Wong,
+  J.~K. Schulz, M.~Samimi, and F.~Gutierrez, ``Millimeter wave mobile
+  communications for 5g cellular: It will work!'' \emph{Access, IEEE}, vol.~1,
+  pp. 335--349, 2013.
+
+\bibitem{sun2014millimeter}
+S.~Sun, G.~R. MacCartney, M.~K. Samimi, S.~Nie, and T.~S. Rappaport,
+  ``Millimeter wave multi-beam antenna combining for 5g cellular link
+  improvement in new york city,'' in \emph{Communications (ICC), 2014 IEEE
+  International Conference on}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE,
+  2014, pp. 5468--5473.
+
+\bibitem{roh2014millimeter}
+W.~Roh, J.-Y. Seol, J.~Park, B.~Lee, J.~Lee, Y.~Kim, J.~Cho, K.~Cheun, and
+  F.~Aryanfar, ``Millimeter-wave beamforming as an enabling technology for 5g
+  cellular communications: theoretical feasibility and prototype results,''
+  \emph{Communications Magazine, IEEE}, vol.~52, no.~2, pp. 106--113, 2014.
+
+\bibitem{winstein2013tcp}
+K.~Winstein and H.~Balakrishnan, ``Tcp ex machina: Computer-generated
+  congestion control,'' in \emph{ACM SIGCOMM Computer Communication Review},
+  vol.~43, no.~4.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 2013, pp.
+  123--134.
+
+\bibitem{TraceFormat}
+``Trace analysis example,'' \url{http://nile.wpi.edu/NS/analysis.html},
+  accessed: 2016-4-5.
+
 \end{thebibliography}

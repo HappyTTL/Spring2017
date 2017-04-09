@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  8 APR 2017 11:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 APR 2017 07:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1330,7 +1330,14 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 [11
 
-])
+]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12])
 \tf@toc=\write3
 \openout3 = `Thesis_Main_File.toc'.
 
@@ -1341,16 +1348,35 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12] (./Thesis_Main_File.lof
+[13] (./Thesis_Main_File.lof
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13
+[14
 
-])
+]
+Overfull \hbox (10.04242pt too wide) in paragraph at lines 25--25
+ [][] []\T1/cmr/m/n/12 CDF of SINR given Grid Lay-out and Ran-dom Lay-out (De-C
+orrelation 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[15]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16])
 \tf@lof=\write4
 \openout4 = `Thesis_Main_File.lof'.
 
@@ -1361,7 +1387,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[14] (./Thesis_Main_File.lot)
+[17] (./Thesis_Main_File.lot)
 \tf@lot=\write5
 \openout5 = `Thesis_Main_File.lot'.
 
@@ -1372,7 +1398,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15
+[18
 
 ] (./introduction.tex
 Chapter 1.
@@ -1412,7 +1438,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5] <correlation.png, id=81, 693.3102pt x 295.3434pt>
+[5] <correlation.png, id=91, 693.3102pt x 295.3434pt>
 File: correlation.png Graphic file (type png)
  <use correlation.png>
 Package pdftex.def Info: correlation.png used on input line 24.
@@ -1424,7 +1450,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6] <FadingGeometry.pdf, id=88, 963.6pt x 542.025pt>
+[6] <FadingGeometry.pdf, id=98, 963.6pt x 542.025pt>
 File: FadingGeometry.pdf Graphic file (type pdf)
  <use FadingGeometry.pdf>
 Package pdftex.def Info: FadingGeometry.pdf used on input line 35.
@@ -1506,7 +1532,7 @@ Package epstopdf Info: Source file: <buildingversion2.eps>
 rted-to.pdf buildingversion2.eps>
 (epstopdf)             \includegraphics on input line 7.
 Package epstopdf Info: Output file is already uptodate.
- <buildingversion2-eps-converted-to.pdf, id=141, 540.0175pt x 269.005pt>
+ <buildingversion2-eps-converted-to.pdf, id=151, 540.0175pt x 269.005pt>
 File: buildingversion2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use buildingversion2-eps-converted-to.pdf>
@@ -1553,7 +1579,7 @@ erted-to.pdf shadowingfield_V3.eps>
 (epstopdf)             \includegraphics on input line 36.
 Package epstopdf Info: Output file is already uptodate.
 
-<shadowingfield_V3-eps-converted-to.pdf, id=168, 396.48125pt x 568.1225pt>
+<shadowingfield_V3-eps-converted-to.pdf, id=178, 396.48125pt x 568.1225pt>
 File: shadowingfield_V3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use shadowingfield_V3-eps-converted-to.pdf>
@@ -1579,7 +1605,7 @@ to.pdf outagefield.eps>
 (epstopdf)             \includegraphics on input line 63.
 Package epstopdf Info: Output file is already uptodate.
 
-<outagefield-eps-converted-to.pdf, id=178, 709.65125pt x 279.0425pt>
+<outagefield-eps-converted-to.pdf, id=189, 709.65125pt x 279.0425pt>
 File: outagefield-eps-converted-to.pdf Graphic file (type pdf)
 
 <use outagefield-eps-converted-to.pdf>
@@ -1612,7 +1638,7 @@ bc.eps>
 (epstopdf)             \includegraphics on input line 99.
 Package epstopdf Info: Output file is already uptodate.
 
-<abc-eps-converted-to.pdf, id=195, 428.60126pt x 152.57pt>
+<abc-eps-converted-to.pdf, id=204, 428.60126pt x 152.57pt>
 File: abc-eps-converted-to.pdf Graphic file (type pdf)
 
 <use abc-eps-converted-to.pdf>
@@ -1671,7 +1697,7 @@ Package epstopdf Info: Source file: <theo_vs_simu_V2.eps>
 ted-to.pdf theo_vs_simu_V2.eps>
 (epstopdf)             \includegraphics on input line 293.
 Package epstopdf Info: Output file is already uptodate.
- <theo_vs_simu_V2-eps-converted-to.pdf, id=230, 348.30125pt x 261.97874pt>
+ <theo_vs_simu_V2-eps-converted-to.pdf, id=239, 348.30125pt x 261.97874pt>
 File: theo_vs_simu_V2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use theo_vs_simu_V2-eps-converted-to.pdf>
@@ -1690,7 +1716,7 @@ ps-converted-to.pdf Mode1_bestchannelgain_V2.eps>
 (epstopdf)             \includegraphics on input line 300.
 Package epstopdf Info: Output file is already uptodate.
 
-<Mode1_bestchannelgain_V2-eps-converted-to.pdf, id=231, 443.6575pt x 316.18124p
+<Mode1_bestchannelgain_V2-eps-converted-to.pdf, id=240, 443.6575pt x 316.18124p
 t>
 File: Mode1_bestchannelgain_V2-eps-converted-to.pdf Graphic file (type pdf)
  <use Mode1_bestchannelgain_V2-eps-converted-to.pdf>
@@ -1709,7 +1735,7 @@ ps-converted-to.pdf Mode2_bestchannelgain_V2.eps>
 (epstopdf)             \includegraphics on input line 306.
 Package epstopdf Info: Output file is already uptodate.
 
-<Mode2_bestchannelgain_V2-eps-converted-to.pdf, id=232, 440.64626pt x 311.1625p
+<Mode2_bestchannelgain_V2-eps-converted-to.pdf, id=241, 440.64626pt x 311.1625p
 t>
 File: Mode2_bestchannelgain_V2-eps-converted-to.pdf Graphic file (type pdf)
  <use Mode2_bestchannelgain_V2-eps-converted-to.pdf>
@@ -1728,7 +1754,7 @@ ps-converted-to.pdf Mode3_bestchannelgain_V2.eps>
 (epstopdf)             \includegraphics on input line 312.
 Package epstopdf Info: Output file is already uptodate.
 
-<Mode3_bestchannelgain_V2-eps-converted-to.pdf, id=233, 465.74pt x 329.23pt>
+<Mode3_bestchannelgain_V2-eps-converted-to.pdf, id=242, 465.74pt x 329.23pt>
 File: Mode3_bestchannelgain_V2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Mode3_bestchannelgain_V2-eps-converted-to.pdf>
@@ -1747,7 +1773,7 @@ de1_V2-eps-converted-to.pdf OutageDuration_Rayleigh_Mode1_V2.eps>
 (epstopdf)             \includegraphics on input line 321.
 Package epstopdf Info: Output file is already uptodate.
 
-<OutageDuration_Rayleigh_Mode1_V2-eps-converted-to.pdf, id=234, 502.87875pt x 3
+<OutageDuration_Rayleigh_Mode1_V2-eps-converted-to.pdf, id=243, 502.87875pt x 3
 53.32pt>
 File: OutageDuration_Rayleigh_Mode1_V2-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1767,7 +1793,7 @@ de2_V2-eps-converted-to.pdf OutageDuration_Rayleigh_Mode2_V2.eps>
 (epstopdf)             \includegraphics on input line 327.
 Package epstopdf Info: Output file is already uptodate.
 
-<OutageDuration_Rayleigh_Mode2_V2-eps-converted-to.pdf, id=235, 501.875pt x 354
+<OutageDuration_Rayleigh_Mode2_V2-eps-converted-to.pdf, id=244, 501.875pt x 354
 .32375pt>
 File: OutageDuration_Rayleigh_Mode2_V2-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1787,7 +1813,7 @@ de3_V2-eps-converted-to.pdf OutageDuration_Rayleigh_Mode3_V2.eps>
 (epstopdf)             \includegraphics on input line 333.
 Package epstopdf Info: Output file is already uptodate.
 
-<OutageDuration_Rayleigh_Mode3_V2-eps-converted-to.pdf, id=236, 503.8825pt x 35
+<OutageDuration_Rayleigh_Mode3_V2-eps-converted-to.pdf, id=245, 503.8825pt x 35
 2.31625pt>
 File: OutageDuration_Rayleigh_Mode3_V2-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1852,7 +1878,7 @@ verted-to.pdf outagefrequency_V2.eps>
 (epstopdf)             \includegraphics on input line 362.
 Package epstopdf Info: Output file is already uptodate.
 
-<outagefrequency_V2-eps-converted-to.pdf, id=294, 420.57124pt x 316.18124pt>
+<outagefrequency_V2-eps-converted-to.pdf, id=303, 420.57124pt x 316.18124pt>
 File: outagefrequency_V2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use outagefrequency_V2-eps-converted-to.pdf>
@@ -1901,7 +1927,7 @@ Package epstopdf Info: Source file: <building.eps>
 pdf building.eps>
 (epstopdf)             \includegraphics on input line 7.
 Package epstopdf Info: Output file is already uptodate.
- <building-eps-converted-to.pdf, id=312, 263.98625pt x 201.75375pt>
+ <building-eps-converted-to.pdf, id=322, 263.98625pt x 201.75375pt>
 File: building-eps-converted-to.pdf Graphic file (type pdf)
 
 <use building-eps-converted-to.pdf>
@@ -1939,7 +1965,7 @@ Package epstopdf Info: Source file: <finalsystemab_V3.eps>
 rted-to.pdf finalsystemab_V3.eps>
 (epstopdf)             \includegraphics on input line 24.
 Package epstopdf Info: Output file is already uptodate.
- <finalsystemab_V3-eps-converted-to.pdf, id=328, 1707.37875pt x 501.875pt>
+ <finalsystemab_V3-eps-converted-to.pdf, id=337, 1707.37875pt x 501.875pt>
 File: finalsystemab_V3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use finalsystemab_V3-eps-converted-to.pdf>
@@ -2027,7 +2053,7 @@ Package epstopdf Info: Source file: <result_Plot_new.eps>
 ted-to.pdf result_Plot_new.eps>
 (epstopdf)             \includegraphics on input line 240.
 Package epstopdf Info: Output file is already uptodate.
- <result_Plot_new-eps-converted-to.pdf, id=371, 490.83376pt x 372.39125pt>
+ <result_Plot_new-eps-converted-to.pdf, id=381, 490.83376pt x 372.39125pt>
 File: result_Plot_new-eps-converted-to.pdf Graphic file (type pdf)
 
 <use result_Plot_new-eps-converted-to.pdf>
@@ -2057,7 +2083,6 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 [53]
 Chapter 4.
-) (./Chapter5.tex
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
@@ -2067,23 +2092,13 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 [54
 
 ]
-Chapter 5.
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[55
-
-]
-
-LaTeX Warning: Citation `xu2004binary' on page 56 undefined on input line 7.
-
-
-LaTeX Warning: Citation `tan2006compound' on page 56 undefined on input line 7.
-
-
+[55]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
@@ -2092,33 +2107,10 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 [56]
 
-LaTeX Warning: Reference `Related Work and Motivations' on page 57 undefined on
- input line 8.
+LaTeX Warning: Reference `4:OutageProb' on page 57 undefined on input line 16.
 
 
-LaTeX Warning: Reference `legacy' on page 57 undefined on input line 8.
-
-
-LaTeX Warning: Reference `Design' on page 57 undefined on input line 8.
-
-
-LaTeX Warning: Reference `Conclusions and Future Work' on page 57 undefined on 
-input line 8.
-
-
-LaTeX Warning: Citation `niu2015survey' on page 57 undefined on input line 14.
-
-
-LaTeX Warning: Citation `rappaport2013millimeter' on page 57 undefined on input
- line 14.
-
-
-LaTeX Warning: Citation `sun2014millimeter' on page 57 undefined on input line 
-14.
-
-
-LaTeX Warning: Citation `roh2014millimeter' on page 57 undefined on input line 
-14.
+LaTeX Warning: Reference `4:Conclusion' on page 57 undefined on input line 16.
 
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -2133,10 +2125,12 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[58]
+[58] <ShadowFieldDeCorr20.jpg, id=412, 817.0525pt x 587.19376pt>
+File: ShadowFieldDeCorr20.jpg Graphic file (type jpg)
 
-LaTeX Warning: Citation `winstein2013tcp' on page 59 undefined on input line 19
-.
+<use ShadowFieldDeCorr20.jpg>
+Package pdftex.def Info: ShadowFieldDeCorr20.jpg used on input line 48.
+(pdftex.def)             Requested size: 284.52756pt x 204.48155pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -2145,167 +2139,23 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [59]
-
-LaTeX Warning: Reference `genitopo' on page 60 undefined on input line 32.
-
-<topologyGeni.png, id=406, 505.89pt x 221.82875pt>
-File: topologyGeni.png Graphic file (type png)
- <use topologyGeni.png>
-Package pdftex.def Info: topologyGeni.png used on input line 35.
-(pdftex.def)             Requested size: 398.33858pt x 174.67073pt.
-
-
-LaTeX Warning: Reference `1st' on page 60 undefined on input line 39.
-
-
-LaTeX Warning: Reference `2nd' on page 60 undefined on input line 39.
-
-
-LaTeX Warning: Reference `3rd' on page 60 undefined on input line 39.
-
-
-LaTeX Warning: Reference `4th' on page 60 undefined on input line 39.
-
-
-LaTeX Warning: Reference `1st' on page 60 undefined on input line 39.
-
-
-LaTeX Warning: Reference `2nd' on page 60 undefined on input line 39.
-
-
-LaTeX Warning: Reference `3rd' on page 60 undefined on input line 39.
-
-
-LaTeX Warning: Reference `4th' on page 60 undefined on input line 39.
-
-
-LaTeX Warning: Reference `1st' on page 60 undefined on input line 39.
-
-
-LaTeX Warning: Reference `3rd' on page 60 undefined on input line 39.
-
-
-LaTeX Warning: Reference `1st' on page 60 undefined on input line 39.
-
-
-LaTeX Warning: Reference `3rd' on page 60 undefined on input line 39.
-
-
-LaTeX Warning: Reference `2nd' on page 60 undefined on input line 39.
-
-
-LaTeX Warning: Reference `3rd' on page 60 undefined on input line 39.
-
-Package epstopdf Info: Source file: <1.eps>
-(epstopdf)                    date: 2017-03-24 19:49:56
-(epstopdf)                    size: 241701 bytes
-(epstopdf)             Output file: <1-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-03-24 19:49:56
-(epstopdf)                    size: 55344 bytes
-(epstopdf)             Command: <repstopdf --outfile=1-eps-converted-to.pdf 1.e
-ps>
-(epstopdf)             \includegraphics on input line 42.
-Package epstopdf Info: Output file is already uptodate.
-<1-eps-converted-to.pdf, id=407, 1284.8pt x 641.39626pt>
-File: 1-eps-converted-to.pdf Graphic file (type pdf)
-
-<use 1-eps-converted-to.pdf>
-Package pdftex.def Info: 1-eps-converted-to.pdf used on input line 42.
-(pdftex.def)             Requested size: 398.33858pt x 198.86014pt.
-Package epstopdf Info: Source file: <2.eps>
-(epstopdf)                    date: 2017-03-24 19:49:56
-(epstopdf)                    size: 239983 bytes
-(epstopdf)             Output file: <2-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-03-24 19:49:56
-(epstopdf)                    size: 67032 bytes
-(epstopdf)             Command: <repstopdf --outfile=2-eps-converted-to.pdf 2.e
-ps>
-(epstopdf)             \includegraphics on input line 48.
-Package epstopdf Info: Output file is already uptodate.
-
-<2-eps-converted-to.pdf, id=408, 1284.8pt x 641.39626pt>
-File: 2-eps-converted-to.pdf Graphic file (type pdf)
-
-<use 2-eps-converted-to.pdf>
-Package pdftex.def Info: 2-eps-converted-to.pdf used on input line 48.
-(pdftex.def)             Requested size: 398.33858pt x 198.86014pt.
-Package epstopdf Info: Source file: <3.eps>
-(epstopdf)                    date: 2017-03-24 19:49:56
-(epstopdf)                    size: 241680 bytes
-(epstopdf)             Output file: <3-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-03-24 19:49:56
-(epstopdf)                    size: 59712 bytes
-(epstopdf)             Command: <repstopdf --outfile=3-eps-converted-to.pdf 3.e
-ps>
-(epstopdf)             \includegraphics on input line 54.
-Package epstopdf Info: Output file is already uptodate.
-
-<3-eps-converted-to.pdf, id=409, 1284.8pt x 641.39626pt>
-File: 3-eps-converted-to.pdf Graphic file (type pdf)
-
-<use 3-eps-converted-to.pdf>
-Package pdftex.def Info: 3-eps-converted-to.pdf used on input line 54.
-(pdftex.def)             Requested size: 398.33858pt x 198.86014pt.
-Package epstopdf Info: Source file: <4.eps>
-(epstopdf)                    date: 2017-03-24 19:49:56
-(epstopdf)                    size: 240337 bytes
-(epstopdf)             Output file: <4-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-03-24 19:49:56
-(epstopdf)                    size: 75280 bytes
-(epstopdf)             Command: <repstopdf --outfile=4-eps-converted-to.pdf 4.e
-ps>
+Package epstopdf Info: Source file: <outageArea.eps>
+(epstopdf)                    date: 2017-04-04 20:10:50
+(epstopdf)                    size: 664515 bytes
+(epstopdf)             Output file: <outageArea-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-04-04 20:10:50
+(epstopdf)                    size: 201324 bytes
+(epstopdf)             Command: <repstopdf --outfile=outageArea-eps-converted-t
+o.pdf outageArea.eps>
 (epstopdf)             \includegraphics on input line 60.
 Package epstopdf Info: Output file is already uptodate.
+ <outageArea-eps-converted-to.pdf, id=416, 915.42pt x 368.37625pt>
+File: outageArea-eps-converted-to.pdf Graphic file (type pdf)
 
-<4-eps-converted-to.pdf, id=410, 1284.8pt x 641.39626pt>
-File: 4-eps-converted-to.pdf Graphic file (type pdf)
+<use outageArea-eps-converted-to.pdf>
+Package pdftex.def Info: outageArea-eps-converted-to.pdf used on input line 60.
 
-<use 4-eps-converted-to.pdf>
-Package pdftex.def Info: 4-eps-converted-to.pdf used on input line 60.
-(pdftex.def)             Requested size: 398.33858pt x 198.86014pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[60 <./topologyGeni.png>]
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[61]
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[62 <./1-eps-converted-to.pdf> <./2-eps-converted-to.pdf>]
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[63 <./3-eps-converted-to.pdf> <./4-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `layout' on page 64 undefined on input line 68.
-
-<6layout.pdf, id=456, 516.86018pt x 242.1076pt>
-File: 6layout.pdf Graphic file (type pdf)
- <use 6layout.pdf>
-Package pdftex.def Info: 6layout.pdf used on input line 82.
-(pdftex.def)             Requested size: 284.52756pt x 133.2815pt.
-
-
-LaTeX Warning: Citation `TraceFormat' on page 64 undefined on input line 86.
-
-
-LaTeX Warning: Reference `NS2Format' on page 64 undefined on input line 86.
+(pdftex.def)             Requested size: 398.33858pt x 160.29295pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -2313,179 +2163,214 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[64 <./6layout.pdf>]
-Package epstopdf Info: Source file: <format.eps>
-(epstopdf)                    date: 2017-03-24 19:49:56
-(epstopdf)                    size: 944841 bytes
-(epstopdf)             Output file: <format-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-03-24 19:49:56
-(epstopdf)                    size: 10030 bytes
-(epstopdf)             Command: <repstopdf --outfile=format-eps-converted-to.pd
-f format.eps>
-(epstopdf)             \includegraphics on input line 90.
+[60 <./ShadowFieldDeCorr20.jpg>]
+Package epstopdf Info: Source file: <systemLayout.eps>
+(epstopdf)                    date: 2017-04-04 20:10:50
+(epstopdf)                    size: 19878 bytes
+(epstopdf)             Output file: <systemLayout-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-04-04 20:10:50
+(epstopdf)                    size: 7703 bytes
+(epstopdf)             Command: <repstopdf --outfile=systemLayout-eps-converted
+-to.pdf systemLayout.eps>
+(epstopdf)             \includegraphics on input line 75.
 Package epstopdf Info: Output file is already uptodate.
 
-<format-eps-converted-to.pdf, id=471, 548.0475pt x 284.06125pt>
-File: format-eps-converted-to.pdf Graphic file (type pdf)
+<systemLayout-eps-converted-to.pdf, id=422, 1215.54124pt x 445.665pt>
+File: systemLayout-eps-converted-to.pdf Graphic file (type pdf)
 
-<use format-eps-converted-to.pdf>
-Package pdftex.def Info: format-eps-converted-to.pdf used on input line 90.
-(pdftex.def)             Requested size: 284.52756pt x 147.47862pt.
+<use systemLayout-eps-converted-to.pdf>
+Package pdftex.def Info: systemLayout-eps-converted-to.pdf used on input line 7
+5.
+(pdftex.def)             Requested size: 398.33858pt x 146.04306pt.
 
 
-LaTeX Warning: Reference `queuelengthCubic' on page 65 undefined on input line 
-99.
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-Package epstopdf Info: Source file: <QueueLengthCubic.eps>
-(epstopdf)                    date: 2017-03-24 19:49:56
-(epstopdf)                    size: 97752 bytes
-(epstopdf)             Output file: <QueueLengthCubic-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-03-24 19:49:56
-(epstopdf)                    size: 30057 bytes
-(epstopdf)             Command: <repstopdf --outfile=QueueLengthCubic-eps-conve
-rted-to.pdf QueueLengthCubic.eps>
-(epstopdf)             \includegraphics on input line 123.
+[61 <./outageArea-eps-converted-to.pdf> <./systemLayout-eps-converted-to.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[62]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[63]
+Overfull \hbox (0.8959pt too wide) in paragraph at lines 146--173
+\T1/cmr/m/n/12 where $\OT1/cmr/bx/n/12 s$ \T1/cmr/m/n/12 is the cor-re-lated sh
+adow fad-ing ex-pe-ri-enced by all Base Sta-tions, $\OML/cmm/m/it/12 g\OT1/cmr/
+m/n/12 (\OML/cmm/m/it/12 PL[]S[] \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[64]
+Package epstopdf Info: Source file: <GridVSRandom.eps>
+(epstopdf)                    date: 2017-04-04 20:10:50
+(epstopdf)                    size: 342337 bytes
+(epstopdf)             Output file: <GridVSRandom-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-04-04 20:10:50
+(epstopdf)                    size: 63482 bytes
+(epstopdf)             Command: <repstopdf --outfile=GridVSRandom-eps-converted
+-to.pdf GridVSRandom.eps>
+(epstopdf)             \includegraphics on input line 203.
 Package epstopdf Info: Output file is already uptodate.
-<QueueLengthCubic-eps-converted-to.pdf, id=472, 1035.87pt x 587.19376pt>
-File: QueueLengthCubic-eps-converted-to.pdf Graphic file (type pdf)
+ <GridVSRandom-eps-converted-to.pdf, id=453, 1284.8pt x 700.6175pt>
+File: GridVSRandom-eps-converted-to.pdf Graphic file (type pdf)
 
-<use QueueLengthCubic-eps-converted-to.pdf>
-Package pdftex.def Info: QueueLengthCubic-eps-converted-to.pdf used on input li
-ne 123.
-(pdftex.def)             Requested size: 284.52756pt x 161.28613pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[65 <./format-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `tab:simuPara' on page 66 undefined on input line 145.
-
-
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[66 <./QueueLengthCubic-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `LRRoc' on page 67 undefined on input line 178.
-
-<LRRoc.png, id=490, 578.16pt x 433.62pt>
-File: LRRoc.png Graphic file (type png)
- <use LRRoc.png>
-Package pdftex.def Info: LRRoc.png used on input line 181.
-(pdftex.def)             Requested size: 284.52756pt x 213.39536pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[67]
-
-LaTeX Warning: Reference `DecisionTreeRoc' on page 68 undefined on input line 1
-89.
-
-<DecisionTreeRoc.png, id=494, 578.16pt x 433.62pt>
-File: DecisionTreeRoc.png Graphic file (type png)
- <use DecisionTreeRoc.png>
-Package pdftex.def Info: DecisionTreeRoc.png used on input line 199.
-(pdftex.def)             Requested size: 170.71652pt x 128.03589pt.
-
-<DTRoc.png, id=495, 578.16pt x 433.62pt>
-File: DTRoc.png Graphic file (type png)
- <use DTRoc.png>
-Package pdftex.def Info: DTRoc.png used on input line 205.
-(pdftex.def)             Requested size: 170.71652pt x 128.03589pt.
-
-
-LaTeX Warning: Reference `DTRoc' on page 68 undefined on input line 212.
-
-
-LaTeX Warning: Reference `DT' on page 68 undefined on input line 219.
-
-
-LaTeX Warning: Reference `DT' on page 68 undefined on input line 219.
-
-
-LaTeX Warning: Reference `CDFrtt' on page 68 undefined on input line 219.
-
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[68 <./LRRoc.png>] <tree.png, id=500, 1502.61375pt x 444.66125pt>
-File: tree.png Graphic file (type png)
-
-<use tree.png>
-Package pdftex.def Info: tree.png used on input line 223.
-(pdftex.def)             Requested size: 415.54726pt x 113.81117pt.
-Package epstopdf Info: Source file: <cdfrtt1.eps>
-(epstopdf)                    date: 2017-03-24 19:49:56
-(epstopdf)                    size: 474606 bytes
-(epstopdf)             Output file: <cdfrtt1-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-03-24 19:49:56
-(epstopdf)                    size: 76726 bytes
-(epstopdf)             Command: <repstopdf --outfile=cdfrtt1-eps-converted-to.p
-df cdfrtt1.eps>
-(epstopdf)             \includegraphics on input line 230.
+<use GridVSRandom-eps-converted-to.pdf>
+Package pdftex.def Info: GridVSRandom-eps-converted-to.pdf used on input line 2
+03.
+(pdftex.def)             Requested size: 284.52756pt x 155.15192pt.
+Package epstopdf Info: Source file: <OutageProbGridVSRandom.eps>
+(epstopdf)                    date: 2017-04-04 20:10:50
+(epstopdf)                    size: 15054 bytes
+(epstopdf)             Output file: <OutageProbGridVSRandom-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2017-04-04 20:10:50
+(epstopdf)                    size: 9230 bytes
+(epstopdf)             Command: <repstopdf --outfile=OutageProbGridVSRandom-eps
+-converted-to.pdf OutageProbGridVSRandom.eps>
+(epstopdf)             \includegraphics on input line 209.
 Package epstopdf Info: Output file is already uptodate.
 
-<cdfrtt1-eps-converted-to.pdf, id=501, 817.0525pt x 587.19376pt>
-File: cdfrtt1-eps-converted-to.pdf Graphic file (type pdf)
+<OutageProbGridVSRandom-eps-converted-to.pdf, id=454, 562.1pt x 421.575pt>
+File: OutageProbGridVSRandom-eps-converted-to.pdf Graphic file (type pdf)
 
-<use cdfrtt1-eps-converted-to.pdf>
-Package pdftex.def Info: cdfrtt1-eps-converted-to.pdf used on input line 230.
-(pdftex.def)             Requested size: 170.71652pt x 122.68713pt.
-Package epstopdf Info: Source file: <cdfrtt2.eps>
-(epstopdf)                    date: 2017-03-24 19:49:56
-(epstopdf)                    size: 55719 bytes
-(epstopdf)             Output file: <cdfrtt2-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-03-24 19:49:56
-(epstopdf)                    size: 19375 bytes
-(epstopdf)             Command: <repstopdf --outfile=cdfrtt2-eps-converted-to.p
-df cdfrtt2.eps>
-(epstopdf)             \includegraphics on input line 236.
+<use OutageProbGridVSRandom-eps-converted-to.pdf>
+Package pdftex.def Info: OutageProbGridVSRandom-eps-converted-to.pdf used on in
+put line 209.
+(pdftex.def)             Requested size: 284.52756pt x 213.39221pt.
+Package epstopdf Info: Source file: <NBMax1000OutageProbCDFiid.eps>
+(epstopdf)                    date: 2017-04-06 20:33:31
+(epstopdf)                    size: 421568 bytes
+(epstopdf)             Output file: <NBMax1000OutageProbCDFiid-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2017-04-06 21:18:36
+(epstopdf)                    size: 86858 bytes
+(epstopdf)             Command: <repstopdf --outfile=NBMax1000OutageProbCDFiid-
+eps-converted-to.pdf NBMax1000OutageProbCDFiid.eps>
+(epstopdf)             \includegraphics on input line 217.
 Package epstopdf Info: Output file is already uptodate.
 
-<cdfrtt2-eps-converted-to.pdf, id=502, 817.0525pt x 587.19376pt>
-File: cdfrtt2-eps-converted-to.pdf Graphic file (type pdf)
+<NBMax1000OutageProbCDFiid-eps-converted-to.pdf, id=455, 898.35625pt x 594.22pt
+>
+File: NBMax1000OutageProbCDFiid-eps-converted-to.pdf Graphic file (type pdf)
+ <use NBMax1000OutageProbCDFiid-eps-converted-to.pdf>
+Package pdftex.def Info: NBMax1000OutageProbCDFiid-eps-converted-to.pdf used on
+ input line 217.
+(pdftex.def)             Requested size: 284.52756pt x 188.1958pt.
+Package epstopdf Info: Source file: <NBMax1000OutageProbCDFDeCorr20.eps>
+(epstopdf)                    date: 2017-04-06 20:33:31
+(epstopdf)                    size: 410607 bytes
+(epstopdf)             Output file: <NBMax1000OutageProbCDFDeCorr20-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2017-04-06 21:19:21
+(epstopdf)                    size: 77052 bytes
+(epstopdf)             Command: <repstopdf --outfile=NBMax1000OutageProbCDFDeCo
+rr20-eps-converted-to.pdf NBMax1000OutageProbCDFDeCorr20.eps>
+(epstopdf)             \includegraphics on input line 223.
+Package epstopdf Info: Output file is already uptodate.
 
-<use cdfrtt2-eps-converted-to.pdf>
-Package pdftex.def Info: cdfrtt2-eps-converted-to.pdf used on input line 236.
-(pdftex.def)             Requested size: 170.71652pt x 122.68713pt.
+<NBMax1000OutageProbCDFDeCorr20-eps-converted-to.pdf, id=456, 898.35625pt x 594
+.22pt>
+File: NBMax1000OutageProbCDFDeCorr20-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use NBMax1000OutageProbCDFDeCorr20-eps-converted-to.pdf>
+Package pdftex.def Info: NBMax1000OutageProbCDFDeCorr20-eps-converted-to.pdf us
+ed on input line 223.
+(pdftex.def)             Requested size: 284.52756pt x 188.1958pt.
+Package epstopdf Info: Source file: <NBMax1000OutageProbCDFDeCorr200.eps>
+(epstopdf)                    date: 2017-04-06 20:33:31
+(epstopdf)                    size: 414026 bytes
+(epstopdf)             Output file: <NBMax1000OutageProbCDFDeCorr200-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2017-04-06 21:19:52
+(epstopdf)                    size: 79895 bytes
+(epstopdf)             Command: <repstopdf --outfile=NBMax1000OutageProbCDFDeCo
+rr200-eps-converted-to.pdf NBMax1000OutageProbCDFDeCorr200.eps>
+(epstopdf)             \includegraphics on input line 229.
+Package epstopdf Info: Output file is already uptodate.
 
+<NBMax1000OutageProbCDFDeCorr200-eps-converted-to.pdf, id=457, 898.35625pt x 59
+4.22pt>
+File: NBMax1000OutageProbCDFDeCorr200-eps-converted-to.pdf Graphic file (type p
+df)
+ <use NBMax1000OutageProbCDFDeCorr200-eps-converted-to.pdf>
+Package pdftex.def Info: NBMax1000OutageProbCDFDeCorr200-eps-converted-to.pdf u
+sed on input line 229.
+(pdftex.def)             Requested size: 284.52756pt x 188.1958pt.
+Package epstopdf Info: Source file: <MaxMax1000OutageProbCDFiid.eps>
+(epstopdf)                    date: 2017-04-06 20:33:31
+(epstopdf)                    size: 1281466 bytes
+(epstopdf)             Output file: <MaxMax1000OutageProbCDFiid-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2017-04-06 21:21:24
+(epstopdf)                    size: 108315 bytes
+(epstopdf)             Command: <repstopdf --outfile=MaxMax1000OutageProbCDFiid
+-eps-converted-to.pdf MaxMax1000OutageProbCDFiid.eps>
+(epstopdf)             \includegraphics on input line 237.
+Package epstopdf Info: Output file is already uptodate.
 
-LaTeX Warning: Reference `tab:varyRTT' on page 69 undefined on input line 253.
+<MaxMax1000OutageProbCDFiid-eps-converted-to.pdf, id=458, 898.35625pt x 593.216
+25pt>
+File: MaxMax1000OutageProbCDFiid-eps-converted-to.pdf Graphic file (type pdf)
+ <use MaxMax1000OutageProbCDFiid-eps-converted-to.pdf>
+Package pdftex.def Info: MaxMax1000OutageProbCDFiid-eps-converted-to.pdf used o
+n input line 237.
+(pdftex.def)             Requested size: 284.52756pt x 187.8779pt.
+Package epstopdf Info: Source file: <MaxMax1000OutageProbCDFDeCorr20.eps>
+(epstopdf)                    date: 2017-04-06 20:33:31
+(epstopdf)                    size: 319686 bytes
+(epstopdf)             Output file: <MaxMax1000OutageProbCDFDeCorr20-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2017-04-06 21:25:24
+(epstopdf)                    size: 57517 bytes
+(epstopdf)             Command: <repstopdf --outfile=MaxMax1000OutageProbCDFDeC
+orr20-eps-converted-to.pdf MaxMax1000OutageProbCDFDeCorr20.eps>
+(epstopdf)             \includegraphics on input line 243.
+Package epstopdf Info: Output file is already uptodate.
 
+<MaxMax1000OutageProbCDFDeCorr20-eps-converted-to.pdf, id=459, 900.36375pt x 59
+4.22pt>
+File: MaxMax1000OutageProbCDFDeCorr20-eps-converted-to.pdf Graphic file (type p
+df)
+ <use MaxMax1000OutageProbCDFDeCorr20-eps-converted-to.pdf>
+Package pdftex.def Info: MaxMax1000OutageProbCDFDeCorr20-eps-converted-to.pdf u
+sed on input line 243.
+(pdftex.def)             Requested size: 284.52756pt x 187.77872pt.
+Package epstopdf Info: Source file: <MaxMax1000OutageProbCDFDeCorr200.eps>
+(epstopdf)                    date: 2017-04-06 20:33:31
+(epstopdf)                    size: 327724 bytes
+(epstopdf)             Output file: <MaxMax1000OutageProbCDFDeCorr200-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2017-04-06 21:25:25
+(epstopdf)                    size: 60005 bytes
+(epstopdf)             Command: <repstopdf --outfile=MaxMax1000OutageProbCDFDeC
+orr200-eps-converted-to.pdf MaxMax1000OutageProbCDFDeCorr200.eps>
+(epstopdf)             \includegraphics on input line 249.
+Package epstopdf Info: Output file is already uptodate.
 
-LaTeX Warning: Reference `LRROCDiff' on page 69 undefined on input line 268.
-
-
-LaTeX Warning: Reference `DTROCDiff' on page 69 undefined on input line 269.
-
-
-LaTeX Warning: Reference `CDFrttDiff' on page 69 undefined on input line 269.
-
-<LRRocDiffProp.png, id=503, 578.16pt x 433.62pt>
-File: LRRocDiffProp.png Graphic file (type png)
- <use LRRocDiffProp.png>
-Package pdftex.def Info: LRRocDiffProp.png used on input line 272.
-(pdftex.def)             Requested size: 199.16928pt x 149.3741pt.
-
-<DTRocDiffProp.png, id=504, 578.16pt x 433.62pt>
-File: DTRocDiffProp.png Graphic file (type png)
- <use DTRocDiffProp.png>
-Package pdftex.def Info: DTRocDiffProp.png used on input line 277.
-(pdftex.def)             Requested size: 199.16928pt x 149.3741pt.
+<MaxMax1000OutageProbCDFDeCorr200-eps-converted-to.pdf, id=460, 901.3675pt x 59
+4.22pt>
+File: MaxMax1000OutageProbCDFDeCorr200-eps-converted-to.pdf Graphic file (type 
+pdf)
+ <use MaxMax1000OutageProbCDFDeCorr200-eps-converted-to.pdf>
+Package pdftex.def Info: MaxMax1000OutageProbCDFDeCorr200-eps-converted-to.pdf 
+used on input line 249.
+(pdftex.def)             Requested size: 284.52756pt x 187.57018pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -2493,79 +2378,215 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[69 <./DecisionTreeRoc.png> <./DTRoc.png> <./tree.png>]) (./Conclusion.tex
+[65]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[70 <./cdfrtt1-eps-converted-to.pdf> <./cdfrtt2-eps-converted-to.pdf>]
+[66 <./GridVSRandom-eps-converted-to.pdf> <./OutageProbGridVSRandom-eps-convert
+ed-to.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[71 <./LRRocDiffProp.png> <./DTRocDiffProp.png>]
-Chapter 6.
-) (./Appendices.tex
+[67 <./NBMax1000OutageProbCDFiid-eps-converted-to.pdf> <./NBMax1000OutageProbCD
+FDeCorr20-eps-converted-to.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[72
+[68 <./NBMax1000OutageProbCDFDeCorr200-eps-converted-to.pdf> <./MaxMax1000Outag
+eProbCDFiid-eps-converted-to.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[69 <./MaxMax1000OutageProbCDFDeCorr20-eps-converted-to.pdf> <./MaxMax1000Outag
+eProbCDFDeCorr200-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <NBMax1000OutageProbThresh-5iid.eps>
+(epstopdf)                    date: 2017-04-06 20:33:31
+(epstopdf)                    size: 24987 bytes
+(epstopdf)             Output file: <NBMax1000OutageProbThresh-5iid-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2017-04-06 21:16:54
+(epstopdf)                    size: 10448 bytes
+(epstopdf)             Command: <repstopdf --outfile=NBMax1000OutageProbThresh-
+5iid-eps-converted-to.pdf NBMax1000OutageProbThresh-5iid.eps>
+(epstopdf)             \includegraphics on input line 260.
+Package epstopdf Info: Output file is already uptodate.
+
+<NBMax1000OutageProbThresh-5iid-eps-converted-to.pdf, id=570, 562.1pt x 421.575
+pt>
+File: NBMax1000OutageProbThresh-5iid-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use NBMax1000OutageProbThresh-5iid-eps-converted-to.pdf>
+Package pdftex.def Info: NBMax1000OutageProbThresh-5iid-eps-converted-to.pdf us
+ed on input line 260.
+(pdftex.def)             Requested size: 284.52756pt x 213.39221pt.
+Package epstopdf Info: Source file: <MaxMax1000OutageProbThresh-5iid.eps>
+(epstopdf)                    date: 2017-04-06 20:33:31
+(epstopdf)                    size: 24404 bytes
+(epstopdf)             Output file: <MaxMax1000OutageProbThresh-5iid-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2017-04-06 21:16:54
+(epstopdf)                    size: 10295 bytes
+(epstopdf)             Command: <repstopdf --outfile=MaxMax1000OutageProbThresh
+-5iid-eps-converted-to.pdf MaxMax1000OutageProbThresh-5iid.eps>
+(epstopdf)             \includegraphics on input line 266.
+Package epstopdf Info: Output file is already uptodate.
+
+<MaxMax1000OutageProbThresh-5iid-eps-converted-to.pdf, id=571, 562.1pt x 421.57
+5pt>
+File: MaxMax1000OutageProbThresh-5iid-eps-converted-to.pdf Graphic file (type p
+df)
+ <use MaxMax1000OutageProbThresh-5iid-eps-converted-to.pdf>
+Package pdftex.def Info: MaxMax1000OutageProbThresh-5iid-eps-converted-to.pdf u
+sed on input line 266.
+(pdftex.def)             Requested size: 284.52756pt x 213.39221pt.
+Package epstopdf Info: Source file: <ODthresh-5iidNB.eps>
+(epstopdf)                    date: 2017-04-06 20:33:31
+(epstopdf)                    size: 99206 bytes
+(epstopdf)             Output file: <ODthresh-5iidNB-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-04-06 21:30:36
+(epstopdf)                    size: 9868 bytes
+(epstopdf)             Command: <repstopdf --outfile=ODthresh-5iidNB-eps-conver
+ted-to.pdf ODthresh-5iidNB.eps>
+(epstopdf)             \includegraphics on input line 272.
+Package epstopdf Info: Output file is already uptodate.
+
+<ODthresh-5iidNB-eps-converted-to.pdf, id=572, 661.47125pt x 595.22375pt>
+File: ODthresh-5iidNB-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ODthresh-5iidNB-eps-converted-to.pdf>
+Package pdftex.def Info: ODthresh-5iidNB-eps-converted-to.pdf used on input lin
+e 272.
+(pdftex.def)             Requested size: 284.52756pt x 256.02296pt.
+Package epstopdf Info: Source file: <ODthresh-5iidMax.eps>
+(epstopdf)                    date: 2017-04-06 20:33:31
+(epstopdf)                    size: 98496 bytes
+(epstopdf)             Output file: <ODthresh-5iidMax-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-04-06 21:30:37
+(epstopdf)                    size: 9608 bytes
+(epstopdf)             Command: <repstopdf --outfile=ODthresh-5iidMax-eps-conve
+rted-to.pdf ODthresh-5iidMax.eps>
+(epstopdf)             \includegraphics on input line 278.
+Package epstopdf Info: Output file is already uptodate.
+
+<ODthresh-5iidMax-eps-converted-to.pdf, id=573, 660.4675pt x 595.22375pt>
+File: ODthresh-5iidMax-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ODthresh-5iidMax-eps-converted-to.pdf>
+Package pdftex.def Info: ODthresh-5iidMax-eps-converted-to.pdf used on input li
+ne 278.
+(pdftex.def)             Requested size: 284.52756pt x 256.43167pt.
+Package epstopdf Info: Source file: <ODthresh-5DeCorr200NB.eps>
+(epstopdf)                    date: 2017-04-06 20:33:31
+(epstopdf)                    size: 156581 bytes
+(epstopdf)             Output file: <ODthresh-5DeCorr200NB-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2017-04-06 21:30:37
+(epstopdf)                    size: 21944 bytes
+(epstopdf)             Command: <repstopdf --outfile=ODthresh-5DeCorr200NB-eps-
+converted-to.pdf ODthresh-5DeCorr200NB.eps>
+(epstopdf)             \includegraphics on input line 284.
+Package epstopdf Info: Output file is already uptodate.
+
+<ODthresh-5DeCorr200NB-eps-converted-to.pdf, id=574, 659.46375pt x 595.22375pt>
+File: ODthresh-5DeCorr200NB-eps-converted-to.pdf Graphic file (type pdf)
+<use ODthresh-5DeCorr200NB-eps-converted-to.pdf>
+Package pdftex.def Info: ODthresh-5DeCorr200NB-eps-converted-to.pdf used on inp
+ut line 284.
+(pdftex.def)             Requested size: 284.52756pt x 256.81313pt.
+Package epstopdf Info: Source file: <ODthresh-5DeCorr200Max.eps>
+(epstopdf)                    date: 2017-04-06 20:33:31
+(epstopdf)                    size: 154529 bytes
+(epstopdf)             Output file: <ODthresh-5DeCorr200Max-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2017-04-06 21:30:58
+(epstopdf)                    size: 21493 bytes
+(epstopdf)             Command: <repstopdf --outfile=ODthresh-5DeCorr200Max-eps
+-converted-to.pdf ODthresh-5DeCorr200Max.eps>
+(epstopdf)             \includegraphics on input line 290.
+Package epstopdf Info: Output file is already uptodate.
+
+<ODthresh-5DeCorr200Max-eps-converted-to.pdf, id=575, 662.475pt x 594.22pt>
+File: ODthresh-5DeCorr200Max-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ODthresh-5DeCorr200Max-eps-converted-to.pdf>
+Package pdftex.def Info: ODthresh-5DeCorr200Max-eps-converted-to.pdf used on in
+put line 290.
+(pdftex.def)             Requested size: 284.52756pt x 255.2104pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[70]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[71 <./NBMax1000OutageProbThresh-5iid-eps-converted-to.pdf> <./MaxMax1000Outage
+ProbThresh-5iid-eps-converted-to.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[72 <./ODthresh-5iidNB-eps-converted-to.pdf> <./ODthresh-5iidMax-eps-converted-
+to.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[73 <./ODthresh-5DeCorr200NB-eps-converted-to.pdf> <./ODthresh-5DeCorr200Max-ep
+s-converted-to.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[74]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[75]) (./Chapter5.tex
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[76]
+Chapter 5.
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[77
 
 ]
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[73
-
-
-]
-Appendix A.
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[74
-
-]
-Appendix B.
-) (./Thesis_Main_File.bbl
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[75
-
-]
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[76
-
-]
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[77]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
@@ -2593,19 +2614,392 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[81])
+[81] <topologyGeni.png, id=679, 505.89pt x 221.82875pt>
+File: topologyGeni.png Graphic file (type png)
+ <use topologyGeni.png>
+Package pdftex.def Info: topologyGeni.png used on input line 35.
+(pdftex.def)             Requested size: 398.33858pt x 174.67073pt.
+Package epstopdf Info: Source file: <1.eps>
+(epstopdf)                    date: 2017-03-24 19:49:56
+(epstopdf)                    size: 241701 bytes
+(epstopdf)             Output file: <1-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-03-24 19:49:56
+(epstopdf)                    size: 55344 bytes
+(epstopdf)             Command: <repstopdf --outfile=1-eps-converted-to.pdf 1.e
+ps>
+(epstopdf)             \includegraphics on input line 42.
+Package epstopdf Info: Output file is already uptodate.
+
+<1-eps-converted-to.pdf, id=680, 1284.8pt x 641.39626pt>
+File: 1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 1-eps-converted-to.pdf>
+Package pdftex.def Info: 1-eps-converted-to.pdf used on input line 42.
+(pdftex.def)             Requested size: 398.33858pt x 198.86014pt.
+Package epstopdf Info: Source file: <2.eps>
+(epstopdf)                    date: 2017-03-24 19:49:56
+(epstopdf)                    size: 239983 bytes
+(epstopdf)             Output file: <2-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-03-24 19:49:56
+(epstopdf)                    size: 67032 bytes
+(epstopdf)             Command: <repstopdf --outfile=2-eps-converted-to.pdf 2.e
+ps>
+(epstopdf)             \includegraphics on input line 48.
+Package epstopdf Info: Output file is already uptodate.
+
+<2-eps-converted-to.pdf, id=681, 1284.8pt x 641.39626pt>
+File: 2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 2-eps-converted-to.pdf>
+Package pdftex.def Info: 2-eps-converted-to.pdf used on input line 48.
+(pdftex.def)             Requested size: 398.33858pt x 198.86014pt.
+Package epstopdf Info: Source file: <3.eps>
+(epstopdf)                    date: 2017-03-24 19:49:56
+(epstopdf)                    size: 241680 bytes
+(epstopdf)             Output file: <3-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-03-24 19:49:56
+(epstopdf)                    size: 59712 bytes
+(epstopdf)             Command: <repstopdf --outfile=3-eps-converted-to.pdf 3.e
+ps>
+(epstopdf)             \includegraphics on input line 54.
+Package epstopdf Info: Output file is already uptodate.
+
+<3-eps-converted-to.pdf, id=682, 1284.8pt x 641.39626pt>
+File: 3-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 3-eps-converted-to.pdf>
+Package pdftex.def Info: 3-eps-converted-to.pdf used on input line 54.
+(pdftex.def)             Requested size: 398.33858pt x 198.86014pt.
+Package epstopdf Info: Source file: <4.eps>
+(epstopdf)                    date: 2017-03-24 19:49:56
+(epstopdf)                    size: 240337 bytes
+(epstopdf)             Output file: <4-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-03-24 19:49:56
+(epstopdf)                    size: 75280 bytes
+(epstopdf)             Command: <repstopdf --outfile=4-eps-converted-to.pdf 4.e
+ps>
+(epstopdf)             \includegraphics on input line 60.
+Package epstopdf Info: Output file is already uptodate.
+
+<4-eps-converted-to.pdf, id=683, 1284.8pt x 641.39626pt>
+File: 4-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 4-eps-converted-to.pdf>
+Package pdftex.def Info: 4-eps-converted-to.pdf used on input line 60.
+(pdftex.def)             Requested size: 398.33858pt x 198.86014pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[82] (./Thesis_Main_File.aux (./preface.aux))
+[82 <./topologyGeni.png>]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[83]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[84 <./1-eps-converted-to.pdf> <./2-eps-converted-to.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[85 <./3-eps-converted-to.pdf> <./4-eps-converted-to.pdf>]
+<6layout.pdf, id=729, 516.86018pt x 242.1076pt>
+File: 6layout.pdf Graphic file (type pdf)
+ <use 6layout.pdf>
+Package pdftex.def Info: 6layout.pdf used on input line 82.
+(pdftex.def)             Requested size: 284.52756pt x 133.2815pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[86 <./6layout.pdf>]
+Package epstopdf Info: Source file: <format.eps>
+(epstopdf)                    date: 2017-03-24 19:49:56
+(epstopdf)                    size: 944841 bytes
+(epstopdf)             Output file: <format-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-03-24 19:49:56
+(epstopdf)                    size: 10030 bytes
+(epstopdf)             Command: <repstopdf --outfile=format-eps-converted-to.pd
+f format.eps>
+(epstopdf)             \includegraphics on input line 90.
+Package epstopdf Info: Output file is already uptodate.
+
+<format-eps-converted-to.pdf, id=744, 548.0475pt x 284.06125pt>
+File: format-eps-converted-to.pdf Graphic file (type pdf)
+
+<use format-eps-converted-to.pdf>
+Package pdftex.def Info: format-eps-converted-to.pdf used on input line 90.
+(pdftex.def)             Requested size: 284.52756pt x 147.47862pt.
+Package epstopdf Info: Source file: <QueueLengthCubic.eps>
+(epstopdf)                    date: 2017-03-24 19:49:56
+(epstopdf)                    size: 97752 bytes
+(epstopdf)             Output file: <QueueLengthCubic-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-03-24 19:49:56
+(epstopdf)                    size: 30057 bytes
+(epstopdf)             Command: <repstopdf --outfile=QueueLengthCubic-eps-conve
+rted-to.pdf QueueLengthCubic.eps>
+(epstopdf)             \includegraphics on input line 123.
+Package epstopdf Info: Output file is already uptodate.
+
+<QueueLengthCubic-eps-converted-to.pdf, id=745, 1035.87pt x 587.19376pt>
+File: QueueLengthCubic-eps-converted-to.pdf Graphic file (type pdf)
+
+<use QueueLengthCubic-eps-converted-to.pdf>
+Package pdftex.def Info: QueueLengthCubic-eps-converted-to.pdf used on input li
+ne 123.
+(pdftex.def)             Requested size: 284.52756pt x 161.28613pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[87 <./format-eps-converted-to.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[88 <./QueueLengthCubic-eps-converted-to.pdf>]
+<LRRoc.png, id=763, 578.16pt x 433.62pt>
+File: LRRoc.png Graphic file (type png)
+ <use LRRoc.png>
+Package pdftex.def Info: LRRoc.png used on input line 181.
+(pdftex.def)             Requested size: 284.52756pt x 213.39536pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[89] <DecisionTreeRoc.png, id=767, 578.16pt x 433.62pt>
+File: DecisionTreeRoc.png Graphic file (type png)
+
+<use DecisionTreeRoc.png>
+Package pdftex.def Info: DecisionTreeRoc.png used on input line 199.
+(pdftex.def)             Requested size: 170.71652pt x 128.03589pt.
+ <DTRoc.png, id=768, 578.16pt x 433.62pt>
+File: DTRoc.png Graphic file (type png)
+
+<use DTRoc.png>
+Package pdftex.def Info: DTRoc.png used on input line 205.
+(pdftex.def)             Requested size: 170.71652pt x 128.03589pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[90 <./LRRoc.png>] <tree.png, id=774, 1502.61375pt x 444.66125pt>
+File: tree.png Graphic file (type png)
+
+<use tree.png>
+Package pdftex.def Info: tree.png used on input line 223.
+(pdftex.def)             Requested size: 415.54726pt x 113.81117pt.
+Package epstopdf Info: Source file: <cdfrtt1.eps>
+(epstopdf)                    date: 2017-03-24 19:49:56
+(epstopdf)                    size: 474606 bytes
+(epstopdf)             Output file: <cdfrtt1-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-03-24 19:49:56
+(epstopdf)                    size: 76726 bytes
+(epstopdf)             Command: <repstopdf --outfile=cdfrtt1-eps-converted-to.p
+df cdfrtt1.eps>
+(epstopdf)             \includegraphics on input line 230.
+Package epstopdf Info: Output file is already uptodate.
+
+<cdfrtt1-eps-converted-to.pdf, id=775, 817.0525pt x 587.19376pt>
+File: cdfrtt1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use cdfrtt1-eps-converted-to.pdf>
+Package pdftex.def Info: cdfrtt1-eps-converted-to.pdf used on input line 230.
+(pdftex.def)             Requested size: 170.71652pt x 122.68713pt.
+Package epstopdf Info: Source file: <cdfrtt2.eps>
+(epstopdf)                    date: 2017-03-24 19:49:56
+(epstopdf)                    size: 55719 bytes
+(epstopdf)             Output file: <cdfrtt2-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-03-24 19:49:56
+(epstopdf)                    size: 19375 bytes
+(epstopdf)             Command: <repstopdf --outfile=cdfrtt2-eps-converted-to.p
+df cdfrtt2.eps>
+(epstopdf)             \includegraphics on input line 236.
+Package epstopdf Info: Output file is already uptodate.
+
+<cdfrtt2-eps-converted-to.pdf, id=776, 817.0525pt x 587.19376pt>
+File: cdfrtt2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use cdfrtt2-eps-converted-to.pdf>
+Package pdftex.def Info: cdfrtt2-eps-converted-to.pdf used on input line 236.
+(pdftex.def)             Requested size: 170.71652pt x 122.68713pt.
+
+<LRRocDiffProp.png, id=777, 578.16pt x 433.62pt>
+File: LRRocDiffProp.png Graphic file (type png)
+ <use LRRocDiffProp.png>
+Package pdftex.def Info: LRRocDiffProp.png used on input line 272.
+(pdftex.def)             Requested size: 199.16928pt x 149.3741pt.
+
+<DTRocDiffProp.png, id=778, 578.16pt x 433.62pt>
+File: DTRocDiffProp.png Graphic file (type png)
+ <use DTRocDiffProp.png>
+Package pdftex.def Info: DTRocDiffProp.png used on input line 277.
+(pdftex.def)             Requested size: 199.16928pt x 149.3741pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[91 <./DecisionTreeRoc.png> <./DTRoc.png> <./tree.png>]) (./Conclusion.tex
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[92 <./cdfrtt1-eps-converted-to.pdf> <./cdfrtt2-eps-converted-to.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[93 <./LRRocDiffProp.png> <./DTRocDiffProp.png>]
+Chapter 6.
+) (./Appendices.tex
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[94
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[95
+
+
+]
+Appendix A.
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[96
+
+]
+Appendix B.
+) (./Thesis_Main_File.bbl
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[97
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[98
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[99]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[100]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[101]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[102]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[103]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[104]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[105]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[106])
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[107] (./Thesis_Main_File.aux (./preface.aux))
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  )
 (\end occurred inside a group at level 1)
@@ -2613,13 +3007,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 16707 strings out of 493014
- 318989 string characters out of 6133351
- 345022 words of memory out of 5000000
- 19933 multiletter control sequences out of 15000+600000
+ 16833 strings out of 493014
+ 323205 string characters out of 6133351
+ 346777 words of memory out of 5000000
+ 20041 multiletter control sequences out of 15000+600000
  26812 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,23n,45p,10384b,4249s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,23n,45p,10384b,4232s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm
 -super-t1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
@@ -2633,26 +3027,27 @@ b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pf
 b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
 usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr
-/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/lo
-cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
-al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local
-/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/loc
-al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr
-/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/loc
-al/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local
-/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/tex
-live/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive
-/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2
-016/texmf-dist/fonts/type1/public/cm-super/sfsl1440.pfb></usr/local/texlive/201
-6/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on Thesis_Main_File.pdf (98 pages, 2409334 bytes).
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texliv
+e/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/
+2016/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2016
+/texmf-dist/fonts/type1/public/cm-super/sfsl1440.pfb></usr/local/texlive/2016/t
+exmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on Thesis_Main_File.pdf (126 pages, 3322825 bytes).
 PDF statistics:
- 665 PDF objects out of 1000 (max. 8388607)
- 439 compressed objects within 5 object streams
+ 951 PDF objects out of 1000 (max. 8388607)
+ 632 compressed objects within 7 object streams
  0 named destinations out of 1000 (max. 500000)
- 166 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 251 words of extra memory for PDF output out of 10000 (max. 10000000)
 
