@@ -37,19 +37,19 @@
 \contentsline {figure}{\numberline {4.16}{\ignorespaces CDF of Outage Durations when MS is connecting to the Nearest BS with correlated shadowing (de-correlation distance: 200m)\relax }}{73}
 \contentsline {figure}{\numberline {4.17}{\ignorespaces CDF of Outage Durations when MS is connecting to the Strongest BS with correlated shadowing (de-correlation distance: 200m)\relax }}{73}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces GENI Topology for Performance Evaluation\relax }}{84}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces GENI Topology for Performance Evaluation\relax }}{83}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces CWND dynamics given exponentially On-Off channel behavior\relax }}{85}
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Throughput dynamics given exponentially On-Off channel behavior\relax }}{86}
 \contentsline {figure}{\numberline {5.4}{\ignorespaces CWND dynamics given uniformly On-Off channel behavior\relax }}{86}
 \contentsline {figure}{\numberline {5.5}{\ignorespaces Throughput dynamics given uniformly On-Off channel behavior\relax }}{87}
 \contentsline {figure}{\numberline {5.6}{\ignorespaces Network topology\relax }}{87}
 \contentsline {figure}{\numberline {5.7}{\ignorespaces NS2 TCP trace format\relax }}{88}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Queue length dynamics (Cubic)\relax }}{89}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces ROC curve of Logistic Regression classifier\relax }}{91}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces ROC curve of Decision Tree classifier\relax }}{92}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Queue length dynamics (Cubic)\relax }}{88}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces ROC curve of the Logistic Regression classifier\relax }}{91}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces ROC curve of the Decision Tree classifier\relax }}{92}
 \contentsline {figure}{\numberline {5.11}{\ignorespaces Decision Tree (max\_depth = 3, min\_samples\_leaf = 100000)\relax }}{92}
 \contentsline {figure}{\numberline {5.12}{\ignorespaces CDF of rtt\_ratio\relax }}{93}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces ROC curves with different propagation delay\relax }}{94}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces ROC curves with different propagation delays\relax }}{94}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

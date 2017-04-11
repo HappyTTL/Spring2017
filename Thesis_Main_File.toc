@@ -34,13 +34,13 @@
 \contentsline {chapter}{\numberline {5}Transport Layer Protocols for Next Generation Networks}{78}
 \contentsline {section}{\numberline {5.1}Introduction}{79}
 \contentsline {section}{\numberline {5.2}Related Work}{80}
-\contentsline {subsection}{\numberline {5.2.1}mmWave Channel}{81}
+\contentsline {subsection}{\numberline {5.2.1}mmWave Channel}{80}
 \contentsline {subsection}{\numberline {5.2.2}Explicit Congestion Notification (ECN)}{81}
 \contentsline {subsection}{\numberline {5.2.3}Remy}{82}
 \contentsline {section}{\numberline {5.3}Legacy TCP Performance on Emulated 5G Channel}{83}
 \contentsline {section}{\numberline {5.4}Congestion Detection Algorithm}{85}
-\contentsline {subsection}{\numberline {5.4.1}Network Topology}{87}
-\contentsline {subsection}{\numberline {5.4.2}Data Collection}{88}
+\contentsline {subsection}{\numberline {5.4.1}Network Topology}{85}
+\contentsline {subsection}{\numberline {5.4.2}Data Collection}{89}
 \contentsline {subsection}{\numberline {5.4.3}Congestion Prediction}{90}
 \contentsline {section}{\numberline {5.5}Chapter Summary}{94}
 \contentsline {chapter}{\numberline {6}Conclusion}{95}

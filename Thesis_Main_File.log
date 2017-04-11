@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  11 APR 2017 15:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  11 APR 2017 17:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1365,9 +1365,9 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [15]
-Overfull \hbox (3.90514pt too wide) in paragraph at lines 36--36
- [][] []\T1/cmr/m/n/12 CDF of Out-age Du-ra-tion when the MS is con-nect-ing to
- the Strongest 
+Overfull \hbox (8.53871pt too wide) in paragraph at lines 36--36
+ [][] []\T1/cmr/m/n/12 CDF of Out-age Du-ra-tions when the MS is con-nect-ing t
+o the Strongest 
  []
 
 
@@ -2702,14 +2702,14 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[83]
+[83 <./topologyGeni.png>]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[84 <./topologyGeni.png>]
+[84]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
@@ -2729,14 +2729,6 @@ File: 6layout.pdf Graphic file (type pdf)
  <use 6layout.pdf>
 Package pdftex.def Info: 6layout.pdf used on input line 82.
 (pdftex.def)             Requested size: 284.52756pt x 133.2815pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[87 <./4-eps-converted-to.pdf> <./6layout.pdf>]
 Package epstopdf Info: Source file: <format.eps>
 (epstopdf)                    date: 2017-03-27 13:18:02
 (epstopdf)                    size: 944841 bytes
@@ -2748,12 +2740,20 @@ f format.eps>
 (epstopdf)             \includegraphics on input line 90.
 Package epstopdf Info: Output file is already uptodate.
 
-<format-eps-converted-to.pdf, id=747, 548.0475pt x 284.06125pt>
+<format-eps-converted-to.pdf, id=725, 548.0475pt x 284.06125pt>
 File: format-eps-converted-to.pdf Graphic file (type pdf)
 
 <use format-eps-converted-to.pdf>
 Package pdftex.def Info: format-eps-converted-to.pdf used on input line 90.
 (pdftex.def)             Requested size: 284.52756pt x 147.47862pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[87 <./4-eps-converted-to.pdf> <./6layout.pdf>]
 Package epstopdf Info: Source file: <QueueLengthCubic.eps>
 (epstopdf)                    date: 2017-03-27 13:18:02
 (epstopdf)                    size: 97752 bytes
@@ -2779,15 +2779,14 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[88 <./format-eps-converted-to.pdf>]
+[88 <./format-eps-converted-to.pdf> <./QueueLengthCubic-eps-converted-to.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[89 <./QueueLengthCubic-eps-converted-to.pdf>]
-<LRRoc.png, id=766, 578.16pt x 433.62pt>
+[89] <LRRoc.png, id=766, 578.16pt x 433.62pt>
 File: LRRoc.png Graphic file (type png)
  <use LRRoc.png>
 Package pdftex.def Info: LRRoc.png used on input line 181.
@@ -2877,15 +2876,14 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[92 <./DecisionTreeRoc.png> <./DTRoc.png> <./tree.png>]
+[92 <./DecisionTreeRoc.png> <./DTRoc.png> <./tree.png>]) (./Conclusion.tex
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[93 <./cdfrtt1-eps-converted-to.pdf> <./cdfrtt2-eps-converted-to.pdf>])
-(./Conclusion.tex
+[93 <./cdfrtt1-eps-converted-to.pdf> <./cdfrtt2-eps-converted-to.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
@@ -3012,10 +3010,10 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 16831 strings out of 493014
- 323227 string characters out of 6133351
- 346777 words of memory out of 5000000
- 20039 multiletter control sequences out of 15000+600000
+ 16833 strings out of 493014
+ 323238 string characters out of 6133351
+ 346785 words of memory out of 5000000
+ 20041 multiletter control sequences out of 15000+600000
  26812 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,23n,45p,10384b,4230s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3049,7 +3047,7 @@ e/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/
 16/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2016
 /texmf-dist/fonts/type1/public/cm-super/sfsl1440.pfb></usr/local/texlive/2016/t
 exmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on Thesis_Main_File.pdf (127 pages, 3309200 bytes).
+Output written on Thesis_Main_File.pdf (127 pages, 3309064 bytes).
 PDF statistics:
  955 PDF objects out of 1000 (max. 8388607)
  635 compressed objects within 7 object streams

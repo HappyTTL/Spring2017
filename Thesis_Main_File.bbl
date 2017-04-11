@@ -371,6 +371,13 @@ K.~Winstein and H.~Balakrishnan, ``Tcp ex machina: Computer-generated
   vol.~43, no.~4.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 2013, pp.
   123--134.
 
+\bibitem{Geni}
+``Geni,'' \url{https://portal.geni.net/}, accessed: 2017-4-5.
+
+\bibitem{NS2}
+``Network simulator 2,'' \url{http://www.isi.edu/nsnam/ns/}, accessed:
+  2017-4-5.
+
 \bibitem{TraceFormat}
 ``Trace analysis example,'' \url{http://nile.wpi.edu/NS/analysis.html},
   accessed: 2016-4-5.
