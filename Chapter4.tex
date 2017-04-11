@@ -109,7 +109,7 @@
 
  \par For a particular MS, outage event occurs when its received SINR is less than a threshold to decode the received signal. In our scenario, the probability that the receiver cannot decode signals received from its serving BS is defined as:
  \begin{equation}
- P(out_{i}) = P[\text{SINR}_{i\to D} < \gamma],
+ P(out_{i}) = P[\text{SINR}_{i\to D} < \gamma].
  \end{equation}
  We investigate two connection strategies: 
  \begin{itemize}
@@ -152,12 +152,12 @@
  Then the outage probability can be written as:
  \begin{equation}
  \label{4:outprob}
- P_{out} = \underbrace{\int_{-\infty}^{+\infty}\cdots\int_{-\infty}^{+\infty}}_{i =1,\cdots,N} g(PL_{i}S_{i} - \gamma\sum_{j\in\varphi/i}PL_{j}S_{j})f(\mathbf{s})d\mathbf{s}.
+ P_{out} = \underbrace{\int_{-\infty}^{+\infty}\cdots\int_{-\infty}^{+\infty}}_{i =1,\cdots,N} g(PL_{i}S_{i} - \gamma\sum_{j\in\varphi/i}PL_{j}S_{j})f(\mathbf{s})d\mathbf{s},
  \end{equation}
  where $\mathbf{s}$ is the correlated shadow fading experienced by all BSs; $g(PL_{i}S_{i} - \gamma\sum_{j\in\varphi/i}PL_{j}S_{j})$ is a step function defined in (\ref{4:stepfunction}). 
-  \begin{figure}[!t]
- % ensure that we have normalsize text
- \normalsize
+%  \begin{figure}[!t]
+% % ensure that we have normalsize text
+% \normalsize
  % Store the current equation number.
  % \setcounter{MYtempeqncnt}{\value{equation}}
  % % Set the equation number to one less than the one
@@ -176,14 +176,14 @@
  % Restore the current equation number.
  % \setcounter{equation}{\value{MYtempeqncnt}}
  % IEEE uses as a separator
- \hrulefill
- % The spacer can be tweaked to stop underfull vboxes.
- \vspace*{4pt}
- \end{figure}
+% \hrulefill
+% % The spacer can be tweaked to stop underfull vboxes.
+% \vspace*{4pt}
+% \end{figure}
 
  \section{Simulation Results}
  \label{4:SimuProb}
- \par In this section, we present simulation setup and results. Firstly, we run simulations to compare the outage probability of the two different network topologies: the Grid model and the Random model. Secondly, SINR distribution and outage probability of the Random model given different BS densities are investigated. Two scenarios are considered: MS connecting to the nearest BS and MS connecting to the BS providing highest SINR. At the end, the outage duration distribution is simulated and discussed given different BS densities. The simulation parameters are presented in Table \ref{SystemConfig2}. 
+ \par In this section, we present simulation setup and results. Firstly, we execute simulations to compare the outage probability of the two different network topologies: the Grid model and the Random model. Secondly, the SINR distribution and the outage probability of the Random model given different BS densities are investigated. Two scenarios are considered: MS connecting to the nearest BS and MS connecting to the BS providing highest SINR. At the end, the outage duration distribution is simulated and discussed given different BS densities. The simulation parameters are presented in Table \ref{SystemConfig2}. 
  \begin{table}
  \centering
  \caption{\label{SystemConfig2}Simulation Configuration Parameters}
@@ -261,7 +261,7 @@
  \label{4:Mode32}
  \end{figure}
 
- \par For the Random model, the SINR distribution and the outage probability of different BS densities are investigated for both the Nearest BS mode and the Strongest BS mode. Simulations are run for independent shadow fading and correlated shadow fading. CDF curves of SINR are generated and outage probability given the SINR threshold being $-5dB$ are presented for increasing BS densities. Figure \ref{4:Mode1}, \ref{4:Mode2} and \ref{4:Mode3} show the SINR of the MS when connecting to the nearest BS. From Figure \ref{4:Mode1} and \ref{4:Mode2}, we can see that the CDF curves are overlapping each other, which means increasing BS density does not change the CDF of SINR. From this, we can conclude that when the shadow fading is independent or the de-correlation distance of the correlated shadow fading is small, increasing the BS density will not improve the system performance in terms of reducing outage probability. Figure \ref{4:Mode3}  illustrates that when increasing the BS density, CDF of SINR improves (curve moves toward the bottom-right corner). Therefore, increasing the BS density will result in better system performance when de-correlation distance is large, by reducing the outage probability. Figure \ref{fig: outprob1} shows the outage probability of different correlated shadow fading models and different BS densities when SINR threshold is set to $-5dB$. These blue and green bars suggest that increasing the BS density will not decrease outage probability when shadow fading is independent or correlated with $20m$ de-correlation distance. Meanwhile, these yellow bars suggest that when the de-correlation distance is $200m$, increasing BS density will reduce the outage probability. For example, when BS density is $3$, the outage probability is around $38\%$. Increasing BS density to $500$, the outage probability decreases to $18\%$. Above simulation results suggest that when the de-correlation distance is relatively large and the MS is connecting to the nearest BS, increasing the BS density will reduce outage probability and improve system performance.
+ \par For the Random model, the SINR distribution and the outage probability of different BS densities are investigated for both the Nearest BS mode and the Strongest BS mode. Simulations are implemented under independent shadow fading and correlated shadow fading. CDF curves of SINR are generated and the outage probability given the SINR threshold being $-5dB$ are presented for increasing BS densities. Figure \ref{4:Mode1}, \ref{4:Mode2} and \ref{4:Mode3} show the SINR of the MS when connecting to the nearest BS. From Figure \ref{4:Mode1} and \ref{4:Mode2}, it is obvious that the CDF curves are overlapping each other, which means increasing BS density does not change the CDF of SINR. From this we can conclude, under the circumstance that the shadow fading is independent or the de-correlation distance of the correlated shadow fading is small, increasing the BS density will not improve the system performance in terms of reducing the outage probability. Figure \ref{4:Mode3}  illustrates that CDF of SINR improves (curve moves toward the bottom-right corner) as we increase the BS density. Therefore, increasing the BS density will result in better system performance when the de-correlation distance is large, by reducing the outage probability. Figure \ref{fig: outprob1} shows the outage probability of different correlated shadow fading models and different BS densities when SINR threshold is set to $-5dB$. These blue and green bars suggest that increasing the BS density will not decrease the outage probability when shadow fading is independent or correlated with $20m$ de-correlation distance. Meanwhile, these yellow bars suggest that when the de-correlation distance is $200m$, increasing the BS density will reduce the outage probability. For example, when the BS density is $3$, the outage probability is around $38\%$. Increasing the BS density to $500$, the outage probability decreases to $18\%$. Above simulation results suggest that when the de-correlation distance is relatively large and the MS is connecting to the nearest BS, increasing the BS density will reduce the outage probability and improve the system performance.
 
 
 
@@ -280,28 +280,28 @@
  \begin{figure}
  \centering
  \includegraphics[width=10cm]{ODthresh-5iidNB.eps}
- \caption{CDF of Outage Duration when the MS is connecting to the Nearest BS with independent shadow fading}
+ \caption{CDF of Outage Durations when the MS is connecting to the Nearest BS with independent shadow fading}
  \label{iid1}
  \end{figure}
  \begin{figure}
  \centering
  \includegraphics[width=10cm]{ODthresh-5iidMax.eps}
- \caption{CDF of Outage Duration when the MS is connecting to the Strongest BS with independent shadow shadowing}
+ \caption{CDF of Outage Durations when the MS is connecting to the Strongest BS with independent shadow shadowing}
  \label{iid2}
  \end{figure}
  \begin{figure}
  \centering
  \includegraphics[width=10cm]{ODthresh-5DeCorr200NBMode2.eps}
- \caption{CDF of Outage Duration when MS is connecting to the Nearest BS with correlated shadowing (de-correlation distance: 200m)}
+ \caption{CDF of Outage Durations when MS is connecting to the Nearest BS with correlated shadowing (de-correlation distance: 200m)}
  \label{corr1}
  \end{figure}
  \begin{figure}
  \centering
  \includegraphics[width=10cm]{ODthresh-5DeCorr200MaxMode2.eps}
- \caption{CDF of Outage Duration when MS is connecting to the Strongest BS with correlated shadowing (de-correlation distance: 200m)}
+ \caption{CDF of Outage Durations when MS is connecting to the Strongest BS with correlated shadowing (de-correlation distance: 200m)}
  \label{corr2}
  \end{figure}
- \par Next, we move forward to investigate the system performance when the MS chooses to connect to the BS, which provides the highest SINR. The same simulations as the nearest BS scenario are executed to explore this scenario. Figure \ref{4:Mode12}, \ref{4:Mode22} and \ref{4:Mode32} present the receiving SINR of the MS when connecting to the strongest BS. From Figure \ref{4:Mode12}, \ref{4:Mode22} and \ref{4:Mode32}, we can see that CDF curves of SINR almost overlap each other when increasing BS densities, which means increasing BS density will not change the CDF of SINR significantly. Figure \ref{fig: outprobs2} shows the outage probability bars, which are consistent with our conclusion. For each shadow fading model, the difference between the highest outage probability and the lowest outage probability is less than $5\%$. Comparing three different shadow fading models, we can conclude that when the MS is connecting to the strongest BS, long de-correlation distance will harm the system performance by increasing the outage probability (yellow bars are higher than green or blue bars). 
+ \par Next, we move forward to investigate the system performance when the MS chooses to connect to the BS, which provides the highest SINR. The same simulations as the nearest BS scenario are executed to explore this scenario. Figure \ref{4:Mode12}, \ref{4:Mode22} and \ref{4:Mode32} present the receiving SINR of the MS when connecting to the strongest BS. In Figure \ref{4:Mode12}, \ref{4:Mode22} and \ref{4:Mode32}, CDF curves of SINR almost overlap each other when increasing BS densities, which means increasing BS density will not change the CDF of SINR significantly. Figure \ref{fig: outprobs2} shows the outage probability bars, which are consistent with our conclusion. For each shadow fading model, the difference between the highest outage probability and the lowest outage probability is less than $5\%$. Comparing three different shadow fading models, we can conclude that when the MS is connecting to the strongest BS, long de-correlation distance will harm the system performance by increasing the outage probability (yellow bars are higher than green or blue bars). 
  \par Comparing Figure \ref{fig: outprob1} with Figure \ref{fig: outprobs2}, we find that with the same BS density, outage probabilities are lower for every shadow fading model if MS is connecting to the strongest BS. For example, with the independent shadow fading and the BS density being $50$, the outage probability of the Nearest BS mode is $38\%$, while this probability of the Strongest BS mode is $6\%$. For correlated shadow fading with the de-correlation distance being $200m$ and the BS density being $50$, we find that the outage probability of the Nearest BS mode is around $30\%$. This is higher than that of the Strongest BS mode, which is $14\%$. Therefore, we conclude that connecting to the BS which provides highest SINR will improve the system performance with regard to the same network setup. 
 
 
@@ -311,7 +311,7 @@
 
 
 
- \par In the end, we investigate the system performance from the perspective of outage duration. We use the Random Waypoint mobility model to model the user mobility. The parameters of the Random WayPoint model are given in Table \ref{RWP}. The MS speed is assumed to be between $1m/s$ (pedestrian speed) and $20m/s$ (highway car speed). The MS pause interval is assumed to be uniformly distributed between $0s$ to $60s$. The simulation time is set to be $0.1s$, which means we check the MS's SINR every $0.1s$ to determine if it is in the outage area or not. Simulation results are shown in Figure \ref{iid1}, \ref{corr1}, \ref{iid2} and \ref{corr2}. Comparing Figure \ref{iid1} and Figure \ref{corr1}, Figure \ref{iid2} and Figure \ref{corr2}, we conclude that when the channel is experiencing independent shadow fading, the outage duration is usually less than $2s$. However,  when the channel is under correlated shadow fading with $200m$ de-correlation distance, the outage duration can be longer than $20s$. Therefore, we draw the conclusion that correlated shadow fading leads to long-lasting outage durations and harm the system performance. Comparing Figure \ref{iid1} and Figure \ref{iid2}, we find that connecting to the strongest BS will reduce the outage duration. For example, the percentage of outage durations of the Nearest BS mode with a length less than $0.5s$ is $94\%$, while that of the Strongest BS mode is $100\%$.  Figure \ref{corr1} and Figure \ref{corr2} confirm this conclusion in addition. For example, the percentage of outage durations less than $5s$ in Figure \ref{corr1} is $85\%$ with BS density being $50$. However, this percentage in Figure \ref{corr2} is increased to $95\%$. Furthermore, Figure \ref{corr1} indicates that increasing the BS density will reduce the percentage of long-lasting outage durations if the MS is connecting to the nearest BS. For example, in Figure \ref{corr1}, when the BS density increases from $50$ to $300$, the percentage of outage duration longer than $5s$ is reduced from $15\%$ to $8\%$. In contrast, for independent shadow fading and correlated shadow fading with the MS connecting to the strongest BS, increase the BS density will not change the distribution of outage durations, which is confirmed by Figure \ref{iid1}, Figure \ref{iid2} and Figure \ref{corr2}. All CDF curves of outage durations are the same with different BS densities. 
+ \par In the end, we investigate the system performance from the perspective of outage duration. We use the Random Waypoint mobility model to model the user mobility. The parameters of the Random WayPoint model are given in Table \ref{RWP}. The MS speed is assumed to be between $1m/s$ (pedestrian speed) and $20m/s$ (highway car speed). The MS pause interval is assumed to be uniformly distributed between $0s$ to $60s$. The simulation time is set to be $0.1s$, which means we check the MS's SINR every $0.1s$ to determine if it is in the outage area or not. Simulation results are shown in Figure \ref{iid1}, \ref{corr1}, \ref{iid2} and \ref{corr2}. Comparing Figure \ref{iid1} and Figure \ref{corr1}, Figure \ref{iid2} and Figure \ref{corr2}, we conclude that when the channel is under independent shadow fading, the outage duration is usually less than $2s$. However,  when the channel is under correlated shadow fading with $200m$ de-correlation distance, the outage duration can be longer than $20s$. Therefore, we draw the conclusion that correlated shadow fading leads to long-lasting outage durations and deteriorate the system performance. Comparing Figure \ref{iid1} and Figure \ref{iid2}, we find that connecting to the strongest BS will reduce the outage duration. For example, the percentage of outage durations of the Nearest BS mode with a length less than $0.5s$ is $94\%$, while that of the Strongest BS mode is $100\%$.  Figure \ref{corr1} and Figure \ref{corr2} confirm this conclusion in addition. For example, the percentage of outage durations less than $5s$ in Figure \ref{corr1} is $85\%$ with BS density being $50$. However, this percentage in Figure \ref{corr2} is increased to $95\%$. Furthermore, Figure \ref{corr1} indicates that increasing the BS density will reduce the percentage of long-lasting outage durations if the MS is connecting to the nearest BS. For example, in Figure \ref{corr1}, when the BS density increases from $50$ to $300$, the percentage of outage durations longer than $5s$ is reduced from $15\%$ to $8\%$. In contrast, for independent shadow fading and correlated shadow fading with the MS connecting to the strongest BS, increase the BS density will not change the distribution of outage durations, which is confirmed by Figure \ref{iid1}, Figure \ref{iid2} and Figure \ref{corr2}. All CDF curves of outage durations are the same with different BS densities. 
  \begin{table}
  \centering
  \caption{\label{RWP}Random Waypoint Mobility Model Parameters}
@@ -331,6 +331,6 @@
 
  \section{Chapter Summary}
  \label{4:Conclusion}
- Shadow fading is a large-scale fading, which can cause significant received power loss for a wide area. In general, shadow fading is considered to be independent log-normal distributed to simplify the analysis; however, this is not the real case. In reality, shadow fading at two different positions are correlated to each other. Correlated shadow fading will result in correlated outage events and long-lasting outage durations. To investigate the performance of a multi-cell system given correlated shadow fading, simulations are run to study the outage probability and the outage duration distribution. First of all, the probability of two different BS layouts: Grid model and Random model are investigated. We find that the Grid model performs better than the Random model. Secondly, outage probabilities given different BS densities and two different connecting strategies: Nearest BS mode and Strongest BS mode, are simulated. We conclude that connecting to the strongest BS will reduce the outage probability compared with the nearest BS from simulation results. Increasing the BS density will not reduce outage probability when the MS is connecting to the strongest BS. However, when the MS is connecting to the nearest BS and the de-correlation distance of correlated shadow fading is large enough, increasing the BS density will reduce the outage probability.  Finally, we investigate the system performance in terms of outage duration. Simulation results show that correlated shadow fading will result in long-lasting outage durations. Simulation results show that increasing the BS density will reduce the percentage of long-lasting outage durations if the MS chooses to connect to the nearest BS. Therefore, we suggest dense BS layout might be a proper strategy for next generation mmWave communication networks with correlated shadow fading.
+ Shadow fading is a large-scale fading, which can cause significant received power loss for a wide area. In general, shadow fading is considered to be independent log-normal distributed to simplify the analysis; however, this is not the real case. In reality, shadow fading at two different positions are correlated to each other. Correlated shadow fading will result in correlated outage events and long-lasting outage durations. To investigate the performance of a multi-cell system given correlated shadow fading, simulations are implemented to analyze the outage probability and the outage duration distribution. First of all, the probability of two different BS layouts: Grid model and Random model are investigated. We find that the Grid model performs better than the Random model. Secondly, outage probabilities given different BS densities and two different connecting strategies: Nearest BS mode and Strongest BS mode, are simulated. We conclude that connecting to the strongest BS will reduce the outage probability compared with the nearest BS from simulation results. Increasing the BS density will not reduce the outage probability when the MS is connecting to the strongest BS. However, when the MS is connecting to the nearest BS and the de-correlation distance of correlated shadow fading is large enough, increasing the BS density will reduce the outage probability.  Finally, we analyze the system performance in terms of outage duration. Simulation results show that correlated shadow fading will result in long-lasting outage durations. Simulation results show that increasing the BS density will reduce the percentage of long-lasting outage durations if the MS chooses to connect to the nearest BS. Therefore, we suggest dense BS layout might be a proper strategy for next generation mmWave communication networks with correlated shadow fading.
  
 
