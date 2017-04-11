@@ -24,18 +24,18 @@
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Random Layout and Grid Layout with $\lambda = 9$.\relax }}{61}
 \contentsline {figure}{\numberline {4.4}{\ignorespaces CDF of SINR given Grid Layout and Random Layout (De-Correlation Distance: $20m$)\relax }}{65}
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Outage Probability given Grid Layout and Random Layout (De-Correlation Distance: $20m$)\relax }}{66}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces CDF of SINR of MU when connecting to the nearest BS. i.i.d. Shadow Fading\relax }}{66}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces CDF of SINR of MU when connecting to the nearest BS. De-Correlation Distance: 20m\relax }}{67}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces CDF of SINR of MU when connecting to the nearest BS. De-Correlation Distance: 200m\relax }}{67}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces CDF of SINR of MU when connecting to the strongest BS. i.i.d. Shadow Fading\relax }}{68}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces CDF of SINR of MU when connecting to the strongest BS. De-Correlation Distance: 20m\relax }}{68}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces CDF of SINR of MU when connecting to the strongest BS. De-Correlation Distance: 200m\relax }}{69}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces CDF of SINR of MS when connecting to the nearest BS. i.i.d. Shadow Fading\relax }}{66}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces CDF of SINR of MS when connecting to the nearest BS. De-Correlation Distance: 20m\relax }}{67}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces CDF of SINR of MS when connecting to the nearest BS. De-Correlation Distance: 200m\relax }}{67}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces CDF of SINR of MS when connecting to the strongest BS. i.i.d. Shadow Fading\relax }}{68}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces CDF of SINR of MS when connecting to the strongest BS. De-Correlation Distance: 20m\relax }}{68}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces CDF of SINR of MS when connecting to the strongest BS. De-Correlation Distance: 200m\relax }}{69}
 \contentsline {figure}{\numberline {4.12}{\ignorespaces Outage probability given SINR threshold to be $-5dB$\relax }}{70}
 \contentsline {figure}{\numberline {4.13}{\ignorespaces Outage probability given SINR threshold to be $-5dB$\relax }}{71}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces CDF of Outage Duration of MU when connecting to the Nearest BS with i.i.d. shadowing\relax }}{71}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces CDF of Outage Duration of MU when connecting to the Strongest BS with i.i.d. shadowing\relax }}{72}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces CDF of Outage Duration of MU when connecting to the Nearest BS with correlated shadowing (De-Correlation distance: 200m)\relax }}{72}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces CDF of Outage Duration of MU when connecting to the Strongest BS with correlated shadowing (De-Correlation distance: 200m)\relax }}{73}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces CDF of Outage Duration of MS when connecting to the Nearest BS with i.i.d. shadowing\relax }}{71}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces CDF of Outage Duration of MS when connecting to the Strongest BS with i.i.d. shadowing\relax }}{72}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces CDF of Outage Duration of MS when connecting to the Nearest BS with correlated shadowing (De-Correlation distance: 200m)\relax }}{72}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces CDF of Outage Duration of MS when connecting to the Strongest BS with correlated shadowing (De-Correlation distance: 200m)\relax }}{73}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces GENI Topology for Performance Evaluation\relax }}{83}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces CWND dynamics given exponentially On-Off channel behavior\relax }}{84}
