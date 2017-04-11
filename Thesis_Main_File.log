@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 APR 2017 21:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  11 APR 2017 11:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2481,43 +2481,44 @@ File: ODthresh-5iidMax-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: ODthresh-5iidMax-eps-converted-to.pdf used on input li
 ne 279.
 (pdftex.def)             Requested size: 284.52756pt x 256.43167pt.
-Package epstopdf Info: Source file: <ODthresh-5DeCorr200NB.eps>
-(epstopdf)                    date: 2017-04-07 10:15:30
-(epstopdf)                    size: 156581 bytes
-(epstopdf)             Output file: <ODthresh-5DeCorr200NB-eps-converted-to.pdf
->
-(epstopdf)                    date: 2017-04-07 10:15:30
-(epstopdf)                    size: 21944 bytes
-(epstopdf)             Command: <repstopdf --outfile=ODthresh-5DeCorr200NB-eps-
-converted-to.pdf ODthresh-5DeCorr200NB.eps>
+Package epstopdf Info: Source file: <ODthresh-5DeCorr200NBMode2.eps>
+(epstopdf)                    date: 2017-04-11 11:06:34
+(epstopdf)                    size: 118173 bytes
+(epstopdf)             Output file: <ODthresh-5DeCorr200NBMode2-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2017-04-11 11:13:10
+(epstopdf)                    size: 14101 bytes
+(epstopdf)             Command: <repstopdf --outfile=ODthresh-5DeCorr200NBMode2
+-eps-converted-to.pdf ODthresh-5DeCorr200NBMode2.eps>
 (epstopdf)             \includegraphics on input line 285.
 Package epstopdf Info: Output file is already uptodate.
 
-<ODthresh-5DeCorr200NB-eps-converted-to.pdf, id=574, 659.46375pt x 595.22375pt>
-File: ODthresh-5DeCorr200NB-eps-converted-to.pdf Graphic file (type pdf)
-<use ODthresh-5DeCorr200NB-eps-converted-to.pdf>
-Package pdftex.def Info: ODthresh-5DeCorr200NB-eps-converted-to.pdf used on inp
-ut line 285.
-(pdftex.def)             Requested size: 284.52756pt x 256.81313pt.
-Package epstopdf Info: Source file: <ODthresh-5DeCorr200Max.eps>
-(epstopdf)                    date: 2017-04-07 10:15:30
-(epstopdf)                    size: 154529 bytes
-(epstopdf)             Output file: <ODthresh-5DeCorr200Max-eps-converted-to.pd
-f>
-(epstopdf)                    date: 2017-04-07 10:15:30
-(epstopdf)                    size: 21493 bytes
-(epstopdf)             Command: <repstopdf --outfile=ODthresh-5DeCorr200Max-eps
--converted-to.pdf ODthresh-5DeCorr200Max.eps>
+<ODthresh-5DeCorr200NBMode2-eps-converted-to.pdf, id=574, 773.89125pt x 587.193
+76pt>
+File: ODthresh-5DeCorr200NBMode2-eps-converted-to.pdf Graphic file (type pdf)
+ <use ODthresh-5DeCorr200NBMode2-eps-converted-to.pdf>
+Package pdftex.def Info: ODthresh-5DeCorr200NBMode2-eps-converted-to.pdf used o
+n input line 285.
+(pdftex.def)             Requested size: 284.52756pt x 215.88742pt.
+Package epstopdf Info: Source file: <ODthresh-5DeCorr200MaxMode2.eps>
+(epstopdf)                    date: 2017-04-11 11:09:54
+(epstopdf)                    size: 117496 bytes
+(epstopdf)             Output file: <ODthresh-5DeCorr200MaxMode2-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2017-04-11 11:13:11
+(epstopdf)                    size: 13840 bytes
+(epstopdf)             Command: <repstopdf --outfile=ODthresh-5DeCorr200MaxMode
+2-eps-converted-to.pdf ODthresh-5DeCorr200MaxMode2.eps>
 (epstopdf)             \includegraphics on input line 291.
 Package epstopdf Info: Output file is already uptodate.
 
-<ODthresh-5DeCorr200Max-eps-converted-to.pdf, id=575, 662.475pt x 594.22pt>
-File: ODthresh-5DeCorr200Max-eps-converted-to.pdf Graphic file (type pdf)
-
-<use ODthresh-5DeCorr200Max-eps-converted-to.pdf>
-Package pdftex.def Info: ODthresh-5DeCorr200Max-eps-converted-to.pdf used on in
-put line 291.
-(pdftex.def)             Requested size: 284.52756pt x 255.2104pt.
+<ODthresh-5DeCorr200MaxMode2-eps-converted-to.pdf, id=575, 740.7675pt x 590.205
+pt>
+File: ODthresh-5DeCorr200MaxMode2-eps-converted-to.pdf Graphic file (type pdf)
+ <use ODthresh-5DeCorr200MaxMode2-eps-converted-to.pdf>
+Package pdftex.def Info: ODthresh-5DeCorr200MaxMode2-eps-converted-to.pdf used 
+on input line 291.
+(pdftex.def)             Requested size: 284.52756pt x 226.69377pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -2540,15 +2541,15 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[72 <./ODthresh-5iidMax-eps-converted-to.pdf> <./ODthresh-5DeCorr200NB-eps-conv
-erted-to.pdf>]
+[72 <./ODthresh-5iidMax-eps-converted-to.pdf> <./ODthresh-5DeCorr200NBMode2-eps
+-converted-to.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[73 <./ODthresh-5DeCorr200Max-eps-converted-to.pdf>]
+[73 <./ODthresh-5DeCorr200MaxMode2-eps-converted-to.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
@@ -2635,11 +2636,11 @@ File: 1-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: 1-eps-converted-to.pdf used on input line 42.
 (pdftex.def)             Requested size: 398.33858pt x 198.86014pt.
 Package epstopdf Info: Source file: <2.eps>
-(epstopdf)                    date: 2017-03-27 13:18:02
-(epstopdf)                    size: 239983 bytes
+(epstopdf)                    date: 2017-04-11 10:47:10
+(epstopdf)                    size: 239982 bytes
 (epstopdf)             Output file: <2-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-03-27 13:18:02
-(epstopdf)                    size: 67032 bytes
+(epstopdf)                    date: 2017-04-11 10:47:19
+(epstopdf)                    size: 67029 bytes
 (epstopdf)             Command: <repstopdf --outfile=2-eps-converted-to.pdf 2.e
 ps>
 (epstopdf)             \includegraphics on input line 48.
@@ -2652,11 +2653,11 @@ File: 2-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: 2-eps-converted-to.pdf used on input line 48.
 (pdftex.def)             Requested size: 398.33858pt x 198.86014pt.
 Package epstopdf Info: Source file: <3.eps>
-(epstopdf)                    date: 2017-03-27 13:18:02
-(epstopdf)                    size: 241680 bytes
+(epstopdf)                    date: 2017-04-11 10:49:09
+(epstopdf)                    size: 241668 bytes
 (epstopdf)             Output file: <3-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-03-27 13:18:02
-(epstopdf)                    size: 59712 bytes
+(epstopdf)                    date: 2017-04-11 10:49:22
+(epstopdf)                    size: 59649 bytes
 (epstopdf)             Command: <repstopdf --outfile=3-eps-converted-to.pdf 3.e
 ps>
 (epstopdf)             \includegraphics on input line 54.
@@ -2669,11 +2670,11 @@ File: 3-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: 3-eps-converted-to.pdf used on input line 54.
 (pdftex.def)             Requested size: 398.33858pt x 198.86014pt.
 Package epstopdf Info: Source file: <4.eps>
-(epstopdf)                    date: 2017-03-27 13:18:02
-(epstopdf)                    size: 240337 bytes
+(epstopdf)                    date: 2017-04-11 10:52:21
+(epstopdf)                    size: 240336 bytes
 (epstopdf)             Output file: <4-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-03-27 13:18:02
-(epstopdf)                    size: 75280 bytes
+(epstopdf)                    date: 2017-04-11 10:52:32
+(epstopdf)                    size: 75277 bytes
 (epstopdf)             Command: <repstopdf --outfile=4-eps-converted-to.pdf 4.e
 ps>
 (epstopdf)             \includegraphics on input line 60.
@@ -2815,11 +2816,11 @@ File: tree.png Graphic file (type png)
 Package pdftex.def Info: tree.png used on input line 223.
 (pdftex.def)             Requested size: 415.54726pt x 113.81117pt.
 Package epstopdf Info: Source file: <cdfrtt1.eps>
-(epstopdf)                    date: 2017-03-27 13:18:02
+(epstopdf)                    date: 2017-04-11 10:57:34
 (epstopdf)                    size: 474606 bytes
 (epstopdf)             Output file: <cdfrtt1-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-03-27 13:18:02
-(epstopdf)                    size: 76726 bytes
+(epstopdf)                    date: 2017-04-11 10:57:43
+(epstopdf)                    size: 76629 bytes
 (epstopdf)             Command: <repstopdf --outfile=cdfrtt1-eps-converted-to.p
 df cdfrtt1.eps>
 (epstopdf)             \includegraphics on input line 230.
@@ -2832,11 +2833,11 @@ File: cdfrtt1-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: cdfrtt1-eps-converted-to.pdf used on input line 230.
 (pdftex.def)             Requested size: 170.71652pt x 122.68713pt.
 Package epstopdf Info: Source file: <cdfrtt2.eps>
-(epstopdf)                    date: 2017-03-27 13:18:02
+(epstopdf)                    date: 2017-04-11 10:59:04
 (epstopdf)                    size: 55719 bytes
 (epstopdf)             Output file: <cdfrtt2-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-03-27 13:18:02
-(epstopdf)                    size: 19375 bytes
+(epstopdf)                    date: 2017-04-11 10:59:12
+(epstopdf)                    size: 19278 bytes
 (epstopdf)             Command: <repstopdf --outfile=cdfrtt2-eps-converted-to.p
 df cdfrtt2.eps>
 (epstopdf)             \includegraphics on input line 236.
@@ -3003,7 +3004,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 ### bottom level 
 Here is how much of TeX's memory you used:
  16831 strings out of 493014
- 323177 string characters out of 6133351
+ 323227 string characters out of 6133351
  346777 words of memory out of 5000000
  20039 multiletter control sequences out of 15000+600000
  26812 words of font info for 78 fonts, out of 8000000 for 9000
@@ -3039,7 +3040,7 @@ e/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/
 16/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2016
 /texmf-dist/fonts/type1/public/cm-super/sfsl1440.pfb></usr/local/texlive/2016/t
 exmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on Thesis_Main_File.pdf (126 pages, 3323844 bytes).
+Output written on Thesis_Main_File.pdf (126 pages, 3308092 bytes).
 PDF statistics:
  951 PDF objects out of 1000 (max. 8388607)
  632 compressed objects within 7 object streams
