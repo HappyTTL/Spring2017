@@ -26,15 +26,15 @@ C.~V.~N. Index, ``Global mobile data traffic forecast update, 2012-2017,''
   \emph{Cisco white paper}, 2013.
 
 \bibitem{cerwall2011ericsson}
-P.~Cerwall and S.~Bergqvist, ``Ericsson traffic and market data report [r],''
+P.~Cerwall and S.~Bergqvist, ``Ericsson traffic and market data report,''
   \emph{Ericsson, Stockholm, Sweden, Nov}, 2011.
 
 \bibitem{pujol2011mobile}
-F.~Pujol, ``?mobile traffic forecasts 2010-2020 \& offloading solutions,''
+F.~Pujol, ``Mobile traffic forecasts 2010-2020 \& offloading solutions,''
   \emph{IDATE Consulting and Research, May}, vol.~15, 2011.
 
 \bibitem{khan2011mmwave}
-F.~Khan and Z.~Pi, ``mmwave mobile broadband (mmb): Unleashing the 3--300ghz
+F.~Khan and Z.~Pi, ``Millimeter-wave mobile broadband: Unleashing 3-300{GHz}
   spectrum,'' in \emph{Sarnoff Symposium, 2011 34th IEEE}.\hskip 1em plus 0.5em
   minus 0.4em\relax IEEE, 2011, pp. 1--6.
 
@@ -43,8 +43,8 @@ Z.~Pi and F.~Khan, ``An introduction to millimeter-wave mobile broadband
   systems,'' \emph{IEEE Communications Magazine}, vol.~49, no.~6, 2011.
 
 \bibitem{rappaport2011state}
-T.~S. Rappaport, J.~N. Murdock, and F.~Gutierrez, ``State of the art in 60-ghz
-  integrated circuits and systems for wireless communications,''
+T.~S. Rappaport, J.~N. Murdock, and F.~Gutierrez, ``State of the art in
+  60-{GHz} integrated circuits and systems for wireless communications,''
   \emph{Proceedings of the IEEE}, vol.~99, no.~8, pp. 1390--1436, 2011.
 
 \bibitem{pietraski2012millimeter}
@@ -59,8 +59,8 @@ S.~Rangan, T.~S. Rappaport, and E.~Erkip, ``Millimeter-wave cellular wireless
 
 \bibitem{doan2004design}
 C.~H. Doan, S.~Emami, D.~A. Sobel, A.~M. Niknejad, and R.~W. Brodersen,
-  ``Design considerations for 60 ghz cmos radios,'' \emph{IEEE Communications
-  Magazine}, vol.~42, no.~12, pp. 132--140, 2004.
+  ``Design considerations for 60 {GHz} {CMOS} radios,'' \emph{IEEE
+  Communications Magazine}, vol.~42, no.~12, pp. 132--140, 2004.
 
 \bibitem{zhang2009antenna}
 Y.~P. Zhang and D.~Liu, ``Antenna-on-chip and antenna-in-package solutions to
@@ -70,8 +70,8 @@ Y.~P. Zhang and D.~Liu, ``Antenna-on-chip and antenna-in-package solutions to
 
 \bibitem{gutierrez2009chip}
 F.~Gutierrez, S.~Agarwal, K.~Parrish, and T.~S. Rappaport, ``On-chip integrated
-  antenna structures in cmos for 60 ghz wpan systems,'' \emph{IEEE Journal on
-  Selected Areas in Communications}, vol.~27, no.~8, 2009.
+  antenna structures in {CMOS} for 60 {GHz} {WPAN} systems,'' \emph{IEEE
+  Journal on Selected Areas in Communications}, vol.~27, no.~8, 2009.
 
 \bibitem{rajagopal2011antenna}
 S.~Rajagopal, S.~Abu-Surra, Z.~Pi, and F.~Khan, ``Antenna array design for
@@ -106,15 +106,15 @@ J.~Lu, D.~Steinbach, P.~Cabrol, and P.~Pietraski, ``Modeling the impact of
 
 \bibitem{zhao201328}
 H.~Zhao, R.~Mayzus, S.~Sun, M.~Samimi, J.~K. Schulz, Y.~Azar, K.~Wang, G.~N.
-  Wong, F.~Gutierrez, and T.~S. Rappaport, ``28 ghz millimeter wave cellular
+  Wong, F.~Gutierrez, and T.~S. Rappaport, ``28 {GHz} millimeter wave cellular
   communication measurements for reflection and penetration loss in and around
-  buildings in new york city,'' in \emph{Communications (ICC), 2013 IEEE
+  buildings in {New York City},'' in \emph{Communications (ICC), 2013 IEEE
   International Conference on}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE,
   2013, pp. 5163--5167.
 
 \bibitem{alejos2008measurement}
 A.~V. Alejos, M.~G. S{\'a}nchez, and I.~Cui{\~n}as, ``Measurement and analysis
-  of propagation mechanisms at 40 ghz: Viability of site shielding forced by
+  of propagation mechanisms at 40 {GHz}: Viability of site shielding forced by
   obstacles,'' \emph{Vehicular Technology, IEEE Transactions on}, vol.~57,
   no.~6, pp. 3369--3380, 2008.
 
@@ -128,15 +128,15 @@ V.~Graziano, ``Propagation correlations at 900 {MHz},'' \emph{Vehicular
 
 \bibitem{marsan1990shadowing}
 M.~Marsan, G.~Hess, and S.~Gilbert, ``Shadowing variability in an urban land
-  mobile environment at 900 mhz,'' \emph{Electronics Letters}, vol.~26, no.~10,
-  pp. 646--648, 1990.
+  mobile environment at 900 {MHz},'' \emph{Electronics Letters}, vol.~26,
+  no.~10, pp. 646--648, 1990.
 
 \bibitem{liberti1992statistics}
 J.~C. Liberti and T.~S. Rappaport, ``Statistics of shadowing in indoor radio
-  channels at 900 and 1900 mhz,'' in \emph{Military Communications Conference,
-  1992. MILCOM'92, Conference Record. Communications-Fusing Command, Control
-  and Intelligence., IEEE}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 1992,
-  pp. 1066--1070.
+  channels at 900 and 1900 {MHz},'' in \emph{Military Communications
+  Conference, 1992. MILCOM'92, Conference Record. Communications-Fusing
+  Command, Control and Intelligence., IEEE}.\hskip 1em plus 0.5em minus
+  0.4em\relax IEEE, 1992, pp. 1066--1070.
 
 \bibitem{kitchener2006correlated}
 D.~Kitchener, M.~Naden, W.~Tong, P.~Zhu, G.~Senarnath, H.~Zhang, D.~Steer, and
@@ -153,12 +153,12 @@ S.~S. Panwar, \emph{TCP/IP Essentials: A Lab-Based Approach}.\hskip 1em plus
 
 \bibitem{grieco2004performance}
 L.~A. Grieco and S.~Mascolo, ``Performance evaluation and comparison of
-  westwood+, new reno, and vegas tcp congestion control,'' \emph{ACM SIGCOMM
-  Computer Communication Review}, vol.~34, no.~2, pp. 25--38, 2004.
+  {Westwood+}, {New Reno}, and {Vegas TCP} congestion control,'' \emph{ACM
+  SIGCOMM Computer Communication Review}, vol.~34, no.~2, pp. 25--38, 2004.
 
 \bibitem{ha2008cubic}
-S.~Ha, I.~Rhee, and L.~Xu, ``Cubic: a new tcp-friendly high-speed tcp
-  variant,'' \emph{ACM SIGOPS Operating Systems Review}, vol.~42, no.~5, pp.
+S.~Ha, I.~Rhee, and L.~Xu, ``{CUBIC: a new TCP-friendly high-speed TCP
+  variant},'' \emph{ACM SIGOPS Operating Systems Review}, vol.~42, no.~5, pp.
   64--74, 2008.
 
 \bibitem{lin1997dynamics}
@@ -182,13 +182,13 @@ F.~Fabbri and R.~Verdone, ``The impact of correlated channel fluctuations on
 
 \bibitem{patwari2008effects}
 N.~Patwari and P.~Agrawal, ``Effects of correlated shadowing: Connectivity,
-  localization, and rf tomography,'' in \emph{Information Processing in Sensor
-  Networks, 2008. IPSN'08. International Conference on}.\hskip 1em plus 0.5em
-  minus 0.4em\relax IEEE, 2008, pp. 82--93.
+  localization, and {RF} tomography,'' in \emph{Information Processing in
+  Sensor Networks, 2008. IPSN'08. International Conference on}.\hskip 1em plus
+  0.5em minus 0.4em\relax IEEE, 2008, pp. 82--93.
 
 \bibitem{chang2009performance}
 M.-K. Chang and S.-Y. Lee, ``Performance analysis of cooperative communication
-  system with hierarchical modulation over rayleigh fading channel,''
+  system with hierarchical modulation over {Rayleigh} fading channel,''
   \emph{Wireless Communications, IEEE Transactions on}, vol.~8, no.~6, pp.
   2848--2852, 2009.
 
@@ -283,7 +283,7 @@ A.~Papoulis and S.~U. Pillai, \emph{Probability, Random Variables, and
 
 \bibitem{abu1991outage}
 A.~A. Abu-Dayya and N.~C. Beaulieu, ``Outage probabilities of cellular mobile
-  radio systems with multiple nakagami interferers,'' \emph{Vehicular
+  radio systems with multiple {Nakagami} interferers,'' \emph{Vehicular
   Technology, IEEE Transactions on}, vol.~40, no.~4, pp. 757--768, 1991.
 
 \bibitem{petrovic2013outage}
@@ -304,7 +304,7 @@ M.~Vural, G.~K. Kurt, and C.~Schneider, ``The effect of shadow fading
   minus 0.4em\relax IEEE, 2015, pp. 1--6.
 
 \bibitem{lu2015long}
-T.~Lu, P.~Liu, and S.~S. Panwar, ``How long before i regain my signal?'' in
+T.~Lu, P.~Liu, and S.~S. Panwar, ``How long before {I} regain my signal?'' in
   \emph{Information Sciences and Systems (CISS), 2015 49th Annual Conference
   on}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2015, pp. 1--5.
 
@@ -326,36 +326,36 @@ C.~S. Chen, V.~M. Nguyen, and L.~Thomas, ``On small cell network deployment: A
   0.4em\relax IEEE, 2012, pp. 1--5.
 
 \bibitem{kumar2015approximate}
-S.~Kumar, ``Approximate outage probability and capacity for-shadowed fading,''
+S.~Kumar, ``Approximate outage probability and capacity for shadowed fading,''
   \emph{Wireless Communications Letters, IEEE}, vol.~4, no.~3, pp. 301--304,
   2015.
 
 \bibitem{xu2004binary}
-L.~Xu, K.~Harfoush, and I.~Rhee, ``Binary increase congestion control (bic) for
-  fast long-distance networks,'' in \emph{INFOCOM 2004. Twenty-third
+L.~Xu, K.~Harfoush, and I.~Rhee, ``Binary increase congestion control {(BIC)}
+  for fast long-distance networks,'' in \emph{INFOCOM 2004. Twenty-third
   AnnualJoint Conference of the IEEE Computer and Communications Societies},
   vol.~4.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2004, pp. 2514--2524.
 
 \bibitem{tan2006compound}
-K.~Tan, J.~Song, Q.~Zhang, and M.~Sridharan, ``A compound tcp approach for
+K.~Tan, J.~Song, Q.~Zhang, and M.~Sridharan, ``A compound {TCP} approach for
   high-speed and long distance networks,'' in \emph{Proceedings-IEEE INFOCOM},
   2006.
 
 \bibitem{niu2015survey}
 Y.~Niu, Y.~Li, D.~Jin, L.~Su, and A.~V. Vasilakos, ``A survey of millimeter
-  wave communications (mmwave) for 5g: opportunities and challenges,''
+  wave communications (mmwave) for {5G}: opportunities and challenges,''
   \emph{Wireless Networks}, pp. 1--20, 2015.
 
 \bibitem{rappaport2013millimeter}
 T.~S. Rappaport, S.~Sun, R.~Mayzus, H.~Zhao, Y.~Azar, K.~Wang, G.~N. Wong,
   J.~K. Schulz, M.~Samimi, and F.~Gutierrez, ``Millimeter wave mobile
-  communications for 5g cellular: It will work!'' \emph{Access, IEEE}, vol.~1,
-  pp. 335--349, 2013.
+  communications for {5G} cellular: It will work!'' \emph{Access, IEEE},
+  vol.~1, pp. 335--349, 2013.
 
 \bibitem{sun2014millimeter}
 S.~Sun, G.~R. MacCartney, M.~K. Samimi, S.~Nie, and T.~S. Rappaport,
-  ``Millimeter wave multi-beam antenna combining for 5g cellular link
-  improvement in new york city,'' in \emph{Communications (ICC), 2014 IEEE
+  ``Millimeter wave multi-beam antenna combining for {5G} cellular link
+  improvement in {New York City},'' in \emph{Communications (ICC), 2014 IEEE
   International Conference on}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE,
   2014, pp. 5468--5473.
 
