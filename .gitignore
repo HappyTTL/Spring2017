@@ -20,3 +20,13 @@ Thesis_Main_File.aux
 Thesis_Main_File.synctex.gz
 
 Thesis_Main_File.toc
+
+*.aux
+
+*.pdf
+
+*.lot
+
+*.log
+
+*.toc
