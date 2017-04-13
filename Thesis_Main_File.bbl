@@ -79,6 +79,29 @@ S.~Rajagopal, S.~Abu-Surra, Z.~Pi, and F.~Khan, ``Antenna array design for
   Telecommunications Conference (GLOBECOM 2011), 2011 IEEE}.\hskip 1em plus
   0.5em minus 0.4em\relax IEEE, 2011, pp. 1--6.
 
+\bibitem{chang2009performance}
+M.-K. Chang and S.-Y. Lee, ``Performance analysis of cooperative communication
+  system with hierarchical modulation over {Rayleigh} fading channel,''
+  \emph{Wireless Communications, IEEE Transactions on}, vol.~8, no.~6, pp.
+  2848--2852, 2009.
+
+\bibitem{lee2009performance}
+Y.~Lee and M.-H. Tsai, ``Performance of decode-and-forward cooperative
+  communications over nakagami-fading channels,'' \emph{Vehicular Technology,
+  IEEE Transactions on}, vol.~58, no.~3, pp. 1218--1228, 2009.
+
+\bibitem{gotsis2016ultradense}
+A.~Gotsis, S.~Stefanatos, and A.~Alexiou, ``Ultradense networks: The new
+  wireless frontier for enabling {5G} access,'' \emph{IEEE Vehicular Technology
+  Magazine}, vol.~11, no.~2, pp. 71--78, 2016.
+
+\bibitem{ghosh2014millimeter}
+A.~Ghosh, T.~A. Thomas, M.~C. Cudak, R.~Ratasuk, P.~Moorut, F.~W. Vook, T.~S.
+  Rappaport, G.~R. MacCartney, S.~Sun, and S.~Nie, ``Millimeter-wave enhanced
+  local area systems: A high-data-rate approach for future wireless networks,''
+  \emph{IEEE Journal on Selected Areas in Communications}, vol.~32, no.~6, pp.
+  1152--1163, 2014.
+
 \bibitem{szyszkowicz2010feasibility}
 S.~S. Szyszkowicz, H.~Yanikomeroglu, and J.~S. Thompson, ``On the feasibility
   of wireless shadowing correlation models,'' \emph{Vehicular Technology, IEEE
@@ -117,6 +140,11 @@ A.~V. Alejos, M.~G. S{\'a}nchez, and I.~Cui{\~n}as, ``Measurement and analysis
   of propagation mechanisms at 40 {GHz}: Viability of site shielding forced by
   obstacles,'' \emph{Vehicular Technology, IEEE Transactions on}, vol.~57,
   no.~6, pp. 3369--3380, 2008.
+
+\bibitem{rappaport2014millimeter}
+T.~S. Rappaport, R.~W. Heath~Jr, R.~C. Daniels, and J.~N. Murdock,
+  \emph{Millimeter wave wireless communications}.\hskip 1em plus 0.5em minus
+  0.4em\relax Pearson Education, 2014.
 
 \bibitem{goldsmith2005wireless}
 A.~Goldsmith, \emph{Wireless Communications}.\hskip 1em plus 0.5em minus
@@ -185,17 +213,6 @@ N.~Patwari and P.~Agrawal, ``Effects of correlated shadowing: Connectivity,
   localization, and {RF} tomography,'' in \emph{Information Processing in
   Sensor Networks, 2008. IPSN'08. International Conference on}.\hskip 1em plus
   0.5em minus 0.4em\relax IEEE, 2008, pp. 82--93.
-
-\bibitem{chang2009performance}
-M.-K. Chang and S.-Y. Lee, ``Performance analysis of cooperative communication
-  system with hierarchical modulation over {Rayleigh} fading channel,''
-  \emph{Wireless Communications, IEEE Transactions on}, vol.~8, no.~6, pp.
-  2848--2852, 2009.
-
-\bibitem{lee2009performance}
-Y.~Lee and M.-H. Tsai, ``Performance of decode-and-forward cooperative
-  communications over nakagami-fading channels,'' \emph{Vehicular Technology,
-  IEEE Transactions on}, vol.~58, no.~3, pp. 1218--1228, 2009.
 
 \bibitem{madan2008energy}
 R.~Madan, N.~B. Mehta, A.~F. Molisch, and J.~Zhang, ``Energy-efficient

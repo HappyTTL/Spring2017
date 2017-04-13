@@ -4,7 +4,7 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Cooperative Communication Example.\relax }}{16}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Correlated Shadowing Fields for Increasing Resolutions (The disk area is the generated correlated shadowing field and the color of the areas refers to the normalized standard deviation which is $S_{i}/\sigma _{s}(\mathaccentV {vec}17E{r_{i}})$)\relax }}{19}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Correlated Outage Fields (Dark areas are outage areas while white areas are non-outage areas)\relax }}{21}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Correlated Outage Fields without (left) and with (right) Relays (Dark areas are outage areas while white areas are non-outage areas)\relax }}{21}
 \contentsline {figure}{\numberline {2.4}{\ignorespaces System Model and Three Different Relay Placements\relax }}{22}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Theoretical and Simulated Outage Probability for Mode 1.\relax }}{29}
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Best Channel Condition between MS and BS or Relays of Mode 1 (Dashed arrow demonstrates the channel condition that satisfies the SNR requirement)\relax }}{30}
