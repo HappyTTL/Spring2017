@@ -21,33 +21,33 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Exponentially correlated shadowing field with $d_{0} = 20m$ (the color of the area refers to the normalized standard deviation, which is $S_{i}/\sigma _{s}(i)$)\relax }}{60}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Correlated outage fields (Dark areas are outage areas while white areas are non-outage areas)\relax }}{61}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Random model and Grid model with $\lambda = 9$.\relax }}{62}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces CDF of SINR given Grid model and Random model (de-correlation distance: $20m$)\relax }}{66}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Random model and Grid model with $\lambda = 9$.\relax }}{61}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces CDF of SINR given Grid model and Random model (de-correlation distance: $20m$)\relax }}{65}
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Outage probability given Grid model and Random model with $\gamma = -5dB$ (de-correlation distance: $20m$)\relax }}{66}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces CDF of SINR (the MS is connecting to the nearest BS, independent shadow fading\relax }}{67}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces CDF of SINR (the MS is connecting to the nearest BS, independent shadow fading\relax }}{66}
 \contentsline {figure}{\numberline {4.7}{\ignorespaces CDF of SINR (the MS is connecting to the nearest BS, correlated shadow fading with 20m de-correlation distance\relax }}{67}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces CDF of SINR (the MS is connecting to the nearest BS, correlated shadow fading with 200m de-correlation distance\relax }}{68}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces CDF of SINR (the MS is connecting to the nearest BS, correlated shadow fading with 200m de-correlation distance\relax }}{67}
 \contentsline {figure}{\numberline {4.9}{\ignorespaces CDF of SINR (the MS is connecting to the strongest BS, independent shadow fading\relax }}{68}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces CDF of SINR (the MS is connecting to the strongest BS, correlated shadow fading with 20m de-correlation distance\relax }}{69}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces CDF of SINR (the MS is connecting to the strongest BS, correlated shadow fading with 20m de-correlation distance\relax }}{68}
 \contentsline {figure}{\numberline {4.11}{\ignorespaces CDF of SINR (the MS is connecting to the strongest BS, correlated shadow fading with 200m de-correlation distance\relax }}{69}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Outage probability given $-5dB$ SINR threshold\relax }}{71}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Outage probability given $-5dB$ SINR threshold\relax }}{70}
 \contentsline {figure}{\numberline {4.13}{\ignorespaces Outage probability given $-5dB$ SINR threshold\relax }}{71}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces CDF of Outage Durations when the MS is connecting to the Nearest BS with independent shadow fading\relax }}{72}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces CDF of Outage Durations when the MS is connecting to the Nearest BS with independent shadow fading\relax }}{71}
 \contentsline {figure}{\numberline {4.15}{\ignorespaces CDF of Outage Durations when the MS is connecting to the Strongest BS with independent shadow shadowing\relax }}{72}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces CDF of Outage Durations when MS is connecting to the Nearest BS with correlated shadowing (de-correlation distance: 200m)\relax }}{73}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces CDF of Outage Durations when MS is connecting to the Nearest BS with correlated shadowing (de-correlation distance: 200m)\relax }}{72}
 \contentsline {figure}{\numberline {4.17}{\ignorespaces CDF of Outage Durations when MS is connecting to the Strongest BS with correlated shadowing (de-correlation distance: 200m)\relax }}{73}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces GENI Topology for Performance Evaluation\relax }}{83}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces CWND dynamics given exponentially On-Off channel behavior\relax }}{85}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Throughput dynamics given exponentially On-Off channel behavior\relax }}{86}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces CWND dynamics given uniformly On-Off channel behavior\relax }}{86}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Throughput dynamics given uniformly On-Off channel behavior\relax }}{87}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Network topology\relax }}{87}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces NS2 TCP trace format\relax }}{88}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Queue length dynamics (Cubic)\relax }}{88}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces ROC curve of the Logistic Regression classifier\relax }}{91}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces ROC curve of the Decision Tree classifier\relax }}{92}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Decision Tree (max\_depth = 3, min\_samples\_leaf = 100000)\relax }}{92}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces CDF of rtt\_ratio\relax }}{93}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces ROC curves with different propagation delays\relax }}{94}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces GENI Topology for Performance Evaluation\relax }}{82}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces CWND dynamics given exponentially On-Off channel behavior\relax }}{84}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Throughput dynamics given exponentially On-Off channel behavior\relax }}{85}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces CWND dynamics given uniformly On-Off channel behavior\relax }}{85}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Throughput dynamics given uniformly On-Off channel behavior\relax }}{86}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Network topology\relax }}{86}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces NS2 TCP trace format\relax }}{87}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Queue length dynamics (Cubic)\relax }}{87}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces ROC curve of the Logistic Regression classifier\relax }}{90}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces ROC curve of the Decision Tree classifier\relax }}{91}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Decision Tree (max\_depth = 3, min\_samples\_leaf = 100000)\relax }}{91}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces CDF of rtt\_ratio\relax }}{92}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces ROC curves with different propagation delays\relax }}{93}
 \addvspace {10\p@ }
