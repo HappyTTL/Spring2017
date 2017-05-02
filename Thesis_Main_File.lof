@@ -6,13 +6,13 @@
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Correlated Shadowing Fields for Increasing Resolutions (The disk area is the generated correlated shadowing field and the color of the areas refers to the normalized standard deviation which is $S_{i}/\sigma _{s}(\mathaccentV {vec}17E{r_{i}})$)\relax }}{19}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Correlated Outage Fields without (left) and with (right) Relays (Dark areas are outage areas while white areas are non-outage areas)\relax }}{21}
 \contentsline {figure}{\numberline {2.4}{\ignorespaces System Model and Three Different Relay Placements\relax }}{22}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Theoretical and Simulated Outage Probability for Mode 1.\relax }}{29}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Theoretical and Simulated Outage Probability for Mode 1.\relax }}{30}
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Best Channel Condition between MS and BS or Relays for Mode 1 (Dashed arrow demonstrates the channel condition that satisfies the SNR requirement)\relax }}{30}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Best Channel Condition between MS and BS or Relays for Mode 2 (Dashed arrow demonstrates the channel condition that satisfies the SNR requirement)\relax }}{30}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Best Channel Condition between MS and BS or Relays for Mode 2 (Dashed arrow demonstrates the channel condition that satisfies the SNR requirement)\relax }}{31}
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Best Channel Condition between MS and BS or Relays for Mode 3 (Dashed arrow demonstrates the channel condition that satisfies the SNR requirement)\relax }}{31}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Cumulative Distribution Function of Outage Duration for Mode 1 (with Rayleigh fading)\relax }}{31}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Cumulative Distribution Function of Outage Duration for Mode 1 (with Rayleigh fading)\relax }}{32}
 \contentsline {figure}{\numberline {2.10}{\ignorespaces Cumulative Distribution Function of Outage Duration for Mode 2 (with Rayleigh fading)\relax }}{32}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Cumulative Distribution Function of Outage Duration for Mode 3 (with Rayleigh fading)\relax }}{32}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Cumulative Distribution Function of Outage Duration for Mode 3 (with Rayleigh fading)\relax }}{33}
 \contentsline {figure}{\numberline {2.12}{\ignorespaces Outage Frequency of Three Modes with Different Relay Densities\relax }}{34}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces An example of building blockage\relax }}{39}
@@ -22,19 +22,19 @@
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Exponentially correlated shadowing field with $d_{0} = 20m$ (the color of the area refers to the normalized standard deviation, which is $S_{i}/\sigma _{s}(i)$)\relax }}{60}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Correlated outage fields (Dark areas are outage areas while white areas are non-outage areas)\relax }}{61}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Random model and Grid model with $\lambda = 9$.\relax }}{61}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces CDF of SINR given Grid model and Random model (de-correlation distance: $20m$)\relax }}{65}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces CDF of SINR given Grid model and Random model (de-correlation distance: $20m$)\relax }}{66}
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Outage probability given Grid model and Random model with $\gamma = -5dB$ (de-correlation distance: $20m$)\relax }}{66}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces CDF of SINR (the MS is connecting to the nearest BS, independent shadow fading\relax }}{66}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces CDF of SINR (the MS is connecting to the nearest BS, independent shadow fading\relax }}{67}
 \contentsline {figure}{\numberline {4.7}{\ignorespaces CDF of SINR (the MS is connecting to the nearest BS, correlated shadow fading with 20m de-correlation distance\relax }}{67}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces CDF of SINR (the MS is connecting to the nearest BS, correlated shadow fading with 200m de-correlation distance\relax }}{67}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces CDF of SINR (the MS is connecting to the nearest BS, correlated shadow fading with 200m de-correlation distance\relax }}{68}
 \contentsline {figure}{\numberline {4.9}{\ignorespaces CDF of SINR (the MS is connecting to the strongest BS, independent shadow fading\relax }}{68}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces CDF of SINR (the MS is connecting to the strongest BS, correlated shadow fading with 20m de-correlation distance\relax }}{68}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces CDF of SINR (the MS is connecting to the strongest BS, correlated shadow fading with 20m de-correlation distance\relax }}{69}
 \contentsline {figure}{\numberline {4.11}{\ignorespaces CDF of SINR (the MS is connecting to the strongest BS, correlated shadow fading with 200m de-correlation distance\relax }}{69}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Outage probability given $-5dB$ SINR threshold\relax }}{70}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Outage probability given $-5dB$ SINR threshold\relax }}{71}
 \contentsline {figure}{\numberline {4.13}{\ignorespaces Outage probability given $-5dB$ SINR threshold\relax }}{71}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces CDF of Outage Durations when the MS is connecting to the Nearest BS with independent shadow fading\relax }}{71}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces CDF of Outage Durations when the MS is connecting to the Nearest BS with independent shadow fading\relax }}{72}
 \contentsline {figure}{\numberline {4.15}{\ignorespaces CDF of Outage Durations when the MS is connecting to the Strongest BS with independent shadow shadowing\relax }}{72}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces CDF of Outage Durations when MS is connecting to the Nearest BS with correlated shadowing (de-correlation distance: 200m)\relax }}{72}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces CDF of Outage Durations when MS is connecting to the Nearest BS with correlated shadowing (de-correlation distance: 200m)\relax }}{73}
 \contentsline {figure}{\numberline {4.17}{\ignorespaces CDF of Outage Durations when MS is connecting to the Strongest BS with correlated shadowing (de-correlation distance: 200m)\relax }}{73}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces GENI Topology for Performance Evaluation\relax }}{82}

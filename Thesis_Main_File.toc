@@ -14,8 +14,8 @@
 \contentsline {subsection}{\numberline {2.4.1}Outage Probability of the Cooperative Communication System}{25}
 \contentsline {section}{\numberline {2.5}Simulation and Performance Evaluation}{28}
 \contentsline {subsection}{\numberline {2.5.1}Relay Placement}{28}
-\contentsline {subsection}{\numberline {2.5.2}Simulation Configuration}{28}
-\contentsline {subsection}{\numberline {2.5.3}Simulation Results and Analysis}{28}
+\contentsline {subsection}{\numberline {2.5.2}Simulation Configuration}{29}
+\contentsline {subsection}{\numberline {2.5.3}Simulation Results and Analysis}{29}
 \contentsline {section}{\numberline {2.6}Chapter Summary}{36}
 \contentsline {chapter}{\numberline {3}Single-Cell System Performance Analysis under Exponential Correlated Shadow Fading}{37}
 \contentsline {section}{\numberline {3.1}Background}{38}
@@ -30,7 +30,7 @@
 \contentsline {section}{\numberline {4.3}System Model}{61}
 \contentsline {section}{\numberline {4.4}Outage Probability Analysis}{62}
 \contentsline {section}{\numberline {4.5}Simulation Results}{64}
-\contentsline {section}{\numberline {4.6}Chapter Summary}{75}
+\contentsline {section}{\numberline {4.6}Chapter Summary}{76}
 \contentsline {chapter}{\numberline {5}Transport Layer Protocols for Next Generation Networks}{77}
 \contentsline {section}{\numberline {5.1}Introduction}{78}
 \contentsline {section}{\numberline {5.2}Related Work}{79}
