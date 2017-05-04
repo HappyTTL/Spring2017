@@ -262,6 +262,16 @@ A.~Nosratinia, T.~E. Hunter, and A.~Hedayat, ``Cooperative communication in
   wireless networks,'' \emph{Communications Magazine, IEEE}, vol.~42, no.~10,
   pp. 74--80, 2004.
 
+\bibitem{yamamoto2006impact}
+K.~Yamamoto, A.~Kusuda, and S.~Yoshida, ``Impact of shadowing correlation on
+  coverage of multihop cellular systems,'' in \emph{Communications, 2006.
+  ICC'06. IEEE International Conference on}, vol.~10.\hskip 1em plus 0.5em
+  minus 0.4em\relax IEEE, 2006, pp. 4538--4542.
+
+\bibitem{lopez2007resiliency}
+M.~Lopez-Rodriguez and R.~P. Jover, ``Resiliency of ofdm to multipath fading in
+  wireless communications,'' 2007.
+
 \bibitem{saunders2007antennas}
 S.~Saunders and A.~Arag{\'o}n-Zavala, \emph{Antennas and propagation for
   wireless communication systems}.\hskip 1em plus 0.5em minus 0.4em\relax John
@@ -378,7 +388,7 @@ S.~Sun, G.~R. MacCartney, M.~K. Samimi, S.~Nie, and T.~S. Rappaport,
 
 \bibitem{roh2014millimeter}
 W.~Roh, J.-Y. Seol, J.~Park, B.~Lee, J.~Lee, Y.~Kim, J.~Cho, K.~Cheun, and
-  F.~Aryanfar, ``Millimeter-wave beamforming as an enabling technology for 5g
+  F.~Aryanfar, ``Millimeter-wave beamforming as an enabling technology for {5G}
   cellular communications: theoretical feasibility and prototype results,''
   \emph{Communications Magazine, IEEE}, vol.~52, no.~2, pp. 106--113, 2014.
 
@@ -398,5 +408,23 @@ K.~Winstein and H.~Balakrishnan, ``Tcp ex machina: Computer-generated
 \bibitem{TraceFormat}
 ``Trace analysis example,'' \url{http://nile.wpi.edu/NS/analysis.html},
   accessed: 2016-4-5.
+
+\bibitem{alpaydin2014introduction}
+E.~Alpaydin, \emph{Introduction to machine learning}.\hskip 1em plus 0.5em
+  minus 0.4em\relax MIT press, 2014.
+
+\bibitem{hosmer2013applied}
+D.~W. Hosmer~Jr, S.~Lemeshow, and R.~X. Sturdivant, \emph{Applied logistic
+  regression}.\hskip 1em plus 0.5em minus 0.4em\relax John Wiley \& Sons, 2013,
+  vol. 398.
+
+\bibitem{hanley1982meaning}
+J.~A. Hanley and B.~J. McNeil, ``The meaning and use of the area under a
+  receiver operating characteristic ({ROC}) curve.'' \emph{Radiology}, vol.
+  143, no.~1, pp. 29--36, 1982.
+
+\bibitem{rokach2014data}
+L.~Rokach and O.~Maimon, \emph{Data mining with decision trees: theory and
+  applications}.\hskip 1em plus 0.5em minus 0.4em\relax World scientific, 2014.
 
 \end{thebibliography}

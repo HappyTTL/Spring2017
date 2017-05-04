@@ -63,7 +63,7 @@ Two different kinds of channel behavior are investigated: uniformly distributed 
 \end{figure}
 \section{Congestion Detection Algorithm}
 \label{Design}
-The design of the fast congestion detection algorithm is illustrated in detail in this section. The principle idea is to predict the congestion in network within one inter-arrival time of ACKs using the end-user data. Data which can be collected from the end-user includes packet sending time, ACK arriving time and the RTT calculated from these two timestamps. We run simulations using discrete event-based Network Simulator 2 (NS2) \cite{NS2} to collect theses data for a particular network topology. 
+The design of the fast congestion detection algorithm is illustrated in detail in this section. The principle idea is to predict the congestion in the network within one inter-arrival time of ACKs using the end-user data. Data which can be collected from the end-user includes packet sending time, ACK arrival time and the RTT calculated from these two timestamps. We run simulations using the discrete event-based Network Simulator 2 (NS2) \cite{NS2} to collect this data for a particular network topology. 
 \subsection{Network Topology}
 A typical dumbbell model is presented and used in this section. The network topology is shown in Figure \ref{layout}. There are $6$ TCP traffic senders and $6$ receivers; the sender $s_{i}$ sends data to receiver $r_{i}$ through the bottleneck link $Q1\to Q2$. Both $Q1$ and $Q2$ maintain a DropTail Queue. The queue limit is set to be the bandwidth-delay product to ensure the full utilization of the link capacity.
 %\begin{figure}[!htb]\centering
@@ -83,7 +83,7 @@ A typical dumbbell model is presented and used in this section. The network topo
 \caption{Network topology}
 \label{layout}
 \end{figure}
-Congestion occurs when the occupied queue length exceeds the threshold $T$ on the arriving of the incoming packet. To generate traces with congestion identifiers, we mark every packet as Congestion Experienced in the queue when queue length is greater than $T$. Typical NS2 TCP traces  \cite{TraceFormat} are collected for future data processing as in Figure \ref{NS2Format}. 
+Congestion occurs when the occupied queue length exceeds the threshold $T$ on the arrival of an incoming packet. To generate traces with congestion identifiers, we mark every packet as Congestion Experienced in the queue when queue length is greater than $T$. Typical NS2 TCP traces  \cite{TraceFormat} are collected for future data processing as in Figure \ref{NS2Format}. 
 
 \begin{figure}
 \centering
@@ -91,14 +91,14 @@ Congestion occurs when the occupied queue length exceeds the threshold $T$ on th
 \caption{NS2 TCP trace format}
 \label{NS2Format}
 \end{figure}
-From the trace format, we can identify the packet sending time, arriving time, packet size, unique ID, etc. Matching the packet unique ID, RTT can be calculated from the packet sending time and the corresponding ACK receiving time. For each unique packet, if congestion occurs upon its arriving, the unique ID will be recorded to be Congestion Experienced.
+From the trace format, we can identify the packet sending time, arriving time, packet size, unique ID, etc. Matching the packet unique ID, the RTT can be calculated from the packet sending time and the corresponding ACK receiving time. For each unique packet, if congestion occurs upon its arriving, the unique ID will be recorded to be Congestion Experienced.
 
 \par The drop tail queue behavior is displayed as follows.
 % Figure \ref{queuelengthCubic}
 % and Figure \ref{queuelengthNewRenoVSUDP} are two different queue behavior patterns. 
-Figure \ref{queuelengthCubic} shows queue changes when traffic sources are running Cubic TCP with UDP competing traffic. 
+Figure \ref{queuelengthCubic} shows queue changes when traffic sources are running Cubic TCP with competing UDP traffic. 
 %while Fig. \ref{queuelengthNewRenoVSUDP} shows the case one part of traffic sources are running NewReno TCP with competing UDP traffic.
-In this case, when queue length is greater than $450$ packets, the incoming packets will be marked as Congestion Experienced.
+In this case, when the queue length is greater than $450$ packets, the incoming packets will be marked as Congestion Experienced.
 
 %\begin{figure}
 %\includegraphics[width=8cm]{queue.eps}
@@ -133,7 +133,7 @@ In this case, when queue length is greater than $450$ packets, the incoming pack
 %\end{figure}
 
 \subsection{Data Collection}
-Without losing of generality, we simulated several different traffic scenarios to collect end-user data. We analyze the following scenarios: 
+Without loss of generality, we simulated several different traffic scenarios to collect end-user data. We analyze the following scenarios: 
 \begin{itemize}
     \item Scenario 1: All traffic sources are running TCP NewReno with stationary bottleneck link capacity.
     \item Scenario 2: All traffic sources are running TCP Cubic with stationary bottleneck link capacity.
@@ -144,7 +144,7 @@ Without losing of generality, we simulated several different traffic scenarios t
 \end{itemize}
 The bottleneck link for those scenarios is link $Q1 \to Q2$. Detailed simulation parameters are shown in Table \ref{tab:simuPara}.
 
-\par Data available from end-user includes packet sending time $t_{s}$ and ACK receiving time $t_{r}$. From these two timestamps, we can calculate packet sending interval $T_{s_{i}} = t_{s_{i}} - t_{s_{i-1}}$, ACK inter-arrival time $T_{r_{i}} = t_{r_{i}} - t_{r_{i-1}}$ and Round Trip Time (RTT) $RTT_{i} = t_{s_{i}} - t_{r_{i}}$. From the above three available time intervals, we develop 5 features that are used in the congestion prediction algorithm.
+\par Data available from end-users includes packet sending time $t_{s}$ and ACK receiving time $t_{r}$. From these two timestamps, we can calculate packet sending interval $T_{s_{i}} = t_{s_{i}} - t_{s_{i-1}}$, ACK inter-arrival time $T_{r_{i}} = t_{r_{i}} - t_{r_{i-1}}$ and Round Trip Time (RTT) $RTT_{i} = t_{s_{i}} - t_{r_{i}}$. From the above three available time intervals, we develop 5 features that are used in the congestion prediction algorithm.
 \begin{table}
 \begin{center}
 \caption {Simulation Parameters} \label{tab:simuPara}
@@ -152,11 +152,11 @@ The bottleneck link for those scenarios is link $Q1 \to Q2$. Detailed simulation
  \hline
  Access Link Capacity & 1Gbps  \\
  \hline
- BottleNeck Link Capacity & 1Gbps  \\
+ Bottleneck Link Capacity & 1Gbps  \\
  \hline
  Access Link Delay & 5ms  \\
  \hline
- BottleNeck Link Delay & 10ms\\
+ Bottleneck Link Delay & 10ms\\
  \hline
  Queue Capacity & Bandwidth-Delay Product\\
  \hline
@@ -164,18 +164,18 @@ The bottleneck link for those scenarios is link $Q1 \to Q2$. Detailed simulation
 \end{center}
 \end{table}
 \begin{itemize}
-\item The sending time interval between two consecutive packets $T_{s_{i}}$.
-\item The receiving time interval between two consecutive ACKs $T_{r_{i}}$.
-\item An EWMA of $T_{s_{i}}$ (send\_ewma).
-\item An EWMA of $T_{r_{i}}$ (ack\_ewma).
-\item The ratio between the most recent RTT and the minimum RTT during the entire connection period (rtt\_ratio).
+\item The sending time interval between two consecutive packets $T_{s_{i}}$ ($f_{1}$).
+\item The receiving time interval between two consecutive ACKs $T_{r_{i}}$ ($f_{2}$).
+\item An exponential weighted moving average (EWMA) of $T_{s_{i}}$ (send\_ewma, $f_{3}$).
+\item An EWMA of $T_{r_{i}}$ (ack\_ewma, $f_{4}$).
+\item The ratio between the most recent RTT and the minimum RTT during the entire connection period (rtt\_ratio, $f_{5}$).
 \end{itemize}
 
 These above five features construct the feature set to train the machine learning algorithm and predict congestions.
 
 \subsection{Congestion Prediction}
 \label{CongestionPredict}
-\par Every sample of the data collected from above five scenarios includes five features and a congestion identifier: Virtual ECN (0 represents non congestion experienced, 1 represents congestion experienced). The problem to be solved is a binary classification problem. We need to train an algorithm to classify the sample data into two categories: congestion experienced and non congestion experienced. First, we apply Logistic Regression, a popular binary classification algorithm, to train the sample data and predict congestions. The area under ROC curve is $0.89$ as shown in Figure \ref{LRRoc}. The performance of Logistic Regression is good ($0.80 - 0.90$). The decision boundary is $ -2.32*f_{1} - 33.36*f_{2} - 12.65*f_{3} - 15.30*f_{4} + 2.03*f_{5} - 2.69 = 0$, where $f_{1}, f_{2}, f_{3}, f_{4}, f_{5}$ are the five corresponding features.
+\par Every sample of the data collected from above five scenarios includes five features and a congestion identifier: Virtual ECN (0 represents no congestion experienced, 1 represents congestion experienced). The problem to be solved is a binary classification problem \cite{alpaydin2014introduction}. We need to train an algorithm to classify the sample data into two categories: congestion experienced and no congestion experienced. First, we apply Logistic Regression \cite{hosmer2013applied}, a popular binary classification algorithm, to train the sample data and predict congestion. The area under receiver operating characteristic (ROC) curve \cite{hanley1982meaning} is $0.89$ as shown in Figure \ref{LRRoc}. The performance of Logistic Regression is good (area under ROC: $0.80 - 0.90$). The decision boundary is $ -2.32*f_{1} - 33.36*f_{2} - 12.65*f_{3} - 15.30*f_{4} + 2.03*f_{5} - 2.69 = 0$, where $f_{1}, f_{2}, f_{3}, f_{4}, f_{5}$ are the five corresponding features.
 \begin{figure}
 \centering
 \includegraphics[width=10cm]{LRRoc.png}
@@ -186,7 +186,7 @@ These above five features construct the feature set to train the machine learnin
 
 
 
-\par Next, we applied Decision Tree algorithm and regulated the maximum depth of the tree to be $5$ and the minimum samples in each leaf node to be $10000$ to avoid overfitting. Figure \ref{DecisionTreeRoc} presents the ROC curve of Decision Tree Classifier. The area under ROC curve is $0.98$. This indicates excellent (area under ROC: $0.90 - 1$) prediction result. The feature importance is given as [$0.011703$, $0.00085$, $0.000000$, $0.03985$, $0.94760$] for [$T_{s_{i}}$, $T_{r_{i}}$, send\_ewma, receive\_ewma, rtt\_ratio], from which we can conclude that the rtt\_ratio is the most important feature to predict congestions. 
+\par Next, we applied the Decision Tree algorithm \cite{rokach2014data} and regulated the maximum depth of the tree to be $5$ and the minimum samples in each leaf node to be $10000$ to avoid overfitting. Figure \ref{DecisionTreeRoc} presents the ROC curve of the Decision Tree Classifier. The area under ROC curve is $0.98$. This indicates an excellent (area under ROC: $0.90 - 1$) prediction result. The feature importance is given as [$0.011703$, $0.00085$, $0.000000$, $0.03985$, $0.94760$] for [$T_{s_{i}}$, $T_{r_{i}}$, send\_ewma, receive\_ewma, rtt\_ratio], from which we can conclude that the rtt\_ratio is the most important feature to predict congestions. 
 %\begin{figure}
 %\centering
 %\includegraphics[width=10cm]{DecisionTreeRoc.png}
@@ -209,18 +209,18 @@ These above five features construct the feature set to train the machine learnin
    \caption{ROC curve of the Decision Tree classifier}
 \label{fig:roc1}
 \end{figure}
-Furthermore, we changed the maximum depth to $3$ and minimum samples of each leaf node to $100,000$, the ROC is displayed in Figure \ref{DTRoc}. The feature importance becomes [$0$, $0$, $0$, $0$, $1$]. This indicates the decision tree is doing the binary classification merely based on the rtt\_ratio. All other features do not contribute to the binary classification process at all. 
+Furthermore, when we changed the maximum depth to $3$ and minimum samples of each leaf node to $100,000$, the ROC is displayed in Figure \ref{DTRoc}. The feature importance becomes [$0$, $0$, $0$, $0$, $1$]. This indicates the decision tree is doing the binary classification merely based on the rtt\_ratio. All other features do not contribute to the binary classification process at all. 
 %\begin{figure}
 %\centering
 %\includegraphics[width=10cm]{DTRoc.png}
 %\caption{ROC curve of Decision Tree Classifier (max\_depth = 3, min\_samples\_leaf = 100000)}
 %\label{DTRoc}
 %\end{figure}
-The decision tree is shown in Figure \ref{DT}. In this figure, the first layer is classified by X[4]: rtt\_ratio. The cumulative density function (CDF) of the rtt\_ratio is given in Figure \ref{CDFrtt}. The blue line is the CDF curve of  the rtt\_ratio when congestion is experienced while the red line is the CDF curve when congestion is not experienced. Take rtt\_ratio $=1.2$ as an example, the probability of the rtt\_ratio to be less than $1.2$ is $82\%$ when there is no congestion. However, this probability is approximately $0\%$ when congestion experienced. This is consistent with the result of feature importance generated from the Decision Tree algorithm. 
+The decision tree is shown in Figure \ref{DT}. In this figure, the first layer is classified by X[4]: rtt\_ratio. The cumulative density function (CDF) of the rtt\_ratio is given in Figure \ref{CDFrtt}. The blue line is the CDF curve of  the rtt\_ratio when congestion is experienced while the red line is the CDF curve when congestion is not experienced. Take rtt\_ratio $=1.2$ as an example, the probability of the rtt\_ratio to be less than $1.2$ is $82\%$ when there is no congestion. However, this probability is approximately $0\%$ when congestion is experienced. This is consistent with the result of feature importance generated from the Decision Tree algorithm. 
 
 \begin{figure}
 \centering
-  \includegraphics[width=\textwidth,height=4cm]{tree.png}
+  \includegraphics[width=\textwidth,height=6cm]{tree.png}
   \caption{Decision Tree (max\_depth = 3, min\_samples\_leaf = 100000)}
   \label{DT}
 \end{figure}
@@ -258,15 +258,15 @@ The decision tree is shown in Figure \ref{DT}. In this figure, the first layer i
  \hline
  Access Link Delay & 5ms, 10ms, 20ms  \\
  \hline
- BottleNeck Link Delay & 10ms, 20ms, 40ms\\
+ Bottleneck Link Delay & 10ms, 20ms, 40ms\\
  \hline
  Queue Capacity & Bandwidth-Delay Product\\
  \hline
 \end{tabular}
 \end{center}
 \end{table}
-The Logistic Regression algorithm generates ROC curve which is shown in Figure \ref{LRROCDiff}. The area under ROC curve is $0.65$, which indicates the poor performance (area under ROC curve: $0.60-0.70$). The decision boundary is $ -0.47*f_{1} - 7.33*f_{2} - 0.35
-*f_{3} - 1.41*f_{4} + 5.20*f_{5} - 5.54 = 0$. The coefficient of each feature follows the same pattern as before. The Decision Tree classifier is then applied to the collected dataset. The ROC curve is shown in Figure. \ref{DTROCDiff}. The area under the ROC curve is $0.70$, which is on the boundary of poor performance. The feature importance is [$0.000955787581$, $0.000389816495$, $0.00489484823$, $0.0636899225$, $0.930069625$]. This is consistent with the previous result that the rtt\_ratio is the most important feature. Those two figures indicate that when network condition changes, the predictability of congestion from the aforementioned five features decreases. Figure. \ref{CDFrttDiff} presents the CDF of the rtt\_ratio with different link propagation delays. The figure shows near $30\%$ overlap between CDF curves of Congestion Experience packet and Non Congestion Experienced packet. This again verifies the prediction results.
+The Logistic Regression algorithm generates ROC curve which is shown in Figure \ref{LRROCDiff}. The area under ROC curve is $0.65$, which indicates poor performance (area under ROC curve: $0.60-0.70$). The decision boundary is $ -0.47*f_{1} - 7.33*f_{2} - 0.35
+*f_{3} - 1.41*f_{4} + 5.20*f_{5} - 5.54 = 0$. The coefficient of each feature follows the same pattern as before. The Decision Tree classifier is then applied to the collected dataset. The ROC curve is shown in Figure. \ref{DTROCDiff}. The area under the ROC curve is $0.70$, which is on the boundary of poor performance. The feature importance is [$0.000955787581$, $0.000389816495$, $0.00489484823$, $0.0636899225$, $0.930069625$]. This is consistent with the previous result that the rtt\_ratio is the most important feature. Those two figures indicate that when network condition changes, the predictability of congestion from the aforementioned five features decreases. Figure. \ref{CDFrttDiff} presents the CDF of the rtt\_ratio with different link propagation delays. In Figure \ref{CDFrttDiff}, two CDF curves overlap each other from $0\%$ to $30\%$. This means there are $30\%$ packets of the two different classes (congestion experienced and no congestion experienced) have the same $rtt\_ratio$ and cannot be classified by binary classifier. Comparing Figure \ref{CDFrtt} to Figure \ref{CDFrttDiff}, we find that bigger separation between the two CDF curves means higher prediction precision of the binary classifier. 
 \begin{figure}[!htb]\centering
 \begin{subfigure}{0.49\textwidth}
 \includegraphics[width=7cm]{LRRocDiffProp.png}
@@ -293,4 +293,4 @@ The Logistic Regression algorithm generates ROC curve which is shown in Figure \
 
 \section{Chapter Summary}
 \label{Conclusions and Future Work}
-In this chapter, we propose a data-driven machine learning congestion detection algorithm. Datasets are collected using NS2 for a dumbbell topology with five different traffic scenarios. Five features are formatted from the end-user data. When the network condition is not changing, which means the propagation delay of each link is stable, our algorithm can detect congestions with high precision from those five features. In contrast, if the network condition changes, the algorithm fails to work. In both cases, the rtt\_ratio is the most important feature to predict congestions. The other four features are less useful when doing the binary classification. CDFs of the rtt\_ratio explains our conclusion. For stable network, a fast reacting congestion control algorithm can be designed based on our congestion detection algorithm for mmWave communication networks.
+In this chapter, we propose a data-driven machine learning congestion detection algorithm. Datasets are collected using NS2 for a dumbbell topology with five different traffic scenarios. Five features are formatted from the end-user data. When the network condition is not changing, which means the propagation delay of each link is stable, our algorithm can detect congestion with high precision from those five features. In contrast, if the network condition changes, the algorithm fails to work. In both cases, the rtt\_ratio is the most important feature to predict congestions. The other four features are less useful when doing the binary classification. CDF curves of the rtt\_ratio explains our conclusion. For a stable network, a fast reacting congestion control algorithm can be designed based on our congestion detection algorithm for mmWave communication networks.

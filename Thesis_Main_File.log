@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  2 MAY 2017 15:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  3 MAY 2017 22:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1693,14 +1693,6 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 [27]
 
-LaTeX Warning: Citation `yamamoto2006impact' on page 28 undefined on input line
- 239.
-
-
-LaTeX Warning: Citation `lopez2007resiliency' on page 28 undefined on input lin
-e 239.
-
-
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
@@ -2828,7 +2820,7 @@ File: tree.png Graphic file (type png)
 
 <use tree.png>
 Package pdftex.def Info: tree.png used on input line 223.
-(pdftex.def)             Requested size: 415.54726pt x 113.81117pt.
+(pdftex.def)             Requested size: 415.54726pt x 170.71677pt.
 Package epstopdf Info: Source file: <cdfrtt1.eps>
 (epstopdf)                    date: 2017-04-11 21:06:02
 (epstopdf)                    size: 474606 bytes
@@ -2882,14 +2874,15 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[91 <./DecisionTreeRoc.png> <./DTRoc.png> <./tree.png>]) (./Conclusion.tex
+[91 <./DecisionTreeRoc.png> <./DTRoc.png> <./tree.png>]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[92 <./cdfrtt1-eps-converted-to.pdf> <./cdfrtt2-eps-converted-to.pdf>]
+[92 <./cdfrtt1-eps-converted-to.pdf> <./cdfrtt2-eps-converted-to.pdf>])
+(./Conclusion.tex
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
@@ -2897,6 +2890,13 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [93 <./LRRocDiffProp.png> <./DTRocDiffProp.png>]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[94]
 Chapter 6.
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -2904,7 +2904,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[94
+[95
 
 ]
 
@@ -2913,37 +2913,30 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[95]
+[96]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[96]) (./Thesis_Main_File.bbl
+[97]) (./Thesis_Main_File.bbl
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[97]
+[98]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[98
+[99
 
 ]
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[99]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
@@ -2992,30 +2985,37 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[106])
+[106]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[107] (./Thesis_Main_File.aux (./preface.aux))
+[107]
 
-LaTeX Warning: There were undefined references.
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
+[108])
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
- )
+[109] (./Thesis_Main_File.aux (./preface.aux)) )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 16831 strings out of 493014
- 323261 string characters out of 6133351
- 346757 words of memory out of 5000000
- 20042 multiletter control sequences out of 15000+600000
+ 16835 strings out of 493014
+ 323341 string characters out of 6133351
+ 347781 words of memory out of 5000000
+ 20046 multiletter control sequences out of 15000+600000
  26812 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,23n,45p,10384b,4232s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3049,10 +3049,10 @@ e/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/
 16/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2016
 /texmf-dist/fonts/type1/public/cm-super/sfsl1440.pfb></usr/local/texlive/2016/t
 exmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on Thesis_Main_File.pdf (126 pages, 3321897 bytes).
+Output written on Thesis_Main_File.pdf (128 pages, 3323559 bytes).
 PDF statistics:
- 951 PDF objects out of 1000 (max. 8388607)
- 632 compressed objects within 7 object streams
+ 958 PDF objects out of 1000 (max. 8388607)
+ 637 compressed objects within 7 object streams
  0 named destinations out of 1000 (max. 500000)
  251 words of extra memory for PDF output out of 10000 (max. 10000000)
 
